@@ -1,0 +1,44 @@
+#message-container {
+    text-align: center;
+
+}
+
+img {
+    width:150px;
+    height:auto;
+
+}
+
+/*Plase use carefully*/
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+
+a:hover {
+    color: white;
+}
+
+
+a:active {
+    color: white;
+}
+
+.button-blue {
+    display: block;
+    margin:0 auto;
+    width:200px;
+    height:50px;
+
+    background-color:#004588;
+}
+
+
+.button-blue a{
+
+}
+

@@ -1,0 +1,17 @@
+
+
+Please note that this folder contains prototype of dom.
+
+Every item in the folder CANNNOT BE USED for direct dom output.
+Every item in the folder is a DOM node that is being render on the page but not display.
+
+
+-Blue print should be used only for prototyping page component for furhter use
+
+
+USAGE:
+	var clone = $("#my-awesome-prototype").clone();
+
+	clone = clone;
+
+	...
