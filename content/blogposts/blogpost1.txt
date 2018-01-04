@@ -1,0 +1,17 @@
+#title Ceci est un titre #/title
+
+#header Ceci est le article header #/header
+
+#paragraphe Ceci est un paragraphe Ceci est un paragraheCeci est un paragraphe Ceci est un paragraheCeci est un paragraphe Ceci est un paragraheCeci est un paragraphe Ceci est un paragraheCeci est un paragraphe
+Ceci est un paragraheCeci est un paragraphe Ceci est un paragrahe #/paragraphe
+
+
+#paragraphe Penis pneis pehnsuifkjfghifuvbf #/paragraphe
+
+
+
+#imgsrc www.urlversimage.com #/imgsrc
+
+#author ANtoine Foritn #/author
+
+#date 3 janvier 2018 #/date

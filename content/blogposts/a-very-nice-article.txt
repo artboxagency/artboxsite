@@ -1,0 +1,15 @@
+#title Bonjour ceci est un article #/title
+
+#header Salut vive sucer  #/header
+
+#paragraphe Piu Piu iphone6 et guenon #/paragraphe
+
+#paragraphe Tik tok on the clock #/paragraphe
+#paragraphe Penis pneis pehnsuifkjfghifuvbf #/paragraphe
+
+
+#imgsrc www.urlversimage.com #/imgsrc
+
+#author ANtoine Foritn #/author
+
+#date 3 janvier 2018 #/date

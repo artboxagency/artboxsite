@@ -5,11 +5,7 @@
 @import 'core/general.scss';
 
 // Including general scss
-@import 'general/colors.scss';
-@import 'general/font.scss';
-@import 'general/buttons.scss';
-@import 'general/behave.scss';
-@import 'general/menu-behaviour.scss';
-@import 'general/generic-bloc.scss';
 
+@import "general/general-styling.scss";
 // Including site parts
+@import "qwerty.scss";

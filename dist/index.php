@@ -10,40 +10,7 @@
 <body>
 <h1 style="display:none">Artbox</h1>
 <div id="site-container">
-	<div id="menu-linker">
-		<ul>
 
-			<div class="white-rounder">
-				<a href="#bloc-home">
-					<li class="menu-home-anchor"></li>
-				</a>
-			</div>
-
-
-			<div class="white-rounder">
-				<a href="#block-infos	">
-					<li class="menu-infos-anchor"></li>
-				</a>
-			</div>
-
-
-			<div class="white-rounder">
-				<a href="#bloc-events-anchor">
-					<li class="menu-events-anchor"></li>
-				</a>
-			</div>
-
-
-
-
-			<div class="white-rounder">
-				<a href="#bloc-questions-anchor">
-					<li class="menu-question-anchor"></li>
-				</a>
-			</div>
-
-		</ul>
-	</div>
 	<?php
 	require "site-parts/component-blue-print/video-component.php";
 	?>

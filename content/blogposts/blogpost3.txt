@@ -1,0 +1,18 @@
+#title  C++ Tips: Pointers and Memory Management #/title
+
+#header If C++ programmers had a bill of rights, one of those rights would be stated “The Right to own and bear pointers.” As much as modern languages tout garbage collection and dispell themselves of the concept of a pointer, the fact remains that you will achieve better performance if you manage your own memory, and pointers are a critical part of that. #/header
+
+#paragraphe Avant sa carrière musicale, Mos Def se popularise en tant qu'enfant acteur, jouant dans des séries télévisées, sitcoms, et pièces de théâtre, sous le nom de Dante Beze3,4. À 14 ans, il joue dans le téléfilm God Bless the Child, diffusé sur ABC en 1988. Il joue aussi dans You Take the Kids,. En 1995, il joue le rôle de Dante dans The Cosby Mysteries. Depuis le début des années 2000, Mos Def se fait connaître dans des films comme Something the Lord Made, Next Day Air, The Hitchhiker's Guide to the Galaxy, 16 blocs, Be Kind Rewind, Braquage à l'italienne, Bamboozled et Brown Sugar. En février 2016, il annonce via un message vocal destiné a Kanye West qu'il mettra un terme à sa carrière, après la sortie de son dernier album courant 2016. #/paragraphe
+
+
+#paragraphe ouls born in the 70's and early 80's saw the miracle of hip hop first hand. I love having this a lived memory and listening to it on my Walkman in between classes. I loved buying tapes and cd's, Hip Hop magazines, the fashion, the energy and spirit of that time. I love every soul that knows what I am ranting about. I'm leavinnnnnn... iiiing! I'll be back to you! #/paragraphe
+
+#paragraphe  En avril 2007, il sort Mos Definite, un album regroupant des sons inutilisés sur ses précédents projets. En 2008, il partage un premier rôle dans le film Soyez sympas, rembobinez aux côtés de Jack Black, Danny Glover et Mia Farrow. En février 2009, il chante sur la chanson America avec Chali 2na et K'naan sur l'album Troubadour de K'naan. Le 9 juin 2009, il sort The Ecstatic, produit par le musicien français Mr. Flash. En novembre 2009, il collabore avec le groupe de rock/blues The Black Keys pour le projet Blakroc ; on l'entend dans On the Vista et Ain't Nothing Like You (Hoochie Coo).
+
+#paragraphe En 2010, il chante sur les chansons Stylo et Sweepstakes, sur le troisième album studio du groupe Gorillaz, Plastic Beach. En septembre 2010, il signe sur le label GOOD Music créé par Kanye West17. En 2011, il effectue une prestation sur le plateau du show américain The Daily Habit de Fuel TV, avec le titre World P #/paragraphe
+
+#imgsrc https://i.imgur.com/h7NxegG.jpg #/imgsrc
+
+#author ANtoine Foritn #/author
+
+#date 4 janvier 2018 #/date
