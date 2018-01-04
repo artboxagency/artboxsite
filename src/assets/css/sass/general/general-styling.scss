@@ -1,3 +1,14 @@
+@import "colors.scss";
+@import "font.scss";
+
+body {
+    background-color:$mainYellow;
+     @extend %main-font;
+
+     ul {
+         list-style: none;
+     }
+}
 #site-container  {
 
     text-align: center;

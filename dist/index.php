@@ -1,4 +1,11 @@
 <?php session_start(); ?>
+<?php
+require_once "config/langage.php";
+require_once "config/Autoloader.php";
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,40 +18,11 @@
 <h1 style="display:none">Artbox</h1>
 <div id="site-container">
 
-	<?php
-	require "site-parts/component-blue-print/video-component.php";
-	?>
 	<!-- Top header infos -->
 	<?php require "site-parts/header.php"; ?>
-
-	<!-- Bloc Home -->
-	<?php require "site-parts/bloc-home.php"; ?>
-
-	<!-- Bloc 1 -->
-	<?php require "site-parts/bloc-video.php"; ?>
-
-	<!-- Bloc 2 -->
-	<?php require "site-parts/bloc-infos.php"; ?>
-
-	<!-- Bloc 3 -->
-	<?php /* require "site-parts/bloc-membership.php"; */ ?>
-
-	<!-- Bloc 4 -->
-	<?php require "site-parts/bloc-events.php"; ?>
-
-	<!-- Bloc 5 -->
-	<?php /*require "site-parts/bloc-involve.php";*/ ?>
-
-	<!-- Bloc 5.5 -->
-	<?php require "site-parts/bloc-involve-infos.php"; ?>
+	<?php require "site-parts/homepage.php"; ?>
 
 
-	<!-- Bloc 6 -->
-	<?php require "site-parts/bloc-question.php"; ?>
-
-
-	<!-- Require login -->
-	<?php require "site-parts/bloc-login.php"; ?>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -65,11 +43,6 @@
 
 	gtag('config', 'UA-110253487-1');
 </script>
-<!-- Check for error -->
-<?php if ($_GET["errors"] || $_GET["success"]) { ?>
-
-	<script src="assets/js/message-setter.js"></script>
-<?php } ?>
 
 </body>
 

@@ -1,4 +1,6 @@
-
+<?php
+require_once "controllers/headerController.php"
+ ?>
 <header>
     <div class="logo-container">
 		<a href="#"><img src="assets/images/artbox_marketing_social.png" alt="CNDL LOGO"></a>
@@ -9,8 +11,7 @@
 		<span class="line-3"></span>
 	</div>
     <div id="menu-container">
-
-        <nav>
+        <nav> 
             <ul>
                 <li></li>
             </ul>

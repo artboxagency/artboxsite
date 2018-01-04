@@ -7,5 +7,9 @@
 // Including general scss
 
 @import "general/general-styling.scss";
+@import "general/components/homepage-component.scss";
+
+
+
 // Including site parts
-@import "qwerty.scss";
+@import "site-parts/header.scss";

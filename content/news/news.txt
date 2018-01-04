@@ -1,0 +1,16 @@
+#title Tempête aux É.-U.: l'état d'urgence déclaré à New York #/title
+
+#header Une importante tempête hivernale qui se dirige maintenant vers les provinces de l'Atlantique a déferlé sur les États-Unis, jeudi, laissant des dizaines de centimètres de neige sur son passage et provoquant des rafales qui devraient amener des températures exceptionnellement froides. Le gouverneur de l'État de New York, Andrew  #/header
+
+#paragraphe #/paragraphe
+
+#paragraphe Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra metus id nibh feugiat, quis ultricies lorem porta. Morbi lacus nibh, commodo in magna vel, placerat ultrices lorem. Vestibulum mauris ante, accumsan ac suscipit ut, eleifend vel turpis. Cras in augue pulvinar, elementum lectus non, tempus elit.  #/paragraphe
+#paragraphe Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra metus id nibh feugiat, quis ultricies lorem porta. Morbi lacus nibh, commodo in magna vel, placerat ultrices lorem. Vestibulum mauris ante, accumsan ac suscipit ut, eleifend vel turpis. Cras in augue pulvinar, elementum lectus non, tempus elit.  #/paragraphe
+
+
+#imgsrc https://i.imgur.com/ld84Clj.jpg #/imgsrc
+
+
+#date 69 Janvier du Pénis #/date
+
+#author Antoine Fortin #/author

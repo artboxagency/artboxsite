@@ -1,0 +1,20 @@
+#menuItemEn News#/menuItemEn
+#menuItemEnModel#/menuItemEn
+#menuItemEnServices#/menuItemEn
+#menuItemEnClients#/menuItemEn
+#menuItemEnProjects#/menuItemEn
+#menuItemEnDrivingForce#/menuItemEn
+#menuItemEnMission#/menuItemEn
+#menuItemEnTeam#/menuItemEn
+#menuItemEnContact#/menuItemEn
+
+
+#menuItemFrNouvelles#/menuItemFr
+#menuItemFrModèle#/menuItemFr
+#menuItemFrServices#/menuItemFr
+#menuItemFrClients#/menuItemFr
+#menuItemFrProjets#/menuItemFr
+#menuItemFrForcesvives#/menuItemFr
+#menuItemFrMission#/menuItemFr
+#menuItemFrÉquipe#/menuItemFr
+#menuItemFrContact#/menuItemFr

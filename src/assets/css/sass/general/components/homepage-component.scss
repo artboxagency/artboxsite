@@ -1,0 +1,8 @@
+@import "../colors.scss";
+
+.black-line {
+    height:8px;
+    width:150px;
+    background-color: $mainBlack;
+    display:inline-block;
+}
