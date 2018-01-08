@@ -18,3 +18,13 @@
 #menuItemFrMission#/menuItemFr
 #menuItemFrÉquipe#/menuItemFr
 #menuItemFrContact#/menuItemFr
+
+#link news #/link
+#link model #/link
+#link services #/link
+#link clients #/link
+#link projects #/link
+#link drivingforces #/link
+#link mission #/link
+#link team #/link
+#link contact #/link

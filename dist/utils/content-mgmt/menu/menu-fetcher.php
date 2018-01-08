@@ -21,6 +21,7 @@ foreach($files as $key => $file) {
         // Get article parts
         $menuEn = getContentsBetween($content, '#menuItemEn', '#/menuItemEn');
         $menuFr = getContentsBetween($content, '#menuItemFr', '#/menuItemFr');
+        $link = getContentsBetween($content, '#menuItemFr', '#/menuItemFr');
 
         // Build english menu
         $sqlMenu = array();

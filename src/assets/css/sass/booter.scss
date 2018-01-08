@@ -8,8 +8,9 @@
 
 @import "general/general-styling.scss";
 @import "general/components/homepage-component.scss";
-
+@import "general/grid.scss";
 
 
 // Including site parts
 @import "site-parts/header.scss";
+@import "site-parts/home-page.scss";

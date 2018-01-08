@@ -1,91 +1,106 @@
 
-#menu-container {
-    position: relative;
-    z-index: 50;
-    top: 0px;
-    right:  0px;
-    .menu-hamburger {
-        cursor: pointer;
-        right: 25px;
-        position: absolute;
-
-        .slice1,
-        .slice2,
-        .slice3 {
-            padding-bottom: 8px;
-            width: 35px;
-            border-bottom: solid 3px black;
-        }
+header {
+    .logo-container {
+        text-align:left;
     }
-    #menu {
-        overflow: hidden;
-        position: absolute;
-        width: 0px;
-        right: 0px;
+    #menu-container {
+        position: relative;
+        z-index: 50;
         top: 0px;
-        // Add class for k illing display
-        &.kill-menu-display {
-            transition: all 0.5s;
+        right:  0px;
 
-        }
-        &.active-menu-display {
-            transition: all 0.5s;
+        .menu-hamburger {
+
+            cursor: pointer;
+            right: 25px;
             position: absolute;
+
+            .line-1,
+            .line-2,
+            .line-3 {
+                display:block;
+                padding-bottom: 8px;
+                width: 35px;
+                border-bottom: solid 3px black;
+            }
+        }
+        #menu {
+            overflow: hidden;
+            position: absolute;
+            width: 0px;
             right: 0px;
             top: 0px;
-            background-color:  $mainYellow;
-            height:100vh;
-            width: 350px;
-            z-index: 55;
-            border-left: solid black 3px;
-        }
-        .close-button {
-            cursor: pointer;
-            position: absolute;
-            right:  15px;
-            font-size:35px;
-        }
-        nav{
+            // Add class for k illing display
+            &.kill-menu-display {
+                transition: all 0.5s;
 
-            padding-top: 80px;
-            .translation-box {
-                font-size:35px;
-                position: absolute;
-                top: 10px;
-                left: 10px;
-                display: inline-block;
-                color: black;
-
-                // Kill hover and active underline
-                &:hover,
-                &:active {
-                    text-decoration: none;
-
-                }
             }
-            ul {
-                list-style: none;
-                li {
-                    width: 200px;
-                    font-size:38px;
-                    text-align: center;
-                    a {
-                        color: black;
+            &.active-menu-display {
+                transition: all 0.5s;
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                background-color:  $mainYellow;
+                height:100vh;
+                width: 350px;
+                z-index: 55;
+                border-left: solid black 3px;
+            }
+            .close-button {
+                cursor: pointer;
+                position: absolute;
+                right:  15px;
+                font-size:35px;
+            }
+            nav{
 
-                        // Kill hover and active underline
-                        &:hover,
-                        &:active {
+                .close-button {
+                    top:10px;
+                }
+                padding-top: 80px;
+                .translation-box {
+                    font-size:35px;
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    display: inline-block;
+                    color: black;
+
+                    // Kill hover and active underline
+                    &:hover,
+                    &:active {
+                        text-decoration: none;
+
+                    }
+                }
+                ul {
+                    text-align: left;
+                    list-style: none;
+                    li {
+                        width: 200px;
+                        font-size:38px;
+                        text-align: left;
+                        a {
+                            color: black;
                             text-decoration: none;
+                            animation:0.5s all;
 
-                        }
-                        .line-overlay {
-                            transition:width 0.85s;
-                            width: 0px;
 
-                            &.active {
-                                width: 150px;
-                                border: solid black 1px;
-                                margin:0 auto;
+                            // Kill hover and active underline
+                            &:hover,
+                            &:active {
+                                text-decoration:    none;
+
+                            }
+                            .line-overlay {
+                                transition:width 0.85s;
+                                width: 0px;
+
+                                &.active {
+                                    width: 150px;
+                                    border: solid black 1px;
+                                    margin:0 auto;
+                                }
                             }
                         }
                     }

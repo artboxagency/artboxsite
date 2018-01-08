@@ -1,0 +1,50 @@
+@import "font.scss";
+body {
+
+    .grid  {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 85%;
+        .grid-item {
+            text-align: left;
+            width:330px;
+            margin-right: 50px;
+            margin-bottom:25px;
+            position: relative;
+
+            .grid-thumbnail {
+                height:180px;
+                width:330px;
+            }
+            .black-box {
+                position:absolute;
+                top: 0px;
+                height:180px;
+                width:330px;
+                background-color: rgba(0,0,0,0.5);
+                transition:all 0.55s;
+                &.hover-grid {
+                    height: 0px;
+                    width:0px;
+                    margin-left:160px;
+                    margin-top:90px;
+
+                }
+            }
+            h4 {
+                @extend %thumbnail-title;
+                margin-top:10px;
+                margin-bottom:10px;
+            }
+
+            .grid-brief {
+                @extend %thumbnail-brief;
+                p {
+                    margin-top:0px;
+                }
+            }
+
+        }
+
+    }
+}

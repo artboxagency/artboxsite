@@ -1043,50 +1043,169 @@ input {
   width: 45%; }
 
 body {
-  font-family: "Arial"; }
+  font-family: "Arial";
+  font-weight: 900; }
+
+body .grid .grid-item h4 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 20px; }
+
+body .grid .grid-item .grid-brief {
+  text-align: left;
+  font-size: 14px; }
+
+.large-block-font {
+  text-align: left;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.font-medium-title {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 21px;
+  margin-top: 10px; }
+
+.title-font {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 10px; }
+
+.font-description {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
 
 body {
   background-color: #ffff07; }
   body ul {
     list-style: none; }
+  body .bloc-left {
+    text-align: left; }
+    body .bloc-left .large-block-font {
+      text-align: left; }
+  body .bloc-right {
+    text-align: right; }
+    body .bloc-right .large-block-font {
+      text-align: right; }
 
 #site-container {
-  text-align: center; }
+  text-align: left; }
+  #site-container .know-more {
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    #site-container .know-more .plus-to-know-more {
+      margin-left: 120px; }
+  #site-container video {
+    width: 35%; }
 
 header .logo-container img {
   height: auto;
   width: 150px; }
 
-.black-line {
-  height: 8px;
+.home-page-content .black-line {
+  height: 6px;
   width: 150px;
-  background-color: #000000;
-  display: inline-block; }
+  background-color: #000000; }
 
-#menu-container {
+body {
+  font-family: "Arial";
+  font-weight: 900; }
+
+body .grid .grid-item h4 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 20px; }
+
+body .grid .grid-item .grid-brief {
+  text-align: left;
+  font-size: 14px; }
+
+.large-block-font {
+  text-align: left;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.font-medium-title {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 21px;
+  margin-top: 10px; }
+
+.title-font {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 10px; }
+
+.font-description {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+body .grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 85%; }
+  body .grid .grid-item {
+    text-align: left;
+    width: 330px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    position: relative; }
+    body .grid .grid-item .grid-thumbnail {
+      height: 180px;
+      width: 330px; }
+    body .grid .grid-item .black-box {
+      position: absolute;
+      top: 0px;
+      height: 180px;
+      width: 330px;
+      background-color: rgba(0, 0, 0, 0.5);
+      transition: all 0.55s; }
+      body .grid .grid-item .black-box.hover-grid {
+        height: 0px;
+        width: 0px;
+        margin-left: 160px;
+        margin-top: 90px; }
+    body .grid .grid-item h4 {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    body .grid .grid-item .grid-brief p {
+      margin-top: 0px; }
+
+header .logo-container {
+  text-align: left; }
+
+header #menu-container {
   position: relative;
   z-index: 50;
   top: 0px;
   right: 0px; }
-  #menu-container .menu-hamburger {
+  header #menu-container .menu-hamburger {
     cursor: pointer;
     right: 25px;
     position: absolute; }
-    #menu-container .menu-hamburger .slice1,
-    #menu-container .menu-hamburger .slice2,
-    #menu-container .menu-hamburger .slice3 {
+    header #menu-container .menu-hamburger .line-1,
+    header #menu-container .menu-hamburger .line-2,
+    header #menu-container .menu-hamburger .line-3 {
+      display: block;
       padding-bottom: 8px;
       width: 35px;
       border-bottom: solid 3px black; }
-  #menu-container #menu {
+  header #menu-container #menu {
     overflow: hidden;
     position: absolute;
     width: 0px;
     right: 0px;
     top: 0px; }
-    #menu-container #menu.kill-menu-display {
+    header #menu-container #menu.kill-menu-display {
       transition: all 0.5s; }
-    #menu-container #menu.active-menu-display {
+    header #menu-container #menu.active-menu-display {
       transition: all 0.5s;
       position: absolute;
       right: 0px;
@@ -1096,36 +1215,110 @@ header .logo-container img {
       width: 350px;
       z-index: 55;
       border-left: solid black 3px; }
-    #menu-container #menu .close-button {
+    header #menu-container #menu .close-button {
       cursor: pointer;
       position: absolute;
       right: 15px;
       font-size: 35px; }
-    #menu-container #menu nav {
+    header #menu-container #menu nav {
       padding-top: 80px; }
-      #menu-container #menu nav .translation-box {
+      header #menu-container #menu nav .close-button {
+        top: 10px; }
+      header #menu-container #menu nav .translation-box {
         font-size: 35px;
         position: absolute;
         top: 10px;
         left: 10px;
         display: inline-block;
         color: black; }
-        #menu-container #menu nav .translation-box:hover, #menu-container #menu nav .translation-box:active {
+        header #menu-container #menu nav .translation-box:hover, header #menu-container #menu nav .translation-box:active {
           text-decoration: none; }
-      #menu-container #menu nav ul {
+      header #menu-container #menu nav ul {
+        text-align: left;
         list-style: none; }
-        #menu-container #menu nav ul li {
+        header #menu-container #menu nav ul li {
           width: 200px;
           font-size: 38px;
-          text-align: center; }
-          #menu-container #menu nav ul li a {
-            color: black; }
-            #menu-container #menu nav ul li a:hover, #menu-container #menu nav ul li a:active {
+          text-align: left; }
+          header #menu-container #menu nav ul li a {
+            color: black;
+            text-decoration: none;
+            animation: 0.5s all; }
+            header #menu-container #menu nav ul li a:hover, header #menu-container #menu nav ul li a:active {
               text-decoration: none; }
-            #menu-container #menu nav ul li a .line-overlay {
+            header #menu-container #menu nav ul li a .line-overlay {
               transition: width 0.85s;
               width: 0px; }
-              #menu-container #menu nav ul li a .line-overlay.active {
+              header #menu-container #menu nav ul li a .line-overlay.active {
                 width: 150px;
                 border: solid black 1px;
                 margin: 0 auto; }
+
+body {
+  font-family: "Arial";
+  font-weight: 900; }
+
+body .grid .grid-item h4 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 20px; }
+
+body .grid .grid-item .grid-brief {
+  text-align: left;
+  font-size: 14px; }
+
+.large-block-font {
+  text-align: left;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.font-medium-title {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 21px;
+  margin-top: 10px; }
+
+.title-font {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 10px; }
+
+.font-description {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+/*This file mixins for helping centering, disposing and placing elements*/
+.main-page-video {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+#model-homepage-container {
+  max-width: 80%; }
+
+#formulas-homepage-container {
+  max-width: 80%; }
+  #formulas-homepage-container .equation {
+    margin-top: 15px;
+    text-align: center; }
+    #formulas-homepage-container .equation .symbol {
+      display: inline-block;
+      margin-bottom: 15px;
+      margin-top: 15px; }
+    #formulas-homepage-container .equation .square-border {
+      margin: 0 auto;
+      display: block;
+      height: 100px;
+      width: 300px;
+      border: solid 6px #000000;
+      position: relative;
+      margin-bottom: 15px; }
+      #formulas-homepage-container .equation .square-border h4 {
+        margin-top: 0px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%); }

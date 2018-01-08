@@ -8,10 +8,39 @@ body {
      ul {
          list-style: none;
      }
+
+
+     .bloc-left {
+
+         .large-block-font {
+             text-align:left;
+         }
+         text-align:left;
+     }
+     .bloc-right {
+
+         .large-block-font {
+             text-align:right;
+         }
+         text-align:right;
+     }
+
+
 }
 #site-container  {
+    .know-more {
+        cursor:pointer;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .plus-to-know-more {
+            margin-left:120px;
+        }
+    }
 
-    text-align: center;
+    video {
+        width:35%;
+     }
+    text-align: left;
 }
 
 

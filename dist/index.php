@@ -1,6 +1,7 @@
 <?php session_start(); ?>
 <?php
 require_once "config/langage.php";
+require_once "trans/dictionaries.php";
 require_once "config/Autoloader.php";
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -26,14 +27,10 @@ error_reporting(E_ALL);
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="assets/js/main-ux-ui.js"></script>
-<script src="assets/js/menu.js"></script>
-<script src="assets/js/events-blocker.js"></script>
-<script src="assets/js/form-handler.js"></script>
-<script src="assets/js/form-validation.js"></script>
-<script src="assets/js/menu-behaviour.js"></script>
-<script src="assets/js/video-component.js"></script>
-<script src="assets/js/arrow-section-behaviour.js"></script>
+<script src="assets/js/behaviour.js"></script>
+<script src="assets/js/css-components/grid-system.js"></script>
+
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110253487-1"></script>
 <script>

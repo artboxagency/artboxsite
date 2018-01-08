@@ -1,0 +1,43 @@
+@import "../general/font.scss";
+@import "../general/colors.scss";
+@import "../core/layout-rules.scss";
+.main-page-video {
+        margin-top:50px;
+        margin-bottom:50px;
+
+}
+
+#model-homepage-container {
+    max-width:80%;
+}
+
+#formulas-homepage-container {
+
+    max-width:80%;
+    .equation {
+        margin-top:15px;
+        text-align: center;
+        .symbol {
+            display: inline-block;
+            margin-bottom:15px;
+            margin-top:15px;
+        }
+
+        .square-border {
+            margin:0 auto;
+            display: block;
+            height:100px;
+            width:300px;
+            border: solid 6px $mainBlack;
+            position: relative;
+            margin-bottom:15px;
+            h4 {
+                margin-top:0px;
+
+                @include center-content;
+
+            }
+
+        }
+    }
+}

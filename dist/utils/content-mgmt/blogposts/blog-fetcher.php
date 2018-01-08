@@ -46,7 +46,7 @@ foreach($files as $key => $file) {
             $queryParagraph .= "<p>" . $uniqueParagraphe . "</p>";
         }
         $sqlQueryParagraphes = str_replace("'", "%%", $queryParagraph);
-        
+
 
 
         if(isset($blogImgSrc[0])) {

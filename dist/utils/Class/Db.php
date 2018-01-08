@@ -21,7 +21,6 @@ Class Db {
 
     }
 
-
     public function setServerName($servername) {
         $this->servername = $servername;
     }
