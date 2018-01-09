@@ -8,4 +8,4 @@ function getTeamMembers($db, $lang) {
     return $teamMembers;
 }
 
-getTeamMembers($db, $_SESSION["locale"]);
+$teamMembers =getTeamMembers($db, $_SESSION["locale"]);

@@ -2,9 +2,10 @@
 #lastname Laroche #/lastname
 
 
-#jobTitle Programmeur #/jobTitle
+#jobTitle RP #/jobTitle
 
 #pictureUrl https://i.imgur.com/069NFl5.png #/pictureUrl
 #phoneNumber 123-123-1234 #/phoneNumber
 #email antoine@artbox.agency #/email
 #locale fr #/locale
+#employeeRank 6 #/employeeRank

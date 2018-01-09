@@ -8,3 +8,4 @@
 #phoneNumber 123-123-1234 #/phoneNumber
 #email kath@artbox.agency #/email
 #locale en #/locale
+#employeeRank 1 #/employeeRank

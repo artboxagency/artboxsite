@@ -7,3 +7,5 @@
 #pictureUrl https://i.imgur.com/069NFl5.png #/pictureUrl
 #phoneNumber 123-123-1234 #/phoneNumber
 #email antoine@artbox.agency #/email
+#locale en #/locale
+#employeeRank 5 #/employeeRank

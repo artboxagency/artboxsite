@@ -2,9 +2,10 @@
 #lastname Collet #/lastname
 
 
-#jobTitle Programmeur #/jobTitle
+#jobTitle Business #/jobTitle
 
 #pictureUrl https://i.imgur.com/069NFl5.png #/pictureUrl
 #phoneNumber 123-123-1234 #/phoneNumber
 #email antoine@artbox.agency #/email
 #locale en #/locale
+#employeeRank 3 #/employeeRank
