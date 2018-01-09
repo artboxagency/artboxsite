@@ -1,0 +1,18 @@
+#projectName Alumni from College NDL #/projectName
+#thumbnailTitle Alumni from College NDL #/thumbnailTitle
+
+#headerContent School project is nice, so artbox is nice and THe black fox jump accross the river #/headerContent
+
+#bloc1Title Alumni is beautiful #/bloc1Title
+#bloc1Content  Alumni is beautifulAlumni is beautifulAlumni is beautifulAlumni is beautifulAlumni is beautifulAlumni is beautifulAlumni is beautiful. #/bloc1Content
+
+
+#bloc2Title Alumni is beautifule #/bloc2Title
+#bloc2Content Impressing tutuAlImpressing tutuAlImpressing tutuAlImpressing tutuAlImpressing tutuAlImpressing tutuAlImpressing tutuAlImpressing tutuAlImpressing tutuAl  #/bloc2Content
+
+#assets1Url https://i.imgur.com/BOOO5UO.png #/assets1Url
+#assets2Url https://i.imgur.com/eYGSoz6.jpg #/assets2Url
+#assets3Url https://i.imgur.com/eYGSoz6.jpg #/assets3Url
+#assets4Url https://i.imgur.com/eYGSoz6.jpg #/assets4Url
+
+#locale en #/locale

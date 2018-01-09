@@ -1,0 +1,18 @@
+#projectName Couleurs.io #/projectName
+#thumbnailTitle Couleurs.io #/thumbnailTitle
+
+#headerContent Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis dui at pulvinar euismod. Nullam ut mollis arcu. Nam eget enim purus. Quisque sit amet dui vitae sem semper ultrices. Aliquam pharetra risus at mi efficitur, id convallis ligula suscipit. Nam ornare metus dolor, eu accumsan dolor posuere in. #/headerContent
+
+#bloc1Title Surveillance cest nice #/bloc1Title
+#bloc1Content  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis dui at pulvinar euismod. #/bloc1Content
+
+
+#bloc2Title Surveillance cest nice #/bloc2Title
+#bloc2Content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis dui at pulvinar euismod. #/bloc2Content
+
+#assets1Url http://www.artbox.agency/_images/projets/couleurs/Jean-Michael-Seminaro_Couleurs_7.jpg #/assets1Url
+#assets2Url https://i.imgur.com/eYGSoz6.jpg #/assets2Url
+#assets3Url https://i.imgur.com/eYGSoz6.jpg #/assets3Url
+#assets4Url https://i.imgur.com/eYGSoz6.jpg #/assets4Url
+
+#locale fr #/locale

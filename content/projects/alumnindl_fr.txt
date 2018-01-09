@@ -1,0 +1,18 @@
+#projectName College Alumni #/projectName
+#thumbnailTitle College Alumni  #/thumbnailTitle
+
+#headerContent Un gros projets pour les vieux  #/headerContent
+
+#bloc1Title Alumni is beautiful #/bloc1Title
+#bloc1Content  Alumni is beautifulAlumni is beautifulAlumni is beautifulAlumni is beautifulAlumni is beautifulAlumni is beautifulAlumni is beautiful. #/bloc1Content
+
+
+#bloc2Title Alumni cest bo #/bloc2Title
+#bloc2Content Impressing tutuAlImpressing tutuAlImpressing tutuAlImpressing tutuAlImpressing tutuAlImpressing tutuAlImpressing tutuAlImpressing tutuAlImpressing tutuAl  #/bloc2Content
+
+#assets1Url https://i.imgur.com/BOOO5UO.png #/assets1Url
+#assets2Url https://i.imgur.com/eYGSoz6.jpg #/assets2Url
+#assets3Url https://i.imgur.com/eYGSoz6.jpg #/assets3Url
+#assets4Url https://i.imgur.com/eYGSoz6.jpg #/assets4Url
+
+#locale fr #/locale

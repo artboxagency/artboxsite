@@ -58,3 +58,6 @@ $dictionnaries['fr']["homePageContent"]["formulas"]["value2"] = "Force vive";
 $dictionnaries['en']["homePageContent"]["formulas"]["value2"] = "Driving Force";
 $dictionnaries['fr']["homePageContent"]["formulas"]["value3"] = "Collaboration";
 $dictionnaries['en']["homePageContent"]["formulas"]["value3"] = "Collaboration";
+
+$dictionnaries["fr"]["homePageTitle"]["projects"] = "Projets";
+$dictionnaries["en"]["homePageTitle"]["projects"] = "Projects";

@@ -15,7 +15,15 @@
 
 <div class="home-page-content">
     <div class="black-line">
-        
+
     </div>
 </div>
 <?php  require "views/formulas-homepage.php"; ?>
+
+
+<div class="home-page-content">
+    <div class="black-line">
+
+    </div>
+</div>
+<?php  require "views/projects-homepage.php"; ?>

@@ -1,6 +1,7 @@
 <?php ?>
-<h2 class="title-font"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["formulas"] ?></h2>
+
 <div id="formulas-homepage-container" class="">
+    <h2 class="title-font"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["formulas"] ?></h2>
     <p class="font-description"><?=  $dictionnaries[$_SESSION["locale"]]["homePageContent"]["formulas"]["intro"]["content"]; ?></p>
 
     <div class="equation">
