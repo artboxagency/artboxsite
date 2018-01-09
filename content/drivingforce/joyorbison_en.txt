@@ -1,0 +1,9 @@
+#firstname Peter  #/firstname
+#lastname Grady  #/lastname
+#sceneName Joy Orbison #/sceneName
+#city Crowdon #/city
+
+#domain Nightlife #/domain
+#imageUrl  https://i.imgur.com/RBpVq6E.jpg #/imageUrl
+#projectId #/projectId
+#locale en #/locale

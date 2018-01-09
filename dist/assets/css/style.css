@@ -1181,6 +1181,27 @@ body .grid {
 header .logo-container {
   text-align: left; }
 
+header #searchbar #search-item {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.5s all;
+  margin-right: 5px; }
+  header #searchbar #search-item:hover {
+    font-size: 20px; }
+
+header #searchbar #search-bar-term {
+  width: 0px;
+  height: 0px;
+  background-color: #ffff07;
+  border: 0px;
+  transition: all 0.5s; }
+  header #searchbar #search-bar-term:focus {
+    outline: 0; }
+  header #searchbar #search-bar-term.active-search {
+    border-bottom: solid 3px black;
+    width: 50%;
+    height: 15px; }
+
 header #menu-container {
   position: relative;
   z-index: 50;

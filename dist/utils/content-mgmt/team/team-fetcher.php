@@ -18,6 +18,9 @@ foreach($files as $key => $file) {
         $content = file_get_contents($filePath);
 
         // Get article parts
+        $memberLocale = getContentsBetween($content, "#locale", "#/locale");
+
+
         $memberFirstName = getContentsBetween($content, '#firstname', '#/firstname');
         $memberLastName = getContentsBetween($content, '#lastname', '#/lastname');
         $memberJobTitle = getContentsBetween($content, '#jobTitle', '#/jobTitle');
@@ -26,6 +29,11 @@ foreach($files as $key => $file) {
         $memberEmail = getContentsBetween($content, '#email', '#/email');
 
         // Prepare datas from Query
+        if(isset($memberLocale[0]))  {
+
+            $sqlLocale = str_replace(" ","",$memberLocale[0]);
+        }
+
         if(isset($memberFirstName[0])) {
 
             $sqlFirstName = str_replace("'", "%%", $memberFirstName[0]);
@@ -57,7 +65,7 @@ foreach($files as $key => $file) {
         }
 
 
-        $sql = "INSERT INTO team(firstname, lastname, jobTitle, pictureUrl, phonenumber, email) values('$sqlFirstName', '$sqlLastName', '$sqlJobTitle', '$sqlImageUrl', '$sqlPhoneNumber', '$sqlEmail')";
+        $sql = "INSERT INTO team(firstname, lastname, jobTitle, pictureUrl, phonenumber, email, locale) values('$sqlFirstName', '$sqlLastName', '$sqlJobTitle', '$sqlImageUrl', '$sqlPhoneNumber', '$sqlEmail', '$sqlLocale')";
 
         // Processing to db for blog
         $db->queryDb($sql);

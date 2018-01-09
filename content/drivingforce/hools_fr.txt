@@ -6,3 +6,4 @@
 #domain Suceur de Gland #/domain
 #imageUrl  https://i.imgur.com/RBpVq6E.jpg #/imageUrl
 #projectId #/projectId
+#locale fr #/locale

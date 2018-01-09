@@ -1,0 +1,10 @@
+#firstname Catherine #/firstname
+#lastname Laroche #/lastname
+
+
+#jobTitle Programmeur #/jobTitle
+
+#pictureUrl https://i.imgur.com/069NFl5.png #/pictureUrl
+#phoneNumber 123-123-1234 #/phoneNumber
+#email antoine@artbox.agency #/email
+#locale fr #/locale

@@ -14,11 +14,12 @@ error_reporting(E_ALL);
 	<title>Artbox Translation</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/libs/fontawesome/font-awesome.css">
 </head>
 <body>
 <h1 style="display:none">Artbox</h1>
 <div id="site-container">
-
+	
 	<!-- Top header infos -->
 	<?php require "site-parts/header.php"; ?>
 	<?php require "site-parts/homepage.php"; ?>

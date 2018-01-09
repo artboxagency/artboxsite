@@ -2,6 +2,9 @@
 require_once "controllers/headerController.php"
  ?>
 <header>
+    <div id="searchbar">
+        <i class="fa fa-search" id="search-item" aria-hidden="true"> </i><input type="text" id="search-bar-term" class="font-description" name="search-tearm"  value="">
+    </div>
     <div id="menu-container">
         <div class="menu-hamburger">
     		<span class="line-1"></span>
@@ -10,7 +13,6 @@ require_once "controllers/headerController.php"
     	</div>
         <div id="menu">
             <nav>
-
                 <ul>
                     <span class="close-button">x</span>
                     <?php foreach($menuItems as $key => $menuItem) { ?>

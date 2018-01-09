@@ -61,3 +61,21 @@ $dictionnaries['en']["homePageContent"]["formulas"]["value3"] = "Collaboration";
 
 $dictionnaries["fr"]["homePageTitle"]["projects"] = "Projets";
 $dictionnaries["en"]["homePageTitle"]["projects"] = "Projects";
+
+
+
+$dictionnaries["fr"]["homePageTitle"]["drivingForces"] = "Forces vives";
+$dictionnaries["en"]["homePageTitle"]["drivingForces"] = "Driving forces";
+
+
+$dictionnaries["fr"]["homePageTitle"]["mission"] = "Mission";
+$dictionnaries["en"]["homePageTitle"]["mission"] = "Mission";
+
+$dictionnaries["fr"]["homePageContent"]["mission"] = "ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...";
+
+
+$dictionnaries["en"]["homePageContent"]["mission"] = "ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...ARTBOX est né en réponse à la réalité des besoins sociaux de notre socité...";
+
+
+$dictionnaries['fr']["homePageTitle"]["team"] = "Équipe";
+$dictionnaries['en']["homePageTitle"]["team"] = "Team";
