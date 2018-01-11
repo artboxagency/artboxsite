@@ -19,7 +19,7 @@ error_reporting(E_ALL);
 <body>
 <h1 style="display:none">Artbox</h1>
 <div id="site-container">
-	
+
 	<!-- Top header infos -->
 	<?php require "site-parts/header.php"; ?>
 	<?php require "site-parts/homepage.php"; ?>
@@ -29,6 +29,9 @@ error_reporting(E_ALL);
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/js/behaviour.js"></script>
+<script src="assets/js/searchbar.js"></script>
+<script src="assets/js/form.js"></script>
+<script src="assets/js/forms/form-contact.js"></script>
 <script src="assets/js/css-components/grid-system.js"></script>
 
 

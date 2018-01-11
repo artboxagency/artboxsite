@@ -7,6 +7,8 @@ require "site-parts/controllers/newsController.php";
 <h2 class="title-font"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["news"] ?></h2>
 <div id="news-homepage-container" class="grid">
     <?php foreach ($homepageNews as $key => $singleHomePage) { ?>
+
+    <a href="getcwd()/blog.phparticle/<?= $singleHomePage["id"]?>">
         <div class="single-news-home-page grid-item">
             <img class="grid-thumbnail" src="<?= $singleHomePage["imgsrc"] ?>" alt="artbox_image_news_<?= str_replace("%%", "'", $singleHomePage["title"]); ?>">
             <div class="black-box"></div>
@@ -24,7 +26,8 @@ require "site-parts/controllers/newsController.php";
                     ...
                 </p>
             </div>
-            <a href="/blog/article/<?= $singleHomePage["id"]?>"></a>
+
         </div>
+    </a>
     <?php } ?>
 </div>

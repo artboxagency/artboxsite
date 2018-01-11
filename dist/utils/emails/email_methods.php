@@ -1,5 +1,5 @@
 <?php
-require '../../vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
+require '../../../vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
 require "emails_settings/general_settings.php";
 require "templates/emails_template.php";
 require "CONST.php";
@@ -7,54 +7,57 @@ require "CONST.php";
 
 
 
-while(TRUE) {
-    salut();
-}
+function sendNewContactEmail($messageContent = false, $newUserEmail = false) {
 
+    $message = buildNewContactArtbox($messageContent);
+    
+    //Create a new PHPMailer instance   
+    
 
-function salut() {
-    //Create a new PHPMailer instance
     $mail = new PHPMailer;
-
+        
     $mail->isSMTP();
+    $mail->SMTPDebug = 1;
+            //Set the hostname of the mail server
+            $mail->Host = 'smtp.gmail.com';
+            $mail->Port = 587;
 
+            $mail->SMTPDebug = 2; //Alternative to above constant
 
-    //Set the hostname of the mail server
-    $mail->Host = 'smtp.gmail.com';
-    $mail->Port = 587;
-    $mail->SMTPSecure = 'tls';
-    $mail->SMTPAuth = true;
-    $mail->Username = "alumninoreply@gmail.com";
-    $mail->Password = "34870tyqreghfiuvnidt87w4ouiwhjlr";
-    $mail->SMTPDebug  = 2;
-    $mail->setFrom('alumninoreply@gmail.com', 'ALUMNI');
-    $mail->addReplyTo("alumninoreply@gmail.com", 'ALUNI');
+            $mail->SMTPSecure = 'tls';
+            $mail->SMTPAuth = true;
+            $mail->Username = "alumninoreply@gmail.com";
+            $mail->Password = "34870tyqreghfiuvnidt87w4ouiwhjlr";
+            $mail->setFrom(SENDER, 'ARTBOX');
+            
+            $mail->addReplyTo(REPLYER, 'ARTBOX');
+        
+            $emails = unserialize (RECEIVERS);
+        
+        
+            //Set who the message is to be sent to
+            foreach($emails as $key => $email) {
+                $mail->addAddress($email, 'user');
+            }
+        
+            // Mail Subject
+            $mail->Subject = "Nouvelle demande de contact sur le site de Artbox";
+            $mail->AltBody = "Nouvelle demande de contact sur le site de Artbox!";
+        
+            $mail->Body = $message;
+        
+            //send the message, check for errors
 
-
-
-
-    //Set who the message is to be sent to
-    $mail->addAddress('julien.collet@artbox.agency', 'user');
-
-
-    // Mail Subject
-    $mail->Subject = "Bonjour Julien" . rand(1,500);
-    $mail->AltBody = "Meu";
-
-    $mail->Body = 'LOL';
-
-    //send the message, check for errors
-        logEmailMessage(array($mail->Subject));
-        if (!$mail->send()) {
-
-            echo "message sent";
-
-        } else {
-            echo "Bug";
-        }
-
+            if ($mail->send()) {
+        
+                echo "Send";
+            } else {
+                $arrResult['response'] = 'error';
+                echo "There was a problem sending the form.: " . $mail->ErrorInfo;
+                exit;
+            }
+        
 }
-
 
 function sendNewUserMail($messageContent, $newUserEmail) {
     //Create a new PHPMailer instance
@@ -250,11 +253,9 @@ function logEmailMessage($logContent) {
     $logMessage .= "       ----      To  " . unserializeEmail();
     $logMessage .= "       ----      Message  Title" . $messageTitle . "\r\n";
 
-    // Write inside file from stream
-    $my_file = '../emails/emails_log/emails_log.txt';
-    $handle = fopen($my_file, 'a') or die('Cannot open file:  '.$my_file);
+    
     $data = $logMessage;
-    fwrite($handle, $data);
+    
 
 }
 

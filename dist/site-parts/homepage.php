@@ -45,3 +45,11 @@
     </div>
 </div>
 <?php  require "views/team-homepage.php"; ?>
+
+
+<div class="home-page-content">
+    <div class="black-line">
+
+    </div>
+</div>
+<?php  require "views/contact-homepage.php"; ?>

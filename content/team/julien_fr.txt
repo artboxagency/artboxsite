@@ -2,7 +2,7 @@
 #lastname Collet #/lastname
 
 
-#jobTitle Programmeur #/jobTitle
+#jobTitle Biusiness #/jobTitle
 
 #pictureUrl https://i.imgur.com/069NFl5.png #/pictureUrl
 #phoneNumber 123-123-1234 #/phoneNumber

@@ -14,6 +14,27 @@ function includeStyling() {
 	return "<style>"  .  $styles  .  "</style>" ;
 }
 
+
+function buildNewContactArtbox($content) {
+	var_dump($content);
+	
+	$message = "<div id='message-container'>";
+	$message .= "<h1>Bonjour</h1>,";
+	$message .= "<strong>le message !</strong>";
+	$message .= "<br>Les informations du nouvel envoie sont:";
+	$message .= "<ul>";
+	$message .= "<li>".$content->firstname . "   " . $content->lastname ."</li>";
+	$message .= "<li>"."Email : " . $content->email ."</li>";
+	$message .= "<li>"."Téléphone : " . $content->tel ."</li>";
+	$message .= "</ul>";
+	$message .= "<h3>Merci de ne pas répondre à ce message.</h3>";
+	$message .= "<h3>Ce message est généré par le système de mail de Artbox.</h3>";
+	$message .= "</div>";
+
+	return $message;
+}	
+
+
 function buildMemberShipMessageContent($content) {
 	$message = "<div id='message-container'>";
 	$message .= "<h1>Bonjour</h1>,";

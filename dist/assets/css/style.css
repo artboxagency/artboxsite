@@ -1178,6 +1178,21 @@ body .grid {
     body .grid .grid-item .grid-brief p {
       margin-top: 0px; }
 
+.main-button {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffff07;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: all 0.25s; }
+  .main-button:hover {
+    border: solid black 3px;
+    background-color: yellow;
+    color: black; }
+
 header .logo-container {
   text-align: left; }
 
@@ -1343,3 +1358,21 @@ body .grid .grid-item .grid-brief {
         left: 50%;
         /* bring your own prefixes */
         transform: translate(-50%, -50%); }
+
+#contact-homepage-container .form-container #unique-form {
+  text-align: center;
+  width: 80%; }
+  #contact-homepage-container .form-container #unique-form .form-value-container {
+    margin-bottom: 15px; }
+    #contact-homepage-container .form-container #unique-form .form-value-container .single-input {
+      width: 0px;
+      height: 0px;
+      background-color: #ffff07;
+      border: 0px;
+      transition: all 0.5s; }
+      #contact-homepage-container .form-container #unique-form .form-value-container .single-input:focus {
+        outline: 0; }
+      #contact-homepage-container .form-container #unique-form .form-value-container .single-input.active-input {
+        border-bottom: solid 3px black;
+        width: 120px;
+        height: 15px; }

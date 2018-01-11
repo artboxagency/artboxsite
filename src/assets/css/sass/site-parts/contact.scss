@@ -1,0 +1,31 @@
+#contact-homepage-container {
+
+    .form-container {
+        #unique-form {
+            text-align: center;
+            width: 80%;
+            .form-value-container {
+                margin-bottom:15px;
+                .cameleon-label-form {
+    
+                }
+                .single-input {
+                    width:0px;
+                    height: 0px;
+                    background-color: $mainYellow;
+                    border:0px;
+                    transition:all 0.5s;
+
+                    &:focus {
+                        outline: 0;
+                    }
+                    &.active-input {
+                        border-bottom:solid 3px black;
+                        width:120px;
+                        height: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
