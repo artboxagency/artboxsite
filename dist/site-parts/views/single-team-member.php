@@ -14,7 +14,7 @@
         <h4><?= $member[0]["email"] ?></h4>
     </div>
     <p class="single-member-bio"><?=  $member[0]["bio"] ?></p>
-    <?php
 
-    ?>
+
+
 </div>

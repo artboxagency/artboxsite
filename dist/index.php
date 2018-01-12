@@ -33,8 +33,11 @@ error_reporting(E_ALL);
 <script src="assets/js/form.js"></script>
 <script src="assets/js/forms/form-contact.js"></script>
 <script src="assets/js/css-components/grid-system.js"></script>
+<script src="assets/js/features/searchbar.js"></script>
 
-
+<?php 
+	require "site-parts/component-blue-print/search-result.php";
+?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110253487-1"></script>
 <script>
