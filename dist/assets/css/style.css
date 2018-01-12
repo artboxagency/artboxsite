@@ -1078,6 +1078,11 @@ body .grid .grid-item .grid-brief {
   margin-top: 10px;
   margin-bottom: 0px; }
 
+.font-small {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
 body {
   background-color: #ffff07; }
   body ul {
@@ -1144,6 +1149,11 @@ body .grid .grid-item .grid-brief {
 
 .font-description {
   font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.font-small {
+  font-size: 12px;
   margin-top: 10px;
   margin-bottom: 0px; }
 
@@ -1326,6 +1336,11 @@ body .grid .grid-item .grid-brief {
   margin-top: 10px;
   margin-bottom: 0px; }
 
+.font-small {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
 /*This file mixins for helping centering, disposing and placing elements*/
 .main-page-video {
   margin-top: 50px;
@@ -1364,6 +1379,9 @@ body .grid .grid-item .grid-brief {
   width: 80%; }
   #contact-homepage-container .form-container #unique-form .form-value-container {
     margin-bottom: 15px; }
+    #contact-homepage-container .form-container #unique-form .form-value-container .cameleon-label-form {
+      display: inline-block;
+      width: 150px; }
     #contact-homepage-container .form-container #unique-form .form-value-container .single-input {
       width: 0px;
       height: 0px;
@@ -1374,5 +1392,5 @@ body .grid .grid-item .grid-brief {
         outline: 0; }
       #contact-homepage-container .form-container #unique-form .form-value-container .single-input.active-input {
         border-bottom: solid 3px black;
-        width: 120px;
+        width: 250px;
         height: 15px; }

@@ -8,7 +8,7 @@ require "site-parts/controllers/newsController.php";
 <div id="news-homepage-container" class="grid">
     <?php foreach ($homepageNews as $key => $singleHomePage) { ?>
 
-    <a href="getcwd()/blog.phparticle/<?= $singleHomePage["id"]?>">
+    <a href="site-parts/blog.php?article=<?= $singleHomePage["id"]?>">
         <div class="single-news-home-page grid-item">
             <img class="grid-thumbnail" src="<?= $singleHomePage["imgsrc"] ?>" alt="artbox_image_news_<?= str_replace("%%", "'", $singleHomePage["title"]); ?>">
             <div class="black-box"></div>

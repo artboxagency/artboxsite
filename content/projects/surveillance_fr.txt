@@ -16,3 +16,4 @@
 #assets4Url https://i.imgur.com/eYGSoz6.jpg #/assets4Url
 
 #locale fr #/locale
+
