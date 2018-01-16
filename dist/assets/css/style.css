@@ -1394,3 +1394,18 @@ body .grid .grid-item .grid-brief {
         border-bottom: solid 3px black;
         width: 250px;
         height: 15px; }
+
+.post-body p {
+  font-size: 12px; }
+
+/*This file mixins for helping centering, disposing and placing elements*/
+.search-result {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.2s; }
+
+#search-result-container {
+  position: absolute;
+  z-index: 500;
+  background-color: lightgray;
+  transition: all 0.5s;
+  top: 30px; }

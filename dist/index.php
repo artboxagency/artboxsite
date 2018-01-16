@@ -19,7 +19,8 @@ error_reporting(E_ALL);
 <body>
 <h1 style="display:none">Artbox</h1>
 <div id="site-container">
-
+	<div class="search-result">
+	</div>
 	<!-- Top header infos -->
 	<?php require "site-parts/header.php"; ?>
 	<?php require "site-parts/homepage.php"; ?>

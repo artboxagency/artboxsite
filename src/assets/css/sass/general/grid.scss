@@ -1,21 +1,22 @@
 @import "font.scss";
 body {
-
     .grid  {
         display: flex;
         flex-wrap: wrap;
         max-width: 85%;
+
         .grid-item {
             text-align: left;
             width:330px;
             margin-right: 50px;
             margin-bottom:25px;
             position: relative;
-
+            
             .grid-thumbnail {
                 height:180px;
                 width:330px;
             }
+
             .black-box {
                 position:absolute;
                 top: 0px;
@@ -31,6 +32,7 @@ body {
 
                 }
             }
+
             h4 {
                 @extend %thumbnail-title;
                 margin-top:10px;
