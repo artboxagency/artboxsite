@@ -2,11 +2,12 @@
 body {
     .bloc {overflow: hidden;}
     // background image
-
-
+    margin: 0px;
     margin:0;
     font-family: helvetica;
     #site-container {
+        
+        padding-top: 100px; 
         margin:0 auto;
         position: relative;
     }

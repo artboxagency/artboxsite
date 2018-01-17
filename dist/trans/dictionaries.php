@@ -9,7 +9,12 @@
 
 $dictionnaries = [];
 
+
+
 // General Content
+$dictionnaries["fr"]["generalContent"]["slogan"] = "Tout le monde y gagne";
+$dictionnaries["en"]["generalContent"]["slogan"] = "Everybody Wins";
+
 $dictionnaries["fr"]["generalContent"]["knowMore"]= "En savoir plus";
 $dictionnaries["en"]["generalContent"]["knowMore"] = "Know more";
 

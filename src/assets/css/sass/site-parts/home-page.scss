@@ -4,15 +4,56 @@
 .main-page-video {
         margin-top:50px;
         margin-bottom:50px;
+        position: relative;
 
+}
+
+// Tweaking around z index for canvas and site container click 
+#particles-js {
+    
+}
+#site-container {
+    
+        
+    // By pass element to bind grip click hover particle
+    .grid-item {
+        background-color: $transparentYellow;
+        
+    }
+}
+
+// Bypass default video css 
+body {
+    #site-container {
+        video {
+            &.main-page-video {
+                width:80%;
+                height:50%;
+            }
+        }
+    }
 }
 
 #model-homepage-container {
+    
     max-width:80%;
+    background-color: $transparentYellow;
+    position: relative;
+    z-index:1500;
+    .plus-to-know-more  {
+        display: inline-block;
+        transition:all 0.5s;
+        &.active-button {
+            font-size:24px;
+            transform: rotate(135deg);
+        }
+        
+    }
 }
 
 #formulas-homepage-container {
-
+    position: relative;
+    background-color: $transparentYellow;
     max-width:80%;
     .equation {
         margin-top:15px;
@@ -33,9 +74,7 @@
             margin-bottom:15px;
             h4 {
                 margin-top:0px;
-
                 @include center-content;
-
             }
 
         }

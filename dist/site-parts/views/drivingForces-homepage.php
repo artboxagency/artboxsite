@@ -5,8 +5,8 @@
 <div id="news-homepage-container" class="grid">
     <?php foreach ($drivingForces as $key => $singleDrivingForce) { ?>
         <div class="single-news-home-page grid-item">
-            <img class="grid-thumbnail" src="<?= $singleDrivingForce["imageUrl"] ?>" alt="artbox_image_news_<?= str_replace("%%", "'", $singleDrivingForce["firstname"]); ?>">
-            <div class="black-box"></div>
+            <img class="grid-thumbnail square" src="<?= $singleDrivingForce["imageUrl"] ?>" alt="artbox_image_news_<?= str_replace("%%", "'", $singleDrivingForce["firstname"]); ?>">
+            <div class="black-box square"></div>
             <h4><?= str_replace("%%", "'", $singleDrivingForce["firstname"] .  $singleDrivingForce["lastname"])?></h4>
             <div class="news-stats">
                 <span class="news-date"><?= $singleDrivingForce["scenename"]; ?></span>

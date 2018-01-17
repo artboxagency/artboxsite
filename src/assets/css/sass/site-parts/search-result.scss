@@ -13,8 +13,17 @@
 
     position:absolute;
     z-index:500;
-    background-color:lightgray;
+    background-color:$mainYellow;
     transition:all 0.5s;
-    top:30px;
-    
+    padding-left:15px;
+    top:50px;
+    left:0px;
+
+    // Overiding Grid max width
+    max-width:100%;
+
+    // Redefining width 
+    width:105%;
+    height:100vh;
+
 }

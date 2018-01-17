@@ -3,6 +3,7 @@
 
 body {
     background-color:$mainYellow;
+    margin:0px;
      @extend %main-font;
 
      ul {
@@ -28,6 +29,8 @@ body {
 
 }
 #site-container  {
+    padding-top:100px;
+    position: relative;
     .know-more {
         cursor:pointer;
         margin-top: 50px;
@@ -37,9 +40,7 @@ body {
         }
     }
 
-    video {
-        width:35%;
-     }
+
     text-align: left;
 }
 
@@ -47,8 +48,9 @@ body {
 header  {
 
     .logo-container {
-
+        display:none;
         img {
+            
             height:auto;
             width:150px;
         }

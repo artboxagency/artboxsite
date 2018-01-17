@@ -7,8 +7,8 @@
     <?php foreach ($teamMembers as $key => $teamMember) { ?>
         <a href="site-parts/team-member.php?member=<?= $teamMember["id"]?>">
             <div class="single-news-home-page grid-item">
-                <img class="grid-thumbnail" src="<?= $teamMember["pictureUrl"] ?>" alt="artbox_image_news_<?= str_replace("%%", "'", $teamMember["firstname"]); ?>">
-                <div class="black-box"></div>
+                <img class="grid-thumbnail square" src="<?= $teamMember["pictureUrl"] ?>" alt="artbox_image_news_<?= str_replace("%%", "'", $teamMember["firstname"]); ?>">
+                <div class="black-box square"></div>
                 <h4><?= str_replace("%%", "'", $teamMember["firstname"] . $teamMember["lastname"]) ?></h4>
                 <p><?= $teamMember["jobTitle"] ?></p>
                 

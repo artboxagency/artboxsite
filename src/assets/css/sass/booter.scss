@@ -1,4 +1,8 @@
-// including core scss
+// Libs
+@import "core/libs/animate.scss";
+
+
+// Including core scss
 @import 'core/layout-rules.scss';
 @import 'core/animate.scss';
 @import 'core/typo-responsive.scss';
@@ -10,6 +14,7 @@
 @import "general/components/homepage-component.scss";
 @import "general/grid.scss";
 @import "general/buttons.scss";
+@import "general/main-style.scss";
 
 // Including site parts
 @import "site-parts/header.scss";
@@ -17,3 +22,7 @@
 @import "site-parts/contact.scss";
 @import "site-parts/single-post.scss";
 @import "site-parts/search-result.scss";
+
+
+// All component related
+@import "site-parts/animation-component/landing-page.scss";

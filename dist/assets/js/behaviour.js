@@ -14,5 +14,9 @@ $(".menu-hamburger").click(function() {
 $("#formulas-homepage-container").hide();
 
 $(".font-medium-title.know-more").click(function() {
+    
     $("#formulas-homepage-container").slideToggle(500);
+    $(this).find(".plus-to-know-more").toggleClass("active-button");
 });
+
+

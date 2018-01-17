@@ -1,0 +1,58 @@
+@import "../../core/layout-rules.scss";
+#landing-page-animation {
+    background-color: yellow;
+    width: 100vw;
+    height:100vh; 
+    z-index:1500;
+    position: absolute;
+    &.toFadeOut {
+        animation:fadeOutLanding 0.5s forwards;    
+    }
+    
+    @include center-content;    
+    
+    .landing-page-container {   
+
+        @include center-content;    
+        left:37%;
+        top:38%;
+        
+        img {
+            width: 500px;
+            
+        }
+        h3 {
+            
+        }
+    }
+}  
+
+@keyframes fadeOutLanding{
+    25% {
+
+    }
+    50% {
+     
+    }
+    75% {
+
+    }
+    80%  {
+
+    }
+    95%  {
+
+    }
+    100% {
+        width: 0%;
+        height: 0%;
+        transform: rotate(1200deg);
+    }
+}
+
+@keyframes kill {
+    from{}
+    to{
+        display:none;
+    }
+}
