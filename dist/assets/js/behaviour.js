@@ -20,3 +20,11 @@ $(".font-medium-title.know-more").click(function() {
 });
 
 
+$(".return-homepage").click(function () {
+    $("#site-container *").addClass("animated flipOutY");
+    console.log("http://localhost:8888/artbox/art2k18/dist/")
+    setTimeout(function(){ console.log(GeneralBehaviour.RedirectionTool.redirecTo(GeneralBehaviour.HomePath)) }, 1200);
+});
+
+$("#contact-homepage-container input").addClass("active-input");
+

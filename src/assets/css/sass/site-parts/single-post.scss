@@ -1,7 +1,22 @@
 
-.post-body {
-
-    p {
-        font-size:12px;
+#single-blog {
+    width:80%;        
+    .post-header {
+        
+        .blog-title {
+            margin-top:0px;
+            
+        }
+        img {
+            height:auto;
+            width: 350px;
+            display:inline-block;
+        }
+    
+    }
+    .post-body {
+        p {
+            font-size:12px;            
+        }
     }
 }

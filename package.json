@@ -11,12 +11,13 @@
   "devDependencies": {
     "gulp": "latest",
     "gulp-autoprefixer": "latest",
-    "gulp-cssbeautify": "latest",
     "gulp-concat": "latest",
+    "gulp-cssbeautify": "latest",
     "gulp-csscomb": "latest",
     "gulp-csso": "latest",
     "gulp-less": "latest",
     "gulp-load-plugins": "latest",
+    "gulp-minify": "^2.1.0",
     "gulp-rename": "latest",
     "gulp-sass": "latest",
     "gulp-watch": "^4.3.11"

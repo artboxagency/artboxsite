@@ -1,0 +1,7 @@
+#serviceTitle Stratégies #/serviceTitle
+#sid s1 #/sid
+
+#subservices calice #/subservices
+
+
+#locale fr #/locale

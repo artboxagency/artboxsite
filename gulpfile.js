@@ -2,6 +2,7 @@
 var gulp = require('gulp');
     watch = require('gulp-watch');
     concat = require('gulp-concat');
+var minify = require('gulp-minify');
 
 // Include plugins
 var plugins = require('gulp-load-plugins')(); // tous les plugins de package.json
@@ -15,6 +16,17 @@ gulp.task('sass', function () {
     .pipe(plugins.sass())
     .pipe(concat('style.css')) // Concatenate to single file
     .pipe(gulp.dest(destination + '/assets/css/'));
+});
+
+
+
+
+
+gulp.task('js', function() {
+  gulp.src(['./lib/file3.js', './lib/file1.js', './lib/file2.js'])
+    .pipe(concat('all.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./dist/'))
 });
 
 // Minify css, from destination to destination

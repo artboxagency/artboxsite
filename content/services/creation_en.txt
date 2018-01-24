@@ -1,0 +1,12 @@
+#serviceTitle Création #/serviceTitle
+#sid s2 #/sid
+
+#subservices Rédaction #/subservices
+#subservices Calendrier éditoriaux #/subservices
+#subservices Application mobile #/subservices
+#subservices Réalité virtuelle #/subservices
+#subservices Réalité virtuelle #/subservices
+#subservices Publicité #/subservices
+#subservices Marketting de contenu #/subservices
+
+#locale en #/locale

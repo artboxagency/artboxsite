@@ -11,7 +11,9 @@
                 <div class="black-box square"></div>
                 <h4><?= str_replace("%%", "'", $teamMember["firstname"] . $teamMember["lastname"]) ?></h4>
                 <p><?= $teamMember["jobTitle"] ?></p>
-                
+                <p><?= $teamMember["phonenumber"] ?>|</p>
+                <p><?= $teamMember["email"] ?></p>
+
             </div>
         </a>
     <?php } ?>

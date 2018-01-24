@@ -26,15 +26,13 @@ error_reporting(E_ALL);
 <body>
 <h1 style="display:none">Artbox</h1>
 <div id="site-container">
-    <h3>A single blog post</h3>
-    
+
     <?php require "views/single-blog-post.php"; ?>
-
-
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="../assets/js/behaviour.js"></script>
+<script src="../assets/js/general.js"></script>
 <script src="../assets/js/searchbar.js"></script>
 <script src="../assets/js/form.js"></script>
 <script src="../assets/js/forms/form-contact.js"></script>

@@ -29,9 +29,9 @@ error_reporting(E_ALL);
     <h3>Équipe</h3>
 	<?php require "views/single-team-member.php"; ?>
 </div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="../assets/js/behaviour.js"></script>
+<script src="../assets/js/general.js"></script>
 <script src="../assets/js/searchbar.js"></script>
 <script src="../assets/js/form.js"></script>
 <script src="../assets/js/forms/form-contact.js"></script>

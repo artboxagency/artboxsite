@@ -27,7 +27,13 @@ require_once "config/Autoloader.php";
 
 </head>
 <body>
-<?php require_once "site-parts/animation-component/landing-page.php"; ?>
+
+<?php 
+if(!$_GET["r"]) {
+	require_once "site-parts/animation-component/landing-page.php"; 
+}
+
+?>
 <h1 style="display:none">Artbox</h1>
 
 <div id="site-container">
@@ -37,25 +43,30 @@ require_once "config/Autoloader.php";
 	<!-- Top header infos -->
 	<?php require "site-parts/header.php"; ?>
 	<?php require "site-parts/homepage.php"; ?>
-
+	
 
 </div>
+<?php require "site-parts/footer.php"; ?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/js/general.js"></script>
+<script src="assets/js/scroller.js"></script>
 <script src="assets/js/behaviour.js"></script>
 <script src="assets/js/searchbar.js"></script>
 <script src="assets/js/form.js"></script>
+<script src="assets/js/features/menuScroller.js"></script>
 <script src="assets/js/forms/form-contact.js"></script>
 <script src="assets/js/css-components/grid-system.js"></script>
 <script src="assets/js/animation-component/landing-page.js"></script>
 
 
 <script src="assets/js/features/searchbar.js"></script>
-<script src="assets/js/scroller.js"></script>
 
 
 
+<?php 
+
+?>
 
 
 
@@ -82,6 +93,7 @@ require_once "config/Autoloader.php";
 
 <!-- Particles -->
 <script>
+			$("html, body").animate({scrollTop: "0px"}	);
 			particlesJS.load('particles-js', 'assets/particles.json', function() {
 				console.log('callback - particles.js config loaded');
 			});

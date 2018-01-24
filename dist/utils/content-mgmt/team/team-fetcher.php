@@ -5,8 +5,11 @@ $dir = '../../../content/team';
 $files = scandir($dir);
 $db = new Db("127.0.0.1", "root", "ipod", "");
 
+
+
 // Kill db
 emptyTeamTable($db);
+
 
 foreach($files as $key => $file) {
 
@@ -87,22 +90,4 @@ foreach($files as $key => $file) {
 
 function emptyTeamTable($db) {
     $db->queryDb("DELETE FROM team;");
-}
-
-function getContentsBetween($str, $startDelimiter, $endDelimiter) {
-  $contents = array();
-  $startDelimiterLength = strlen($startDelimiter);
-  $endDelimiterLength = strlen($endDelimiter);
-  $startFrom = $contentStart = $contentEnd = 0;
-  while (false !== ($contentStart = strpos($str, $startDelimiter, $startFrom))) {
-    $contentStart += $startDelimiterLength;
-    $contentEnd = strpos($str, $endDelimiter, $contentStart);
-    if (false === $contentEnd) {
-      break;
-    }
-    $contents[] = substr($str, $contentStart, $contentEnd - $contentStart);
-    $startFrom = $contentEnd + $endDelimiterLength;
-  }
-
-  return $contents;
 }

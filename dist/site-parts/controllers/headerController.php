@@ -1,6 +1,10 @@
 <?php
 $db = new Db("127.0.0.1", "root", "ipod", "");
 
+
+$sql = "INSERT INTO services (name) values('shh') ";
+$db->queryDb($sql);
+
 function getMenuItem($db, $locale) {
 
     $menu = $db->getData("select * from menu;");

@@ -3,7 +3,7 @@ $db = new Db("127.0.0.1", "root", "ipod", "");
 
 function getTeamMembers($db, $lang) {
 
-    $sql = "SELECT * FROM team where locale='$lang'";
+    $sql = "SELECT * FROM team where locale='$lang' ORDER BY employeeRank";
     $teamMembers = $db->getData($sql);
     return $teamMembers;
 }

@@ -4,7 +4,12 @@
     $member = getSingleTeamMember($memberId);
 ?>
 
-<h4>Single team member</h4>
+<div id="single-page-header">
+    <div class="">
+        <i class="fa fa-home return-homepage" aria-hidden="true"></i>
+    </div>
+</div>    
+
 <div class="single-team-member-container">
 <img src="<?= $member[0]["pictureUrl"] ?>" alt="">    
     <h4><?= $member[0]["firstname"] . $member[0]["lastname"] ?></h4> 
@@ -12,9 +17,13 @@
         <h4><?= $member[0]["jobTitle"] ?></h4>
         <h4><?= $member[0]["phonenumber"] ?></h4>
         <h4><?= $member[0]["email"] ?></h4>
+        <div class="single-team-member-socialnetworks">
+
+            <i class="fa fa-facebook" aria-hidden="true"></i>    
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
     </div>
     <p class="single-member-bio"><?=  $member[0]["bio"] ?></p>
-
-
-
 </div>

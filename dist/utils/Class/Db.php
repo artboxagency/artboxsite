@@ -6,6 +6,7 @@ Class Db {
     private $password;
     private $databaseName;
     public $db;
+    
     public function __construct($_server, $_username ,$_password, $_database) {
 
         $this->setServerName($_server);
@@ -13,13 +14,14 @@ Class Db {
         $this->setPassword($_password);
         $this->setDatabaseName($_database);
 
-        $this->db = new mysqli($this->servername, $this->username, $this->password, "artbox2k18");
+        $this->db = new mysqli($this->servername, $this->username, $this->password, "artb2018");
         // Check connection
         if ($this->db->connect_error) {
             die("Connection failed: " . $this->db->connect_error);
         }
 
     }
+
 
     public function setServerName($servername) {
         $this->servername = $servername;
@@ -46,12 +48,25 @@ Class Db {
     }
 
     // Data Processing
-
     public function queryDb($sql) {
+        
         if ($this->db->query($sql) === TRUE) {
-            echo "New record created successfully";
+            return true;
         } else {
-            echo "Error: " . $sql . "<br>" . $this->db->error;
+            echo "Error: " . $sql . "<br>" . $this->db->error;;
+        }
+    }
+
+    // Boolean either return true or false
+    public function lookForRecords($sql) {
+        var_dump($sql);
+        $result = $this->db->query($sql);
+        
+        if ($result->num_rows == 0) {
+
+            return false;
+        } else {
+            return true;
         }
     }
 
@@ -60,7 +75,6 @@ Class Db {
         $result = $this->db->query($sql);
         $data = array();
         if ($result->num_rows > 0) {
-
             while($row = $result->fetch_assoc()) {
                 $data[] = $row;
             }

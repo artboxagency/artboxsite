@@ -1,7 +1,29 @@
 footer {
-
-    background-color: $mainGreen;
-
+    position:fixed;
+    margin-top:50px;
+    z-index:50000;
+    width:100%;
+    height: 80px;
+    background-color:$mainYellow;
+    bottom:0px;
+    text-align: center;
     // Remove unwanted margin
     p,ul{margin:0;}
+    .social-networks {
+        padding-top:15px;
+        
+        i {
+            i:first-child  {
+                margin-left:0px;    
+            }
+            margin-left:7px;
+            margin-right:7px;
+            font-size:25px;
+        }
+    }
+
+    .footer-text  {
+        margin-left: 45px;
+        padding-top:15px;
+    }
 }

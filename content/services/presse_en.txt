@@ -1,0 +1,8 @@
+#serviceTitle Presse #/serviceTitle
+#sid s4 #/sid
+
+#subservices Events and activation #/subservices
+#subservices Press relation #/subservices
+#subservices Public relation #/subservices
+
+#locale en #/locale

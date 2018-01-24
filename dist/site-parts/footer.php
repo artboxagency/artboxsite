@@ -1,15 +1,20 @@
 <footer>
     <div class="footer-container">
-        <div class="footer-text">
-            <p>Restons connectés,</p>
-            <p>Suivez-vous sur nos plateformes sociales!</p>
-        </div>
+
         <div class="social-networks">
             <ul>
-                <li>FB</li>
-                <li>IG</li>
-                <li>TWR</li>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i> 
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-youtube" aria-hidden="true"></i>
             </ul>
+        </div>
+
+        <div class="footer-text">
+            <?= $dictionnaries[$_SESSION["locale"]]["footer"]["copyright"]?>
         </div>
     </div>
 

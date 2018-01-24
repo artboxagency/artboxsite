@@ -16,8 +16,12 @@ $(document).ready(function() {
     var scrollTool = {
     
         // Always refering to body
-        animateScrollTo: function(domElement, elementSelectorPosition) {
-            $(domElement).animate({scrollTop: elementSelectorPosition + "px"});
+        animateScrollTo: function(elementSelectorPosition) {
+            $(document).animate({scrollTop: elementSelectorPosition + "px"});
+        },
+
+        scrollToTop: function() {
+            $(document).animate({scrollTop: 0 + "px"});
         }
     } 
 });

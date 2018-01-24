@@ -2145,6 +2145,7 @@ body {
       text-align: right; }
 
 #site-container {
+  margin-left: 30px;
   padding-top: 100px;
   position: relative;
   text-align: left; }
@@ -2274,19 +2275,21 @@ header {
   padding-right: 15px;
   position: fixed;
   top: 0px;
+  left: 0px;
   width: 100%;
   height: 50px;
-  background-color: rgba(255, 255, 0, 0.85);
-  z-index: 999;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.55); }
+  background-color: #ffff07;
+  z-index: 9999; }
   header .header-container {
     position: relative; }
   header .logo-container {
     text-align: left; }
   header #searchbar {
     display: inline-block;
-    width: 50%;
-    position: absolute; }
+    text-align: left;
+    transition: all 0.2s; }
+    header #searchbar.active-searchbar {
+      width: 25%; }
     header #searchbar #search-item {
       cursor: pointer;
       font-size: 16px;
@@ -2305,11 +2308,12 @@ header {
       header #searchbar #search-bar-term:focus {
         outline: 0; }
       header #searchbar #search-bar-term.active-search {
-        border-bottom: solid 3px black;
-        width: 50%;
-        height: 15px; }
+        height: 20px;
+        border-bottom: solid 3px rgba(0, 0, 0, 0.5);
+        width: 90%; }
   header #menu-container #menu nav {
-    text-align: right; }
+    text-align: right;
+    padding-right: 70px; }
     header #menu-container #menu nav ul .close-button {
       display: none; }
     header #menu-container #menu nav ul li.menu-item {
@@ -2401,6 +2405,16 @@ header {
                     border: solid black 1px;
                     margin: 0 auto; } }
 
+#single-page-header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 0, 0.75);
+  padding-top: 15px; }
+  #single-page-header .fa-home {
+    cursor: pointer;
+    font-size: 32px; }
+
 body {
   font-family: "Arial";
   font-weight: 900; }
@@ -2477,7 +2491,8 @@ body #site-container video.main-page-video {
 #formulas-homepage-container {
   position: relative;
   background-color: rgba(255, 255, 0, 0.75);
-  max-width: 80%; }
+  max-width: 80%;
+  margin-bottom: 25px; }
   #formulas-homepage-container .equation {
     margin-top: 15px;
     text-align: center; }
@@ -2501,32 +2516,45 @@ body #site-container video.main-page-video {
         /* bring your own prefixes */
         transform: translate(-50%, -50%); }
 
+#projects-homepage-container {
+  margin-top: 15px; }
+
 #contact-homepage-container {
   position: relative;
   background-color: rgba(255, 255, 0, 0.75); }
-  #contact-homepage-container .form-container #unique-form {
-    text-align: center;
-    width: 80%; }
-    #contact-homepage-container .form-container #unique-form .form-value-container {
-      margin-bottom: 15px; }
-      #contact-homepage-container .form-container #unique-form .form-value-container .cameleon-label-form {
-        display: inline-block;
-        width: 150px; }
-      #contact-homepage-container .form-container #unique-form .form-value-container .single-input {
-        width: 0px;
-        height: 0px;
-        background-color: #ffff07;
-        border: 0px;
-        transition: all 0.5s; }
-        #contact-homepage-container .form-container #unique-form .form-value-container .single-input:focus {
-          outline: 0; }
-        #contact-homepage-container .form-container #unique-form .form-value-container .single-input.active-input {
-          border-bottom: solid 3px black;
-          width: 250px;
-          height: 15px; }
+  #contact-homepage-container .form-container {
+    margin-bottom: 180px; }
+    #contact-homepage-container .form-container #unique-form {
+      text-align: center;
+      width: 80%; }
+      #contact-homepage-container .form-container #unique-form .form-value-container {
+        margin-bottom: 15px; }
+        #contact-homepage-container .form-container #unique-form .form-value-container .cameleon-label-form {
+          display: inline-block;
+          width: 150px; }
+        #contact-homepage-container .form-container #unique-form .form-value-container .single-input {
+          width: 0px;
+          height: 0px;
+          background-color: #ffff07;
+          border: 0px;
+          transition: all 0.5s; }
+          #contact-homepage-container .form-container #unique-form .form-value-container .single-input:focus {
+            outline: 0; }
+          #contact-homepage-container .form-container #unique-form .form-value-container .single-input.active-input {
+            border-bottom: solid 3px black;
+            width: 250px;
+            height: 15px; }
 
-.post-body p {
-  font-size: 12px; }
+#single-blog {
+  width: 80%; }
+  #single-blog .post-header .blog-title {
+    margin-top: 0px; }
+  #single-blog .post-header img {
+    height: auto;
+    width: 350px;
+    display: inline-block; }
+  #single-blog .post-body p {
+    font-size: 12px; }
 
 /*This file mixins for helping centering, disposing and placing elements*/
 .center-content {
@@ -2552,6 +2580,44 @@ body #site-container video.main-page-video {
   width: 105%;
   height: 100vh; }
 
+footer {
+  position: fixed;
+  margin-top: 50px;
+  z-index: 50000;
+  width: 100%;
+  height: 80px;
+  background-color: #ffff07;
+  bottom: 0px;
+  text-align: center; }
+  footer p, footer ul {
+    margin: 0; }
+  footer .social-networks {
+    padding-top: 15px; }
+    footer .social-networks i {
+      margin-left: 7px;
+      margin-right: 7px;
+      font-size: 25px; }
+      footer .social-networks i i:first-child {
+        margin-left: 0px; }
+  footer .footer-text {
+    margin-left: 45px;
+    padding-top: 15px; }
+
+.single-team-member-container {
+  width: 80%; }
+  .single-team-member-container h4 {
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  .single-team-member-container img {
+    padding-bottom: 15px;
+    height: 500px;
+    width: 500px; }
+  .single-team-member-container .single-team-member-socialnetworks {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .single-team-member-container .single-team-member-socialnetworks li {
+      padding-left: 5px; }
+
 /*This file mixins for helping centering, disposing and placing elements*/
 .center-content {
   position: absolute;
@@ -2561,11 +2627,12 @@ body #site-container video.main-page-video {
   transform: translate(-50%, -50%); }
 
 #landing-page-animation {
-  background-color: yellow;
+  background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=ffff00ff&noise=626262&density=62&opacity=62);
   width: 100vw;
-  height: 100vh;
-  z-index: 1500;
+  height: 105vh;
+  z-index: 9999999;
   position: absolute;
+  animation: infinite 0.5s noise;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2599,3 +2666,13 @@ body #site-container video.main-page-video {
   from { }
   to {
     display: none; } }
+
+@keyframes noise {
+  25% {
+    background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=ffff00ff&noise=626262&density=62&opacity=62); }
+  50% {
+    background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=ffff00ff&noise=626262&density=97&opacity=62); }
+  75% {
+    background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=ffff00ff&noise=828282&density=81&opacity=100); }
+  100% {
+    background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=ffff00ff&noise=171717&density=12&opacity=65); } }
