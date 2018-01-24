@@ -15,7 +15,7 @@
 
 $servername = "127.0.0.1";
 $username = "root";
-$password = "ipod";
+$password = "3GgzQaxjaSV0c2ZqGmrwq0OevywGE6tb3okHGbL";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, "ndl");

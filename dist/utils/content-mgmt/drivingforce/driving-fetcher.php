@@ -3,7 +3,7 @@
 require_once "../Autoloader.php";
 $dir = '../../../content/drivingforce';
 $files = scandir($dir);
-$db = new Db("127.0.0.1", "root", "ipod", "");
+$db = new Db("127.0.0.1", "root", "3GgzQaxjaSV0c2ZqGmrwq0OevywGE6tb3okHGbL", "");
 
 // Kill db
 emptyDrivingForceTable($db);
@@ -78,4 +78,3 @@ foreach($files as $key => $file) {
 function emptyDrivingForceTable($db) {
     $db->queryDb("DELETE FROM drivingForces;");
 }
-
