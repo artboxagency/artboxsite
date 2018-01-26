@@ -28,3 +28,39 @@ $(".return-homepage").click(function () {
 
 $("#contact-homepage-container input").addClass("active-input");
 
+setTimeout(function() { 
+
+    console.log("Init Session");
+    $.ajax({
+        url : 'utils/actions/setSessions.php' // La ressource ciblée
+     });
+
+ }, 3000);
+
+ setTimeout(function() { 
+
+    console.log("Die Session");
+    $.ajax({
+        url : 'utils/actions/setSessions.php?dieSession=true' // La ressource ciblée
+     });
+
+ }, 50000000);
+
+$(".subgenres-list").hide();
+
+$(".service-title").click(function() {
+    
+    $(this).parent().find(".subgenres-list").slideToggle();
+})
+
+ var lineDrawing = anime({
+    targets: 'svg path',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    duration: 1500,
+    delay: function(el, i) { return i * 250 },
+    direction: 'alternate',
+    loop: true
+});
+  
+

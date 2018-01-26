@@ -6,10 +6,11 @@ $( document ).ready(function() {
         
         var menuLinkItem = $(this).find("a").attr("href");
         
-   
         $("html, body").animate({scrollTop:$(menuLinkItem + "-scroller").offset().top - 100});
         
     }); 
     
     // Decalre component 
+
+    
 })

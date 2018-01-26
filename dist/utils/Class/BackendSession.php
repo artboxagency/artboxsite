@@ -23,8 +23,8 @@ Class BackendSession {
         
         values ('$this->userId', '$this->token', '$now', '$this->sessionType')";
         if($this->db->queryDb($sql)) {
-
-                                
+        
+            
         }        
     } 
 }

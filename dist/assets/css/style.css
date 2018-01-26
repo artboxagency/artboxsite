@@ -2149,6 +2149,9 @@ body {
   padding-top: 100px;
   position: relative;
   text-align: left; }
+  @media only screen and (max-width: 500px) {
+    #site-container {
+      padding-top: 15px; } }
   #site-container .know-more {
     cursor: pointer;
     margin-top: 50px;
@@ -2156,11 +2159,9 @@ body {
     #site-container .know-more .plus-to-know-more {
       margin-left: 120px; }
 
-header .logo-container {
-  display: none; }
-  header .logo-container img {
-    height: auto;
-    width: 150px; }
+header .logo-container img {
+  height: auto;
+  width: 150px; }
 
 .home-page-content .black-line {
   height: 6px;
@@ -2248,6 +2249,13 @@ body .grid {
     body .grid .grid-item .grid-brief p {
       margin-top: 0px; }
 
+body .grid2 {
+  display: flex;
+  justify-content: space-between; }
+  body .grid2 .left-box,
+  body .grid2 .right-box {
+    width: 48%; }
+
 .main-button {
   display: inline-block;
   background-color: #000000;
@@ -2282,6 +2290,10 @@ header {
   z-index: 9999; }
   header .header-container {
     position: relative; }
+  header svg {
+    width: 100px;
+    height: auto;
+    position: absolute; }
   header .logo-container {
     text-align: left; }
   header #searchbar {
@@ -2311,99 +2323,102 @@ header {
         height: 20px;
         border-bottom: solid 3px rgba(0, 0, 0, 0.5);
         width: 90%; }
-  header #menu-container #menu nav {
-    text-align: right;
-    padding-right: 70px; }
-    header #menu-container #menu nav ul .close-button {
-      display: none; }
-    header #menu-container #menu nav ul li.menu-item {
-      margin-right: 20px;
-      display: inline-block; }
-      header #menu-container #menu nav ul li.menu-item a {
-        transition: all 0.5s; }
-        header #menu-container #menu nav ul li.menu-item a:hover, header #menu-container #menu nav ul li.menu-item a:active {
-          text-decoration: none;
-          font-size: 17px; }
-        header #menu-container #menu nav ul li.menu-item a .line-overlay {
-          transition: width 0.85s;
-          width: 0px; }
-          header #menu-container #menu nav ul li.menu-item a .line-overlay.active {
-            width: 150px;
-            border: solid black 1px;
-            margin: 0 auto; }
-  @media screen and (max-width: 880px) {
-    header #menu-container {
-      position: relative;
-      z-index: 50;
-      top: 0px;
-      right: 0px; }
-      header #menu-container .menu-hamburger {
-        cursor: pointer;
-        right: 25px;
-        position: absolute; }
-        header #menu-container .menu-hamburger .line-1,
-        header #menu-container .menu-hamburger .line-2,
-        header #menu-container .menu-hamburger .line-3 {
-          display: block;
-          padding-bottom: 8px;
-          width: 35px;
-          border-bottom: solid 3px black; }
-      header #menu-container #menu {
-        overflow: hidden;
-        position: absolute;
-        width: 0px;
-        right: 0px;
-        top: 0px; }
-        header #menu-container #menu.kill-menu-display {
+  header #menu-container {
+    right: 5px;
+    position: absolute; }
+    header #menu-container #menu nav {
+      text-align: right;
+      padding-right: 70px; }
+      header #menu-container #menu nav ul .close-button {
+        display: none; }
+      header #menu-container #menu nav ul li.menu-item {
+        margin-right: 20px;
+        display: inline-block; }
+        header #menu-container #menu nav ul li.menu-item a {
           transition: all 0.5s; }
-        header #menu-container #menu.active-menu-display {
-          transition: all 0.5s;
-          position: absolute;
-          right: 0px;
-          top: 0px;
-          background-color: #ffff07;
-          height: 100vh;
-          width: 350px;
-          z-index: 55;
-          border-left: solid black 3px; }
-        header #menu-container #menu .close-button {
+          header #menu-container #menu nav ul li.menu-item a:hover, header #menu-container #menu nav ul li.menu-item a:active {
+            text-decoration: none;
+            font-size: 17px; }
+          header #menu-container #menu nav ul li.menu-item a .line-overlay {
+            transition: width 0.85s;
+            width: 0px; }
+            header #menu-container #menu nav ul li.menu-item a .line-overlay.active {
+              width: 150px;
+              border: solid black 1px;
+              margin: 0 auto; }
+    @media screen and (max-width: 880px) {
+      header #menu-container {
+        position: relative;
+        z-index: 50;
+        top: 0px;
+        right: 0px; }
+        header #menu-container .menu-hamburger {
           cursor: pointer;
+          right: 25px;
+          position: absolute; }
+          header #menu-container .menu-hamburger .line-1,
+          header #menu-container .menu-hamburger .line-2,
+          header #menu-container .menu-hamburger .line-3 {
+            display: block;
+            padding-bottom: 8px;
+            width: 35px;
+            border-bottom: solid 3px black; }
+        header #menu-container #menu {
+          overflow: hidden;
           position: absolute;
-          right: 15px;
-          font-size: 35px; }
-        header #menu-container #menu nav {
-          padding-top: 80px; }
-          header #menu-container #menu nav .close-button {
-            top: 10px; }
-          header #menu-container #menu nav .translation-box {
-            font-size: 35px;
+          width: 0px;
+          right: 0px;
+          top: 0px; }
+          header #menu-container #menu.kill-menu-display {
+            transition: all 0.5s; }
+          header #menu-container #menu.active-menu-display {
+            transition: all 0.5s;
             position: absolute;
-            top: 10px;
-            left: 10px;
-            display: inline-block;
-            color: black; }
-            header #menu-container #menu nav .translation-box:hover, header #menu-container #menu nav .translation-box:active {
-              text-decoration: none; }
-          header #menu-container #menu nav ul {
-            text-align: left;
-            list-style: none; }
-            header #menu-container #menu nav ul li {
-              width: 200px;
-              font-size: 38px;
-              text-align: left; }
-              header #menu-container #menu nav ul li a {
-                color: black;
-                text-decoration: none;
-                animation: 0.5s all; }
-                header #menu-container #menu nav ul li a:hover, header #menu-container #menu nav ul li a:active {
-                  text-decoration: none; }
-                header #menu-container #menu nav ul li a .line-overlay {
-                  transition: width 0.85s;
-                  width: 0px; }
-                  header #menu-container #menu nav ul li a .line-overlay.active {
-                    width: 150px;
-                    border: solid black 1px;
-                    margin: 0 auto; } }
+            right: 0px;
+            top: 0px;
+            background-color: #ffff07;
+            height: 100vh;
+            width: 350px;
+            z-index: 55;
+            border-left: solid black 3px; }
+          header #menu-container #menu .close-button {
+            cursor: pointer;
+            position: absolute;
+            right: 15px;
+            font-size: 35px; }
+          header #menu-container #menu nav {
+            padding-top: 80px; }
+            header #menu-container #menu nav .close-button {
+              top: 10px; }
+            header #menu-container #menu nav .translation-box {
+              font-size: 35px;
+              position: absolute;
+              top: 10px;
+              left: 10px;
+              display: inline-block;
+              color: black; }
+              header #menu-container #menu nav .translation-box:hover, header #menu-container #menu nav .translation-box:active {
+                text-decoration: none; }
+            header #menu-container #menu nav ul {
+              text-align: left;
+              list-style: none; }
+              header #menu-container #menu nav ul li {
+                width: 200px;
+                font-size: 38px;
+                text-align: left; }
+                header #menu-container #menu nav ul li a {
+                  color: black;
+                  text-decoration: none;
+                  animation: 0.5s all; }
+                  header #menu-container #menu nav ul li a:hover, header #menu-container #menu nav ul li a:active {
+                    text-decoration: none; }
+                  header #menu-container #menu nav ul li a .line-overlay {
+                    transition: width 0.85s;
+                    width: 0px; }
+                    header #menu-container #menu nav ul li a .line-overlay.active {
+                      width: 150px;
+                      border: solid black 1px;
+                      margin: 0 auto; } }
 
 #single-page-header {
   position: absolute;
@@ -2488,6 +2503,10 @@ body #site-container video.main-page-video {
       font-size: 24px;
       transform: rotate(135deg); }
 
+#home-page-services-container {
+  position: relative;
+  background-color: rgba(255, 255, 0, 0.75); }
+
 #formulas-homepage-container {
   position: relative;
   background-color: rgba(255, 255, 0, 0.75);
@@ -2516,8 +2535,8 @@ body #site-container video.main-page-video {
         /* bring your own prefixes */
         transform: translate(-50%, -50%); }
 
-#projects-homepage-container {
-  margin-top: 15px; }
+#mission-homepage-container {
+  max-width: 80%; }
 
 #contact-homepage-container {
   position: relative;
@@ -2617,6 +2636,26 @@ footer {
     padding-bottom: 15px; }
     .single-team-member-container .single-team-member-socialnetworks li {
       padding-left: 5px; }
+
+#single-projects-container {
+  width: 80%; }
+  #single-projects-container .image-large {
+    width: 100%; }
+  #single-projects-container .double-image {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px; }
+    #single-projects-container .double-image img {
+      width: 48%;
+      height: 100%; }
+  #single-projects-container h4 {
+    margin-bottom: 5px; }
+  #single-projects-container p {
+    margin-top: 5px; }
+  #single-projects-container .single-project-content .right-box h4 {
+    margin-bottom: 5px; }
+  #single-projects-container .single-project-content .right-box p {
+    margin-top: 5px; }
 
 /*This file mixins for helping centering, disposing and placing elements*/
 .center-content {

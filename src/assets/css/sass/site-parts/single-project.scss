@@ -1,0 +1,42 @@
+#single-projects-container {
+    width:80%;
+    .image-large {
+        width: 100%;
+    }
+    .double-image {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:15px;
+        img {
+            
+            width:48%;
+            height: 100%;
+
+        }
+        
+    }
+            
+    h4 {
+        margin-bottom:5px;
+    }
+    p {
+        margin-top:5px;
+    }
+    .single-project-header {
+
+    }
+    .single-project-content {
+        
+        .right-box {
+            
+            h4 {
+                margin-bottom:5px;
+            }
+            p {
+                margin-top:5px;
+            }
+            
+        }         
+    }   
+
+}

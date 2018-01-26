@@ -50,6 +50,13 @@ body {
     }
 }
 
+#home-page-services-container {
+    
+    position: relative;
+    background-color:$transparentYellow;
+
+}
+
 #formulas-homepage-container {
     position: relative;
     background-color: $transparentYellow;
@@ -81,7 +88,9 @@ body {
     }
 }
 
-
+#mission-homepage-container {
+    max-width:80%;
+}
 #projects-homepage-container {
     
 }

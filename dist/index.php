@@ -1,4 +1,6 @@
 <?php session_start(); ?>
+<?php session_destroy()  ?>
+
 <?php
 require_once "config/langage.php";
 require_once "trans/dictionaries.php";
@@ -29,7 +31,10 @@ require_once "config/Autoloader.php";
 <body>
 
 <?php 
-if(!$_GET["r"]) {
+
+var_dump($_SESSION);
+
+if(!isset($_SESSION["visitesStatus"])) {
 	require_once "site-parts/animation-component/landing-page.php"; 
 }
 
@@ -47,7 +52,7 @@ if(!$_GET["r"]) {
 
 </div>
 <?php require "site-parts/footer.php"; ?>
-
+<script src="assets/js/libs/anime.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/js/general.js"></script>
 <script src="assets/js/scroller.js"></script>
@@ -58,15 +63,11 @@ if(!$_GET["r"]) {
 <script src="assets/js/forms/form-contact.js"></script>
 <script src="assets/js/css-components/grid-system.js"></script>
 <script src="assets/js/animation-component/landing-page.js"></script>
-
-
 <script src="assets/js/features/searchbar.js"></script>
 
 
 
-<?php 
 
-?>
 
 
 
@@ -79,20 +80,18 @@ if(!$_GET["r"]) {
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
-
 	gtag('config', 'UA-110253487-1');
 </script>
 <script type='text/javascript'>
-  
   var locale = "<?php echo $_SESSION['locale'] ?>"; //dont forget to place the PHP code block inside the quotation 
-
 </script>
 
 
 <script type="text/javascript" src="assets/js/libs/pjs.js"></script>
 
 <!-- Particles -->
-<script>
+<script>	
+
 			$("html, body").animate({scrollTop: "0px"}	);
 			particlesJS.load('particles-js', 'assets/particles.json', function() {
 				console.log('callback - particles.js config loaded');

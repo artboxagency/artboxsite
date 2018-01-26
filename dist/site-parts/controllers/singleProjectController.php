@@ -10,15 +10,14 @@ if(isset($_GET)) {
 }
 
 
-function getSingleTeamMember($teamMemberId) {   
+function getSingleProject($pid) {   
     
     $db = new Db("127.0.0.1", "root", "ipod", "");
     $locale = $_SESSION["locale"];
-    $sql = "SELECT * from team where id = $teamMemberId";
-    $teamMember = $db->getData($sql);    
+    $sql = "SELECT * from projects where id = $pid";
+    $singleProject = $db->getData($sql);    
     
-
-    return $teamMember;
+    return $singleProject;
 
 }
 

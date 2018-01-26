@@ -3,7 +3,7 @@
 
 <h2 class="title-font"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["team"] ?></h2>
 
-<div id="news-homepage-container" class="grid">
+<div id="team-homepage-container" class="grid">
     <?php foreach ($teamMembers as $key => $teamMember) { ?>
         <a href="site-parts/team-member.php?member=<?= $teamMember["id"]?>">
             <div class="single-news-home-page grid-item">

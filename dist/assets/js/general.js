@@ -1,8 +1,8 @@
 var GeneralBehaviour = {
 
-
     name: "GeneralBehaviour",
     HomePath: "http://localhost:8888/artbox/art2k18/dist/",
+    
     RedirectionTool: {
         redirecTo: function (url) {
             document.location.href=url + "?r=t";
@@ -25,6 +25,7 @@ var GeneralBehaviour = {
             });
         }
     }
+
 
 
 }

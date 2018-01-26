@@ -18,8 +18,7 @@ $(document).ready(function() {
           })
             .done(function(response) {
             console.log("done");
-
-            console.log(msg);
+            
         });
     
     })

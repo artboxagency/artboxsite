@@ -65,3 +65,15 @@ body {
 
     }
 }
+
+body {
+    .grid2 {
+        display: flex;
+        justify-content: space-between;
+        
+        .left-box, 
+        .right-box {
+            width: 48%;
+        }
+    }  
+}

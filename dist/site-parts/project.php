@@ -25,7 +25,6 @@ error_reporting(E_ALL);
 <body>
 <h1 style="display:none">Artbox</h1>
 <div id="site-container">
-    <h3>Équipe</h3>
 	<?php require "views/single-projects.php"; ?>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
