@@ -6,7 +6,7 @@ Class Db {
     private $password;
     private $databaseName;
     public $db;
-    
+
     public function __construct($_server, $_username ,$_password, $_database) {
 
         $this->setServerName($_server);
@@ -14,7 +14,8 @@ Class Db {
         $this->setPassword($_password);
         $this->setDatabaseName($_database);
 
-        $this->db = new mysqli($this->servername, $this->username, $this->password, "artb2018");
+        $this->db = new mysqli($this->servername, $this->username, $_password, "artb2018");
+
         // Check connection
         if ($this->db->connect_error) {
             die("Connection failed: " . $this->db->connect_error);
@@ -49,7 +50,7 @@ Class Db {
 
     // Data Processing
     public function queryDb($sql) {
-        
+
         if ($this->db->query($sql) === TRUE) {
             return true;
         } else {
@@ -61,7 +62,7 @@ Class Db {
     public function lookForRecords($sql) {
         var_dump($sql);
         $result = $this->db->query($sql);
-        
+
         if ($result->num_rows == 0) {
 
             return false;

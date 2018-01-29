@@ -13,7 +13,7 @@ require_once "config/Autoloader.php";
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/libs/fontawesome/font-awesome.css">
-	
+
 	<style>
 		#particles-js {
 			width: 100%;
@@ -21,29 +21,29 @@ require_once "config/Autoloader.php";
     		position: fixed;
     		top: 0px;
     		left: 0px;
-		}	
+		}
 
 	</style>
 
 </head>
 <body>
 
-<?php 
+<?php
 if(!$_GET["r"]) {
-	require_once "site-parts/animation-component/landing-page.php"; 
+	require_once "site-parts/animation-component/landing-page.php";
 }
 
 ?>
 <h1 style="display:none">Artbox</h1>
 
 <div id="site-container">
-	<div style="" id="particles-js"></div>	
+	<div style="" id="particles-js"></div>
 	<div class="search-result"></div>
-	
+
 	<!-- Top header infos -->
 	<?php require "site-parts/header.php"; ?>
 	<?php require "site-parts/homepage.php"; ?>
-	
+
 
 </div>
 <?php require "site-parts/footer.php"; ?>
@@ -64,13 +64,13 @@ if(!$_GET["r"]) {
 
 
 
-<?php 
+<?php
 
 ?>
 
 
 
-<?php 
+<?php
 	require "site-parts/component-blue-print/search-result.php";
 ?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -83,8 +83,8 @@ if(!$_GET["r"]) {
 	gtag('config', 'UA-110253487-1');
 </script>
 <script type='text/javascript'>
-  
-  var locale = "<?php echo $_SESSION['locale'] ?>"; //dont forget to place the PHP code block inside the quotation 
+
+  var locale = "<?php echo $_SESSION['locale'] ?>"; //dont forget to place the PHP code block inside the quotation
 
 </script>
 

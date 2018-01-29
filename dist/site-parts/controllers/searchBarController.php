@@ -8,7 +8,7 @@ $searchTerm = $_GET["searchValue"];
 
 
 
-    $db = new Db("127.0.0.1", "root", "3GgzQaxjaSV0c2ZqGmrwq0OevywGE6tb3okHGbL", "");
+    $db = new Db("127.0.0.1", "root", "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905", "");
     $sql = "SELECT * FROM newsposts_homepage WHERE paragraphes LIKE '%$searchTerm%'
             OR header LIKE '%$searchTerm%'
             OR title LIKE '%$searchTerm%'";

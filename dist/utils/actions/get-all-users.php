@@ -15,7 +15,7 @@
 
 $servername = "127.0.0.1";
 $username = "root";
-$password = "3GgzQaxjaSV0c2ZqGmrwq0OevywGE6tb3okHGbL";
+$password = "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, "ndl");
