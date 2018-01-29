@@ -2536,6 +2536,7 @@ body #site-container video.main-page-video {
         transform: translate(-50%, -50%); }
 
 #mission-homepage-container {
+  padding-bottom: 20px;
   max-width: 80%; }
 
 #contact-homepage-container {

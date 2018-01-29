@@ -5,7 +5,7 @@ $dir = '../../../content/news';
 $dir2 = '../../../content/news/homepage';
 $files = scandir($dir);
 $fileHomePage = scandir($dir2);
-$db = new Db("127.0.0.1", "root", "ipod", "");
+$db = new Db("127.0.0.1", "root", "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905", "");
 
 
 // Kill db

@@ -87,3 +87,7 @@ $dictionnaries["en"]["homePageContent"]["mission"] = "ARTBOX est né en réponse
 
 $dictionnaries['fr']["homePageTitle"]["team"] = "Équipe";
 $dictionnaries['en']["homePageTitle"]["team"] = "Team";
+
+
+$dictionnaries['en']["siteSections"]["news"]["title"] = "News";
+$dictionnaries['fr']["siteSections"]["news"]["title"] = "Nouvelles";
