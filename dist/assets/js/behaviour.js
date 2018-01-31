@@ -14,7 +14,7 @@ $(".menu-hamburger").click(function() {
 $("#formulas-homepage-container").hide();
 
 $(".font-medium-title.know-more").click(function() {
-    
+
     $("#formulas-homepage-container").slideToggle(500);
     $(this).find(".plus-to-know-more").toggleClass("active-button");
 });
@@ -28,18 +28,18 @@ $(".return-homepage").click(function () {
 
 $("#contact-homepage-container input").addClass("active-input");
 
-setTimeout(function() { 
+setTimeout(function() {
 
-    console.log("Init Session");
+
     $.ajax({
         url : 'utils/actions/setSessions.php' // La ressource ciblée
      });
 
  }, 3000);
 
- setTimeout(function() { 
+ setTimeout(function() {
 
-    console.log("Die Session");
+
     $.ajax({
         url : 'utils/actions/setSessions.php?dieSession=true' // La ressource ciblée
      });
@@ -49,18 +49,6 @@ setTimeout(function() {
 $(".subgenres-list").hide();
 
 $(".service-title").click(function() {
-    
+    $(this).find(".plus-to-know-more").toggleClass("active-button");
     $(this).parent().find(".subgenres-list").slideToggle();
 })
-
- var lineDrawing = anime({
-    targets: 'svg path',
-    strokeDashoffset: [anime.setDashoffset, 0],
-    easing: 'easeInOutSine',
-    duration: 1500,
-    delay: function(el, i) { return i * 250 },
-    direction: 'alternate',
-    loop: true
-});
-  
-

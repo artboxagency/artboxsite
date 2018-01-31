@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -27,20 +27,24 @@ error_reporting(E_ALL);
 <?php  require "views/formulas-homepage.php"; ?>
 <div class="home-page-content">
     <div class="black-line">
-    
+
     </div>
 </div>
 
 <?php  require "views/services-homepage.php" ?>
 
+<div class="home-page-content">
+    <div class="black-line">
 
+    </div>
+</div>
 <div id="projects-scroller" class="anchor-point"></div>
 <?php  require "views/projects-homepage.php"; ?>
-    
 
 
 
-<!-- 
+
+<!--
 <div class="home-page-content">
     <div class="black-line">
 

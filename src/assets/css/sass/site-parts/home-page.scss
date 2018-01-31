@@ -8,22 +8,22 @@
 
 }
 
-// Tweaking around z index for canvas and site container click 
+// Tweaking around z index for canvas and site container click
 #particles-js {
-    
+
 }
 #site-container {
     // By pass element to bind grip click hover particle
     .grid-item {
         background-color: $transparentYellow;
-        
+
     }
 }
 
-// Bypass default video css 
+// Bypass default video css
 body {
     #site-container {
-        
+
         video {
             &.main-page-video {
                 width:80%;
@@ -34,7 +34,7 @@ body {
 }
 
 #model-homepage-container {
-    
+
     max-width:80%;
     background-color: $transparentYellow;
     position: relative;
@@ -46,14 +46,30 @@ body {
             font-size:24px;
             transform: rotate(135deg);
         }
-        
+
     }
 }
 
 #home-page-services-container {
-    
+
     position: relative;
     background-color:$transparentYellow;
+
+    .unique-service {
+
+
+        position: relative;
+        width: 312px;
+        .plus-to-know-more {
+            position: absolute;
+            right: 2px;
+            transition: all 0.5s;
+            &.active-button {
+                font-size:24px;
+                transform: rotate(135deg);
+            }
+        }
+    }
 
 }
 
@@ -90,7 +106,8 @@ body {
 
 #mission-homepage-container {
     max-width:80%;
+    margin-bottom:10px;
 }
 #projects-homepage-container {
-    
+
 }
