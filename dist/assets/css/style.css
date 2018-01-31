@@ -2123,7 +2123,8 @@ body .grid .grid-item .grid-brief {
 .font-description {
   font-size: 16px;
   margin-top: 10px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  line-height: 25px; }
 
 .font-small {
   font-size: 12px;
@@ -2202,7 +2203,8 @@ body .grid .grid-item .grid-brief {
 .font-description {
   font-size: 16px;
   margin-top: 10px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  line-height: 25px; }
 
 .font-small {
   font-size: 12px;
@@ -2333,7 +2335,8 @@ header {
         display: none; }
       header #menu-container #menu nav ul li.menu-item {
         margin-right: 20px;
-        display: inline-block; }
+        display: inline-block;
+        text-transform: uppercase; }
         header #menu-container #menu nav ul li.menu-item a {
           transition: all 0.5s; }
           header #menu-container #menu nav ul li.menu-item a:hover, header #menu-container #menu nav ul li.menu-item a:active {
@@ -2464,7 +2467,8 @@ body .grid .grid-item .grid-brief {
 .font-description {
   font-size: 16px;
   margin-top: 10px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  line-height: 25px; }
 
 .font-small {
   font-size: 12px;

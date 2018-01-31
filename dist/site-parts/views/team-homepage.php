@@ -4,8 +4,8 @@
 
 
 <div id="team-homepage-container" class="">
-<h2 class="title-font"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["team"] ?></h2>
-    <div class="grid">
+<h2 class="title-font first-animation"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["team"] ?></h2>
+    <div class="grid second-animation">
         <?php foreach ($teamMembers as $key => $teamMember) { ?>
             <a href="site-parts/team-member.php?member=<?= $teamMember["id"]?>">
                 <div class="single-news-home-page grid-item">

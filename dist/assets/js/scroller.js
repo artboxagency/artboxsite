@@ -33,6 +33,12 @@ $(document).ready(function() {
         element.find(".third-animation").css({
             "opacity" : "0"
         });
+        element.find(".fourth-animation").css({
+            "opacity" : "0"
+        });
+        element.find(".fifth-animation").css({
+            "opacity" : "0"
+        });
 
     });
 
@@ -69,10 +75,16 @@ $(document).ready(function() {
 
                     var secondAnimation = currentElement.find(".second-animation");
                     var thirdAnimation = currentElement.find(".third-animation");
+                    var fourthAnimation = currentElement.find(".fourth-animation");
+                    var fifthAnimation = currentElement.find(".fifth-animation");
 
                     currentElement.find(".first-animation").addClass('animated fadeInLeft').one(animationEnd, function() {
                         secondAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {
-                            thirdAnimation.addClass('animated fadeInLeft');
+                            thirdAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {
+                                fourthAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {
+                                    fifthAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {});
+                                })
+                            });
                         });
                     });
 

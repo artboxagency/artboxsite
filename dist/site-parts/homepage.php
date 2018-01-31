@@ -25,13 +25,24 @@ error_reporting(E_ALL);
 <?php  require "views/model-homepage.php"; ?>
 
 <?php  require "views/formulas-homepage.php"; ?>
+
 <div class="home-page-content">
     <div class="black-line">
 
     </div>
 </div>
 
+<div id="services-scroller" class="anchor-point"></div>
 <?php  require "views/services-homepage.php" ?>
+
+<div class="home-page-content">
+    <div class="black-line">
+
+    </div>
+</div>
+
+<div id="clients-scroller" class="anchor-point"></div>
+<?php  require "views/clients-homepage.php" ?>
 
 <div class="home-page-content">
     <div class="black-line">
