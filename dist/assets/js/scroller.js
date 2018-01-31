@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // Get component
 
     //var infosHomePage = $("#home-page-infos-container");
     var infosHomePage = $("#home-page-infos-container");
@@ -43,9 +42,7 @@ $(document).ready(function() {
         });
 
     });
-
-    // Hide those components
-
+    
     var scrollerCounter = 0;
     // Check if Scroll
     $(window).scroll(function() {
@@ -81,11 +78,13 @@ $(document).ready(function() {
                     var fifthAnimation = currentElement.find(".fifth-animation");
 
                     currentElement.find(".first-animation").addClass('animated fadeInLeft').one(animationEnd, function() {
+
+                        console.log(currentElement);
                         secondAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {
+                            console.log("Second animation done");
                             thirdAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {
-                                fourthAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {
-                                    fifthAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {});
-                                })
+                                console.log("Third animation done");
+                                fourthAnimation.addClass('animated fadeInLeft');
                             });
                         });
                     });
