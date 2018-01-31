@@ -1,6 +1,5 @@
 $(document).ready(function() {
     // Get component
-<<<<<<< HEAD
 
     //var infosHomePage = $("#home-page-infos-container");
     var infosHomePage = $("#home-page-infos-container");
@@ -14,8 +13,6 @@ $(document).ready(function() {
 
     // All components Array
     var allHomePageComponent = [
-        infosHomePage,
-        devMondayNight
         newsHomePage,
         modelHomePage,
         serviceModelPage,
@@ -77,7 +74,7 @@ $(document).ready(function() {
                         }
                       }
                     })(document.createElement('div'));
-                    
+
                     var secondAnimation = currentElement.find(".second-animation");
                     var thirdAnimation = currentElement.find(".third-animation");
                     var fourthAnimation = currentElement.find(".fourth-animation");
@@ -103,20 +100,8 @@ $(document).ready(function() {
 
     });
 
-<<<<<<< HEAD
-
-
     var scrollTool = {
 
-        animateChildElementOfDomNode: function(parent, classes, callback) {
-
-        },
-
-=======
-
-    var scrollTool = {
-
->>>>>>> devMondayNight
         // Always refering to body
         animateScrollTo: function(elementSelectorPosition) {
             $(document).animate({scrollTop: elementSelectorPosition + "px"});

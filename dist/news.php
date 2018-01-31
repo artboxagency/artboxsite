@@ -37,19 +37,14 @@ require_once "config/Autoloader.php";
 </head>
 <body>
 
-<?php
-if(!isset($_SESSION["visitesStatus"])) {
-	require_once "site-parts/animation-component/landing-page.php";
-}
-?>
 <h1 style="display:none">Artbox</h1>
 
 <div id="site-container">
 	<div style="" id="particles-js"></div>
-	<div class="search-result"></div>
-
 	<!-- Top header infos -->
-	<?php require "site-parts/header.php"; ?>
+	<?php // require "site-parts/header.php"; ?>
+
+
 	<?php require "site-parts/all-blog.php";?>
 
 

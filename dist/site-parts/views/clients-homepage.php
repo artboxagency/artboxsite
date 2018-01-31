@@ -1,6 +1,5 @@
 <?php require "site-parts/controllers/clientsController.php"; ?>
 <div id="clients-homepage-container" class="">
-    <div id="projects-homepage-container" class="">
         <h2  class="title-font first-animation">Clients</h2>
         <div class="grid second-animation">
             <?php foreach ($clients as $key => $client) { ?>

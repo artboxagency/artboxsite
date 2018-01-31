@@ -2302,8 +2302,6 @@ header {
     display: inline-block;
     text-align: left;
     transition: all 0.2s; }
-    header #searchbar.active-searchbar {
-      width: 25%; }
     header #searchbar #search-item {
       cursor: pointer;
       font-size: 16px;
@@ -2311,20 +2309,21 @@ header {
       margin-right: 5px; }
       header #searchbar #search-item:hover {
         font-size: 20px; }
-      header #searchbar #search-item.active-search-logo {
-        font-size: 20px; }
     header #searchbar #search-bar-term {
       width: 0px;
       height: 0px;
       background-color: #ffff07;
       border: 0px;
-      transition: all 0.5s; }
+      transition: all 0.5s;
+      margin-top: 0px; }
       header #searchbar #search-bar-term:focus {
         outline: 0; }
       header #searchbar #search-bar-term.active-search {
-        height: 20px;
-        border-bottom: solid 3px rgba(0, 0, 0, 0.5);
-        width: 90%; }
+        width: 200px;
+        height: 18px;
+        background-color: #ffff07;
+        border-bottom: solid 1px black;
+        transition: all 0.5s; }
   header #menu-container {
     right: 5px;
     position: absolute; }
@@ -2550,13 +2549,9 @@ body #site-container video.main-page-video {
         transform: translate(-50%, -50%); }
 
 #mission-homepage-container {
-<<<<<<< HEAD
+  padding-bottom: 20px;
   max-width: 80%;
   margin-bottom: 10px; }
-=======
-  padding-bottom: 20px;
-  max-width: 80%; }
->>>>>>> devMondayNight
 
 #contact-homepage-container {
   position: relative;

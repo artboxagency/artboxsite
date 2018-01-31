@@ -40,7 +40,7 @@ if(!isset($_SESSION["visitesStatus"])) {
 <div id="site-container">
 	<div style="" id="particles-js"></div>
 	<div class="search-result"></div>
-
+	
 	<!-- Top header infos -->
 	<?php require "site-parts/header.php"; ?>
 	<?php require "site-parts/homepage.php"; ?>
