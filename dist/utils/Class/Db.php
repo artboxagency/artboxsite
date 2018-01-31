@@ -6,7 +6,7 @@ Class Db {
     private $password;
     private $databaseName;
     public $db;
-    
+
     public function __construct($_server, $_username ,$_password, $_database) {
 
         $this->setServerName($_server);
@@ -49,7 +49,7 @@ Class Db {
 
     // Data Processing
     public function queryDb($sql) {
-        
+
         if ($this->db->query($sql) === TRUE) {
             return true;
         } else {
@@ -61,7 +61,7 @@ Class Db {
     public function lookForRecords($sql) {
         var_dump($sql);
         $result = $this->db->query($sql);
-        
+
         if ($result->num_rows == 0) {
 
             return false;

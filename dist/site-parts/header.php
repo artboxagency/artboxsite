@@ -16,14 +16,15 @@
                 <nav>
                     <ul>
                         <span class="close-button">x</span>
+
                         <?php foreach($menuItems as $key => $menuItem) { ?>
+
                                 <?php if ($menuItem["redirect"] == 1): ?>
-                                    <li class="menu-item"><a href="<?= strtolower($menuItem["menuLink"]) ?>"><?= $menuItem["menuLabel"]; ?> </a> </li>    
+                                    <li class="menu-item"><a href="<?= strtolower($menuItem["menuLink"]) ?>"><?= $menuItem["menuLabel"]; ?> </a> </li>
                                 <?php else: ?>
                                     <li class="menu-item"><a href="#<?= strtolower(explode("." ,$menuItem["menuLink"])[0]) ?>"><?= $menuItem["menuLabel"]; ?> </a> </li>
                                 <?php endif; ?>
-
-
+                                
                                 <!---  <li class="menu-item"><a href="site-parts/pages/<?= strtolower($menuItem["menuLink"]); ?>"><?= $menuItem["menuLabel"]; ?> </a> </li>  -->
                         <?php } ?>
                         <div id="searchbar">

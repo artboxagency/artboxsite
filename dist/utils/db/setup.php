@@ -12,6 +12,6 @@ DEFINE("DB", "ndlqc_www_alumni");
 /*
 DEFINE("HOST", "127.0.0.1");
 DEFINE("USERNAME", "root");
-DEFINE("PASSWORD", "ipod");
+DEFINE("PASSWORD", "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905");
 DEFINE("DB", "ndl");
 */

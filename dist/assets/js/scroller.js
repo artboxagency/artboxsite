@@ -1,22 +1,27 @@
 $(document).ready(function() {
     // Get component
+<<<<<<< HEAD
 
     //var infosHomePage = $("#home-page-infos-container");
+    var infosHomePage = $("#home-page-infos-container");
     var newsHomePage  = $("#news-homepage-container");
     var modelHomePage = $("#model-homepage-container");
     var serviceModelPage = $("#home-page-services-container");
     var projectsHomePage = $("#projects-homepage-container");
     var missionHomePage = $("#mission-homepage-container");
     var teamHomePage = $("#team-homepage-container");
-
+    var servicesHomepage = $("#home-page-services-container");
 
     // All components Array
     var allHomePageComponent = [
+        infosHomePage,
+        devMondayNight
         newsHomePage,
         modelHomePage,
         serviceModelPage,
         projectsHomePage,
         missionHomePage,
+        servicesHomepage,
         teamHomePage
     ];
 
@@ -72,7 +77,7 @@ $(document).ready(function() {
                         }
                       }
                     })(document.createElement('div'));
-
+                    
                     var secondAnimation = currentElement.find(".second-animation");
                     var thirdAnimation = currentElement.find(".third-animation");
                     var fourthAnimation = currentElement.find(".fourth-animation");
@@ -98,6 +103,7 @@ $(document).ready(function() {
 
     });
 
+<<<<<<< HEAD
 
 
     var scrollTool = {
@@ -106,6 +112,11 @@ $(document).ready(function() {
 
         },
 
+=======
+
+    var scrollTool = {
+
+>>>>>>> devMondayNight
         // Always refering to body
         animateScrollTo: function(elementSelectorPosition) {
             $(document).animate({scrollTop: elementSelectorPosition + "px"});

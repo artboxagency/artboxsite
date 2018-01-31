@@ -2550,8 +2550,13 @@ body #site-container video.main-page-video {
         transform: translate(-50%, -50%); }
 
 #mission-homepage-container {
+<<<<<<< HEAD
   max-width: 80%;
   margin-bottom: 10px; }
+=======
+  padding-bottom: 20px;
+  max-width: 80%; }
+>>>>>>> devMondayNight
 
 #contact-homepage-container {
   position: relative;

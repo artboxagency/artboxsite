@@ -2,6 +2,13 @@
 <?php session_destroy()  ?>
 
 <?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+?>
+<?php
 require_once "config/langage.php";
 require_once "trans/dictionaries.php";
 require_once "config/Autoloader.php";
@@ -43,7 +50,7 @@ if(!isset($_SESSION["visitesStatus"])) {
 
 	<!-- Top header infos -->
 	<?php require "site-parts/header.php"; ?>
-	<?php require "site-parts/homepage.php"; ?>
+	<?php require "site-parts/all-blog.php";?>
 
 
 </div>
