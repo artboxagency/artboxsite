@@ -2132,7 +2132,7 @@ body .grid .grid-item .grid-brief {
   margin-bottom: 0px; }
 
 body {
-  background-color: #ffff07;
+  background-color: #ffff00;
   margin: 0px; }
   body ul {
     list-style: none; }
@@ -2261,7 +2261,7 @@ body .grid2 {
 .main-button {
   display: inline-block;
   background-color: #000000;
-  color: #ffff07;
+  color: #ffff00;
   cursor: pointer;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -2288,7 +2288,7 @@ header {
   left: 0px;
   width: 100%;
   height: 50px;
-  background-color: #ffff07;
+  background-color: #ffff00;
   z-index: 9999; }
   header .header-container {
     position: relative; }
@@ -2312,7 +2312,7 @@ header {
     header #searchbar #search-bar-term {
       width: 0px;
       height: 0px;
-      background-color: #ffff07;
+      background-color: #ffff00;
       border: 0px;
       transition: all 0.5s;
       margin-top: 0px; }
@@ -2378,7 +2378,7 @@ header {
             position: absolute;
             right: 0px;
             top: 0px;
-            background-color: #ffff07;
+            background-color: #ffff00;
             height: 100vh;
             width: 350px;
             z-index: 55;
@@ -2490,6 +2490,10 @@ body .grid .grid-item .grid-brief {
 #site-container .grid-item {
   background-color: rgba(255, 255, 0, 0.75); }
 
+@media (max-width: 680px) {
+  body #site-container {
+    margin-left: 0px; } }
+
 body #site-container video.main-page-video {
   width: 80%;
   height: 50%; }
@@ -2499,6 +2503,10 @@ body #site-container video.main-page-video {
   background-color: rgba(255, 255, 0, 0.75);
   position: relative;
   z-index: 1500; }
+  #model-homepage-container .model-bloc {
+    padding-left: 0px; }
+    #model-homepage-container .model-bloc p {
+      margin-top: 0px; }
   #model-homepage-container .plus-to-know-more {
     display: inline-block;
     transition: all 0.5s; }
@@ -2556,6 +2564,12 @@ body #site-container video.main-page-video {
 #contact-homepage-container {
   position: relative;
   background-color: rgba(255, 255, 0, 0.75); }
+  #contact-homepage-container .call-to-action-container {
+    width: 80%;
+    text-align: center; }
+  #contact-homepage-container .adress-container p {
+    margin-top: 0px;
+    margin-bottom: 0px; }
   #contact-homepage-container .form-container {
     margin-bottom: 180px; }
     #contact-homepage-container .form-container #unique-form {
@@ -2569,7 +2583,7 @@ body #site-container video.main-page-video {
         #contact-homepage-container .form-container #unique-form .form-value-container .single-input {
           width: 0px;
           height: 0px;
-          background-color: #ffff07;
+          background-color: #ffff00;
           border: 0px;
           transition: all 0.5s; }
           #contact-homepage-container .form-container #unique-form .form-value-container .single-input:focus {
@@ -2605,7 +2619,7 @@ body #site-container video.main-page-video {
 #search-result-container {
   position: absolute;
   z-index: 500;
-  background-color: #ffff07;
+  background-color: #ffff00;
   transition: all 0.5s;
   padding-left: 15px;
   top: 50px;
@@ -2620,7 +2634,7 @@ footer {
   z-index: 50000;
   width: 100%;
   height: 80px;
-  background-color: #ffff07;
+  background-color: #ffff00;
   bottom: 0px;
   text-align: center; }
   footer p, footer ul {

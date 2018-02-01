@@ -2,14 +2,14 @@
 #lastname Larose-Cadieux #/lastname
 
 
-#jobTitle Creative Director #/jobTitle
+#jobTitle Directeur Créatif et Co-Fondateur #/jobTitle
 
 #pictureUrl http://www.artbox.agency/_images/team/philippe.png #/pictureUrl
 #phoneNumber 123-123-1234 #/phoneNumber
 #email phil@artbox.agency #/email
 #locale fr #/locale
 #employeeRank 2 #/employeeRank
-#bio 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac erat pellentesque, scelerisque tortor a, consequat enim. Fusce molestie eget magna nec dignissim. Donec non pharetra sem, eget luctus neque. Vestibulum sit amet porttitor sem. Donec eget molestie quam, non malesuada magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. In sem odio, rutrum eget tortor sollicitudin, convallis mollis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Nulla vulputate lorem et arcu rhoncus, nec bibendum quam tempus. Etiam maximus lorem neque, ut lacinia leo facilisis id. Quisque maximus neque est, non mollis nisi maximus eget. Pellentesque a facilisis sapien. Nunc placerat pretium nunc et porta. Sed egestas ligula et nunc mollis ullamcorper. Maecenas at arcu nibh. Sed condimentum volutpat dolor ac vehicula. Etiam lobortis enim mauris. Nunc in iaculis velit. Pellentesque velit tellus, fringilla vel consectetur vulputate, tempus mattis lorem.
+#bio
+Durant ses trois années d’études à Queen Mary, University of London d’où il a diplômé en BSc Business Management option Marketing, Philippe a été DJ et Co-Directeur de la maison de disque londonienne Motek Music. Passant de DJ à artiste numérique, Larose - son nom d'artiste - se consacre à l'interactivité dans l'art numérique dès son retour au Québec. Grâce à son expertise créative et technologique, il fonde ARTBOX, une agence de marketing social, où il agit à titre de directeur créatif et assure la direction artistique de chacune des campagnes ARTBOX.
 #/bio
+#quote #/quote

@@ -2,15 +2,14 @@
 #lastname Lachance #/lastname
 
 
-#jobTitle CEO #/jobTitle
+#jobTitle Directrice Marketing et Co-Fondatrice #/jobTitle
 
 #pictureUrl http://www.artbox.agency/_images/team/katherine.png #/pictureUrl
 #phoneNumber 123-123-1234 #/phoneNumber
 #email kath@artbox.agency #/email
 #locale fr #/locale
 #employeeRank 1 #/employeeRank
-#bio 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac erat pellentesque, scelerisque tortor a, consequat enim. Fusce molestie eget magna nec dignissim. Donec non pharetra sem, eget luctus neque. Vestibulum sit amet porttitor sem. Donec eget molestie quam, non malesuada magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. In sem odio, rutrum eget tortor sollicitudin, convallis mollis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Nulla vulputate lorem et arcu rhoncus, nec bibendum quam tempus. Etiam maximus lorem neque, ut lacinia leo facilisis id. Quisque maximus neque est, non mollis nisi maximus eget. Pellentesque a facilisis sapien. Nunc placerat pretium nunc et porta. Sed egestas ligula et nunc mollis ullamcorper. Maecenas at arcu nibh. Sed condimentum volutpat dolor ac vehicula. Etiam lobortis enim mauris. Nunc in iaculis velit. Pellentesque velit tellus, fringilla vel consectetur vulputate, tempus mattis lorem.
+#bio
+Katherine a fait ses études en BSc Business Management option Marketing à Queen Mary, University of London au cours d’un séjour de trois ans à Londres au Royaume-Uni. Première de sa classe et remportant plusieurs prix, Katherine a tout de même pris le temps d’acquérir de l’expérience à Headway East London, un organisme de bienfaisance qui appuie les personnes atteintes de lésions cérébrales, et chez Rise Art, une plateforme numérique de vente et location d’oeuvres d’art. De retour au Québec, elle a développé ses compétences chez Aliments Ultima où elle était en charge des campagnes de marketing numérique et médias sociaux des marques iögo et Olympic Dairy. Alliant marketing et son désir d’impliquer davantage les entreprises dans la société de demain, elle lance sa propre agence de marketing social, ARTBOX, où elle agit à titre de présidente-directrice-générale.
 #/bio
+#quote #/quote

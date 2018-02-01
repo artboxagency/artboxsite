@@ -30,8 +30,12 @@ foreach($files as $key => $file) {
         $memberImageUrl = getContentsBetween($content, '#pictureUrl', '#/pictureUrl');
         $memberPhoneNumber = getContentsBetween($content, '#phoneNumber', '#/phoneNumber');
         $memberEmail = getContentsBetween($content, '#email', '#/email');
+        $memberQuote = getContentsBetween($content, '#quote', '#/quote');
         $memberBio = getContentsBetween($content, '#bio', '#/bio');
 
+//        var_dump($memberQuote);
+
+//        die();
         // Prepare datas from Query
         if(isset($memberLocale[0]))  {
 
@@ -78,9 +82,13 @@ foreach($files as $key => $file) {
             $sqlBio =  str_replace("'", "%%", $memberBio[0]);
         }
 
+        if(isset($memberQuote[0])) {
+            $sqlQuote =  str_replace("'", "%%", $memberQuote[0]);
+        }
 
-        $sql = "INSERT INTO team(firstname, lastname, jobTitle, pictureUrl, phonenumber, email, locale, employeeRank, bio) 
-        values('$sqlFirstName', '$sqlLastName', '$sqlJobTitle', '$sqlImageUrl', '$sqlPhoneNumber', '$sqlEmail', '$sqlLocale', $sqlRank, '$sqlBio')";
+
+        $sql = "INSERT INTO team(firstname, lastname, jobTitle, pictureUrl, phonenumber, email, locale, employeeRank, bio, quote)
+        values('$sqlFirstName', '$sqlLastName', '$sqlJobTitle', '$sqlImageUrl', '$sqlPhoneNumber', '$sqlEmail', '$sqlLocale', $sqlRank, '$sqlBio', '$sqlQuote')";
 
         // Processing to db for blog
         $db->queryDb($sql);

@@ -1,0 +1,23 @@
+#projectName SALON DU DESIGN DE MONTRÉAL | ELECTRIMAT + LAROSE #/projectName
+#thumbnailTitle SALON DU DESIGN DE MONTRÉAL | ELECTRIMAT + LAROSE #/thumbnailTitle
+
+#headerContent Electrimat + Larose est une installation visuelle performative dans laquelle les luminaires du kiosque d’Electrimat réagissent directement à la performance musicale de l’artiste et à sa version automatisée. Trois pistes musicales, conçues sur mesure par l’artiste, jouées en direct du kiosque dans lesquelles chacune des notes jouées active un des luminaires du kiosque. Une version automatique anime le kiosque entre les performances artistiques.
+
+#/headerContent
+
+#bloc1Title SALON DU DESIGN DE MONTRÉAL | ELECTRIMAT + LAROSE #/bloc1Title
+#bloc1Content Electrimat + Larose est une installation visuelle performative dans laquelle les luminaires du kiosque d’Electrimat réagissent directement à la performance musicale de l’artiste et à sa version automatisée. Trois pistes musicales, conçues sur mesure par l’artiste, jouées en direct du kiosque dans lesquelles chacune des notes jouées active un des luminaires du kiosque. Une version automatique anime le kiosque entre les performances artistiques.
+#/bloc1Content
+
+
+#bloc2Title SALON DU DESIGN DE MONTRÉAL | ELECTRIMAT + LAROSE #/bloc2Title
+#bloc2Content
+Electrimat + Larose est une installation visuelle performative dans laquelle les luminaires du kiosque d’Electrimat réagissent directement à la performance musicale de l’artiste et à sa version automatisée. Trois pistes musicales, conçues sur mesure par l’artiste, jouées en direct du kiosque dans lesquelles chacune des notes jouées active un des luminaires du kiosque. Une version automatique anime le kiosque entre les performances artistiques.
+#/bloc2Content
+
+#assets1Url https://i.imgur.com/gkwbw0o.png #/assets1Url
+#assets2Url https://i.imgur.com/eYGSoz6.jpg #/assets2Url
+#assets3Url https://i.imgur.com/eYGSoz6.jpg #/assets3Url
+#assets4Url https://i.imgur.com/eYGSoz6.jpg #/assets4Url
+
+#locale fr #/locale

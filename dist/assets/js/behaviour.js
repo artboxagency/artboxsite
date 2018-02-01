@@ -28,6 +28,15 @@ $(".return-homepage").click(function () {
 
 $("#contact-homepage-container input").addClass("active-input");
 
+// Adding Form Hider
+$(".form-container").hide();
+$(".call-to-action-container").css({"margin-bottom": "180px"});
+
+$(".call-to-action-container").click(function() {
+    $(".call-to-action-container").css({"margin-bottom": "45px"});
+    $(".form-container").fadeIn();
+})
+
 setTimeout(function() {
 
 

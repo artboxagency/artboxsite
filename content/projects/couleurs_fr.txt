@@ -1,14 +1,14 @@
 #projectName Couleurs.io #/projectName
 #thumbnailTitle Couleurs.io #/thumbnailTitle
 
-#headerContent Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis dui at pulvinar euismod. Nullam ut mollis arcu. Nam eget enim purus. Quisque sit amet dui vitae sem semper ultrices. Aliquam pharetra risus at mi efficitur, id convallis ligula suscipit. Nam ornare metus dolor, eu accumsan dolor posuere in. #/headerContent
+#headerContent Couleurs est une œuvre interactive qui prend la forme d'une projection géante mesurant 50 pieds sur 30 pieds, où chaque pixel apparaît puis disparaît après 10 secondes de façon aléatoire, ou encore de façon contrôlée par les utilisateurs du site Web www.couleurs.io. Par son nom et par l'éventail des couleurs que peuvent prendre les pixels, l’oeuvre représente non seulement le côté multiethnique de Longueuil, mais aussi la pluralité de sa population dans son ensemble.  #/headerContent
 
-#bloc1Title Surveillance cest nice #/bloc1Title
-#bloc1Content  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis dui at pulvinar euismod. #/bloc1Content
+#bloc1Title Couleurs.io #/bloc1Title
+#bloc1Content Couleurs est une œuvre interactive qui prend la forme d'une projection géante mesurant 50 pieds sur 30 pieds, où chaque pixel apparaît puis disparaît après 10 secondes de façon aléatoire, ou encore de façon contrôlée par les utilisateurs du site Web www.couleurs.io. Par son nom et par l'éventail des couleurs que peuvent prendre les pixels, l’oeuvre représente non seulement le côté multiethnique de Longueuil, mais aussi la pluralité de sa population dans son ensemble. . #/bloc1Content
 
 
-#bloc2Title Surveillance cest nice #/bloc2Title
-#bloc2Content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis dui at pulvinar euismod. #/bloc2Content
+#bloc2Title Couleurs.io #/bloc2Title
+#bloc2Content Couleurs est une œuvre interactive qui prend la forme d'une projection géante mesurant 50 pieds sur 30 pieds, où chaque pixel apparaît puis disparaît après 10 secondes de façon aléatoire, ou encore de façon contrôlée par les utilisateurs du site Web www.couleurs.io. Par son nom et par l'éventail des couleurs que peuvent prendre les pixels, l’oeuvre représente non seulement le côté multiethnique de Longueuil, mais aussi la pluralité de sa population dans son ensemble.  #/bloc2Content
 
 #assets1Url http://www.artbox.agency/_images/projets/couleurs/Jean-Michael-Seminaro_Couleurs_7.jpg #/assets1Url
 #assets2Url https://i.imgur.com/eYGSoz6.jpg #/assets2Url

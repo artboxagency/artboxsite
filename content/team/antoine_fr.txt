@@ -9,8 +9,7 @@
 #email antoine@artbox.agency #/email
 #locale fr #/locale
 #employeeRank 5 #/employeeRank
-#bio 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac erat pellentesque, scelerisque tortor a, consequat enim. Fusce molestie eget magna nec dignissim. Donec non pharetra sem, eget luctus neque. Vestibulum sit amet porttitor sem. Donec eget molestie quam, non malesuada magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. In sem odio, rutrum eget tortor sollicitudin, convallis mollis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Nulla vulputate lorem et arcu rhoncus, nec bibendum quam tempus. Etiam maximus lorem neque, ut lacinia leo facilisis id. Quisque maximus neque est, non mollis nisi maximus eget. Pellentesque a facilisis sapien. Nunc placerat pretium nunc et porta. Sed egestas ligula et nunc mollis ullamcorper. Maecenas at arcu nibh. Sed condimentum volutpat dolor ac vehicula. Etiam lobortis enim mauris. Nunc in iaculis velit. Pellentesque velit tellus, fringilla vel consectetur vulputate, tempus mattis lorem.
+#quote "Artbox is just the perfect fuzing between left and right brain" -  #/quote
+#bio
+Après ses études au Cégep de Jonquière en Art et Technologie des Médias, Antoine termine son parcours collégial en faisant un stage en création et production sonore. Ayant une forte passion pour la technologie et la programmation, il poursuit son parcours scolaire en développement de logiciels. Passionné par la science informatique, le Web et le développement technologique, Antoine collabore en tant que programmeur et développeur sur différentes créations. De par sa passion et son authenticité, il s'implique avec transparence et polyvalence sur divers types projets.
 #/bio

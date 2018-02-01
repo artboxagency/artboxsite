@@ -1,0 +1,24 @@
+#projectName SYNERGY | NANOLEAF + LAROSE #/projectName
+#thumbnailTitle SYNERGY | NANOLEAF + LAROSE #/thumbnailTitle
+
+#headerContent
+Synergy est une performance audiovisuelle de musique électronique par l’artiste Larose en collaboration avec Nanoleaf dans laquelle la musique est représentée physiquement sur scène par des bulbes Nanoleaf One. L’union du son et de la lumière permet au public de saisir la relation entre la performance de l’artiste et les sons créés en direct.
+#/headerContent
+
+#bloc1Title Synergy #/bloc1Title
+#bloc1Content
+Synergy est une performance audiovisuelle de musique électronique par l’artiste Larose en collaboration avec Nanoleaf dans laquelle la musique est représentée physiquement sur scène par des bulbes Nanoleaf One. L’union du son et de la lumière permet au public de saisir la relation entre la performance de l’artiste et les sons créés en direct.
+#/bloc1Content
+
+
+#bloc2Title Synergy #/bloc2Title
+#bloc2Content
+Synergy est une performance audiovisuelle de musique électronique par l’artiste Larose en collaboration avec Nanoleaf dans laquelle la musique est représentée physiquement sur scène par des bulbes Nanoleaf One. L’union du son et de la lumière permet au public de saisir la relation entre la performance de l’artiste et les sons créés en direct.
+#/bloc2Content
+
+#assets1Url https://i.imgur.com/gkwbw0o.png #/assets1Url
+#assets2Url https://i.imgur.com/eYGSoz6.jpg #/assets2Url
+#assets3Url https://i.imgur.com/eYGSoz6.jpg #/assets3Url
+#assets4Url https://i.imgur.com/eYGSoz6.jpg #/assets4Url
+
+#locale fr #/locale

@@ -24,6 +24,10 @@
 body {
     #site-container {
 
+        @media (max-width:680px) {
+            margin-left:0px;
+
+        }
         video {
             &.main-page-video {
                 width:80%;
@@ -39,6 +43,12 @@ body {
     background-color: $transparentYellow;
     position: relative;
     z-index:1500;
+    .model-bloc {
+        padding-left:0px;
+        p {
+            margin-top:0px;
+        }
+    }
     .plus-to-know-more  {
         display: inline-block;
         transition:all 0.5s;
@@ -103,7 +113,9 @@ body {
         }
     }
 }
+#contact-homepage-container {
 
+}
 #mission-homepage-container {
     padding-bottom:20px;
     max-width:80%;

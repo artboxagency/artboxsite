@@ -1,0 +1,21 @@
+#projectName BRIDGE | HÔTEL RENAISSANCE + 8DAY #/projectName
+#thumbnailTitle BRIDGE | HÔTEL RENAISSANCE + 8DAY #/thumbnailTitle
+
+#headerContent Bridge est une performance ayant pour mission de faire découvrir de manière innovatrice et artistique un emblème montréalais - le pont Jacques-Cartier - aux clients du Renaissance Montréal Centre-Ville dans le cadre de leur Global Day of Discovery. Il s’agit d’une performance musicale entre deux DJs jouant en simultané depuis deux lieux différents : Chiino dans le lounge de l’hôtel et Rafa Pineda sur une terrasse montréalaise avec vue sur l’illumination du pont Jacques-Cartier.
+#/headerContent
+
+#bloc1Title BRIDGE | HÔTEL RENAISSANCE + 8DAY #/bloc1Title
+#bloc1Content Bridge est une performance ayant pour mission de faire découvrir de manière innovatrice et artistique un emblème montréalais - le pont Jacques-Cartier - aux clients du Renaissance Montréal Centre-Ville dans le cadre de leur Global Day of Discovery. Il s’agit d’une performance musicale entre deux DJs jouant en simultané depuis deux lieux différents : Chiino dans le lounge de l’hôtel et Rafa Pineda sur une terrasse montréalaise avec vue sur l’illumination du pont Jacques-Cartier.
+#/bloc1Content
+
+
+#bloc2Title BRIDGE | HÔTEL RENAISSANCE + 8DAYd #/bloc2Title
+#bloc2Content Bridge est une performance ayant pour mission de faire découvrir de manière innovatrice et artistique un emblème montréalais - le pont Jacques-Cartier - aux clients du Renaissance Montréal Centre-Ville dans le cadre de leur Global Day of Discovery. Il s’agit d’une performance musicale entre deux DJs jouant en simultané depuis deux lieux différents : Chiino dans le lounge de l’hôtel et Rafa Pineda sur une terrasse montréalaise avec vue sur l’illumination du pont Jacques-Cartier.
+#/bloc2Content
+
+#assets1Url http://www.artbox.agency/_images/projets/couleurs/Jean-Michael-Seminaro_Couleurs_7.jpg #/assets1Url
+#assets2Url https://i.imgur.com/eYGSoz6.jpg #/assets2Url
+#assets3Url https://i.imgur.com/eYGSoz6.jpg #/assets3Url
+#assets4Url https://i.imgur.com/eYGSoz6.jpg #/assets4Url
+
+#locale fr #/locale

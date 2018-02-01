@@ -1,6 +1,19 @@
 #contact-homepage-container {
     position: relative;
     background-color:$transparentYellow;
+
+    .call-to-action-container {
+
+        width:80%;
+        text-align:center;
+    }
+
+    .adress-container {
+        p  {
+            margin-top:0px;
+            margin-bottom:0px;
+        }
+    }
     .form-container {
         margin-bottom:180px;
         #unique-form {

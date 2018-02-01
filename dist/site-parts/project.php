@@ -2,6 +2,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+header('Content-Type: text/html; charset=utf-8');
 ?>
 <?php session_start(); ?>
 <?php
@@ -19,8 +20,12 @@ error_reporting(E_ALL);
 	<meta charset="utf-8">
 	<title>Artbox </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 	<link rel="stylesheet" href="../assets/css/style.css">
 	<link rel="stylesheet" href="../assets/css/libs/fontawesome/font-awesome.css">
+
 </head>
 <body>
 <h1 style="display:none">Artbox</h1>
@@ -34,6 +39,11 @@ error_reporting(E_ALL);
 <script src="../assets/js/form.js"></script>
 <script src="../assets/js/forms/form-contact.js"></script>
 <script src="../assets/js/css-components/grid-system.js"></script>
+<script src="../assets/js/features/slick-slider-usage.js"></script>
+
+<!-- Slink Slider -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script>
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

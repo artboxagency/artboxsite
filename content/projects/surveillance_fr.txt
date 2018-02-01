@@ -1,14 +1,20 @@
-#projectName Surveillance #/projectName
-#thumbnailTitle Surveillance #/thumbnailTitle
+#projectName SURVEILLANCE | BROMONT, MONTAGNE D'EXPÉRIENCES + LAROSE #/projectName
+#thumbnailTitle SURVEILLANCE | BROMONT, MONTAGNE D'EXPÉRIENCES + LAROSE #/thumbnailTitle
 
-#headerContent Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis dui at pulvinar euismod. Nullam ut mollis arcu. Nam eget enim purus. Quisque sit amet dui vitae sem semper ultrices. Aliquam pharetra risus at mi efficitur, id convallis ligula suscipit. Nam ornare metus dolor, eu accumsan dolor posuere in. #/headerContent
+#headerContent
+Surveillance - née d’un besoin de rendre plus attrayante l’offre des Nuits Blanches et offrir un contenu événementiel inédit - est une installation lumineuse interactive sur neige réunissant l’art et le sport. Réalisée par l’artiste Larose en collaboration avec Bromont, montagne d’expériences, cette installation est composée de cinq projecteurs robotisés qui animent la piste sur une étendue de 500 pieds en suivant les skieurs sur la piste grâce à un système capable de capter leur mouvement en temps réel.
+#/headerContent
 
 #bloc1Title Surveillance cest nice #/bloc1Title
-#bloc1Content  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis dui at pulvinar euismod. #/bloc1Content
+#bloc1Content
+Surveillance - née d’un besoin de rendre plus attrayante l’offre des Nuits Blanches et offrir un contenu événementiel inédit - est une installation lumineuse interactive sur neige réunissant l’art et le sport. Réalisée par l’artiste Larose en collaboration avec Bromont, montagne d’expériences, cette installation est composée de cinq projecteurs robotisés qui animent la piste sur une étendue de 500 pieds en suivant les skieurs sur la piste grâce à un système capable de capter leur mouvement en temps réel.
+#/bloc1Content
 
 
 #bloc2Title Surveillance cest nice #/bloc2Title
-#bloc2Content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis dui at pulvinar euismod. #/bloc2Content
+#bloc2Content
+Surveillance - née d’un besoin de rendre plus attrayante l’offre des Nuits Blanches et offrir un contenu événementiel inédit - est une installation lumineuse interactive sur neige réunissant l’art et le sport. Réalisée par l’artiste Larose en collaboration avec Bromont, montagne d’expériences, cette installation est composée de cinq projecteurs robotisés qui animent la piste sur une étendue de 500 pieds en suivant les skieurs sur la piste grâce à un système capable de capter leur mouvement en temps réel. 
+#/bloc2Content
 
 #assets1Url https://i.imgur.com/gkwbw0o.png #/assets1Url
 #assets2Url https://i.imgur.com/eYGSoz6.jpg #/assets2Url
@@ -16,4 +22,3 @@
 #assets4Url https://i.imgur.com/eYGSoz6.jpg #/assets4Url
 
 #locale fr #/locale
-

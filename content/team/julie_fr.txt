@@ -9,8 +9,10 @@
 #email antoine@artbox.agency #/email
 #locale fr #/locale
 #employeeRank 4 #/employeeRank
-#bio 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac erat pellentesque, scelerisque tortor a, consequat enim. Fusce molestie eget magna nec dignissim. Donec non pharetra sem, eget luctus neque. Vestibulum sit amet porttitor sem. Donec eget molestie quam, non malesuada magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. In sem odio, rutrum eget tortor sollicitudin, convallis mollis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Nulla vulputate lorem et arcu rhoncus, nec bibendum quam tempus. Etiam maximus lorem neque, ut lacinia leo facilisis id. Quisque maximus neque est, non mollis nisi maximus eget. Pellentesque a facilisis sapien. Nunc placerat pretium nunc et porta. Sed egestas ligula et nunc mollis ullamcorper. Maecenas at arcu nibh. Sed condimentum volutpat dolor ac vehicula. Etiam lobortis enim mauris. Nunc in iaculis velit. Pellentesque velit tellus, fringilla vel consectetur vulputate, tempus mattis lorem.
+#bio
+Après son baccalauréat par cumul de programmes en Communication et Littérature française à l’Université du Québec à Montréal (UQAM), Julie s’est dirigée vers le monde des médias sociaux. Ayant occupé un poste de Gestionnaire de communauté dans une agence pendant plus de deux ans et demi, elle a pu développer son service à la clientèle, sa force pour les communications, ainsi qu’une facilité de travailler sous pression. Voilà qu’elle joint l’équipe ARTBOX pour occuper le poste de Stratège numérique et communication, où elle établit des stratégies médias personnalisées pour rejoindre et engager avec l’audience ciblée afin de maximiser chaque dollar investi.
 #/bio
+
+
+#quote « Travailler au sein d’une agence qui va au-delà du marketing traditionnel en poussant toujours ses idées plus loin - ça n’a pas de prix, et ça ne peut qu’être inspirant! ARTBOX propose une formule rafraîchissante et novatrice pour aborder les campagnes de ses clients. »
+ #/quote

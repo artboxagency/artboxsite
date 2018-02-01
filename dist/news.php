@@ -42,7 +42,7 @@ require_once "config/Autoloader.php";
 <div id="site-container">
 	<div style="" id="particles-js"></div>
 	<!-- Top header infos -->
-	<?php // require "site-parts/header.php"; ?>
+	<?php // require "site-parts/header.php"; ?>	
 
 
 	<?php require "site-parts/all-blog.php";?>

@@ -2,15 +2,16 @@
 #lastname Laroche #/lastname
 
 
-#jobTitle RP #/jobTitle
+#jobTitle Coordonnatrice Relations Publiques & événementiel #/jobTitless
 
 #pictureUrl https://i.imgur.com/069NFl5.png #/pictureUrl
 #phoneNumber 123-123-1234 #/phoneNumber
 #email antoine@artbox.agency #/email
 #locale fr #/locale
-#employeeRank 6 #/employeeRank
-#bio 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac erat pellentesque, scelerisque tortor a, consequat enim. Fusce molestie eget magna nec dignissim. Donec non pharetra sem, eget luctus neque. Vestibulum sit amet porttitor sem. Donec eget molestie quam, non malesuada magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. In sem odio, rutrum eget tortor sollicitudin, convallis mollis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Nulla vulputate lorem et arcu rhoncus, nec bibendum quam tempus. Etiam maximus lorem neque, ut lacinia leo facilisis id. Quisque maximus neque est, non mollis nisi maximus eget. Pellentesque a facilisis sapien. Nunc placerat pretium nunc et porta. Sed egestas ligula et nunc mollis ullamcorper. Maecenas at arcu nibh. Sed condimentum volutpat dolor ac vehicula. Etiam lobortis enim mauris. Nunc in iaculis velit. Pellentesque velit tellus, fringilla vel consectetur vulputate, tempus mattis lorem.
+#employeeRank 5 #/employeeRank
+#bio
+Titulaire d'un Baccalauréat en Communication spécialisation Relations Publiques, Catherine a rapidement acquis de l'expérience grâce à ses stages et ses postes de pigistes lors de ses études. Elle s'est engagée auprès de ARTBOX où elle chapeaute le volet Relations Publiques et l'événementiel de l'agence de marketing social. Elle amène avec elle sa passion pour les relations publiques, son sens de l'organisation et sa rapidité à accomplir les projets.
 #/bio
+#quote
+« ARTBOX représente pour moi un moyen d'évoluer dans un environnement dynamique et différent des autres agences. C'est une occasion de développer plus profondément mes compétences et d'en acquérir des nouvelles. »
+ #/quote

@@ -9,6 +9,7 @@ $(document).ready(function() {
     var missionHomePage = $("#mission-homepage-container");
     var teamHomePage = $("#team-homepage-container");
     var servicesHomepage = $("#home-page-services-container");
+    var clientsHomepage = $("#clients-homepage-container");
 
     // All components Array
     var allHomePageComponent = [
@@ -18,7 +19,9 @@ $(document).ready(function() {
         projectsHomePage,
         missionHomePage,
         servicesHomepage,
+        clientsHomepage,
         teamHomePage
+
     ];
 
     // Hide those components
@@ -42,12 +45,28 @@ $(document).ready(function() {
         });
 
     });
-    
+
     var scrollerCounter = 0;
     // Check if Scroll
     $(window).scroll(function() {
         scrollerCounter++;
         var scrollPos = $(window).scrollTop();
+
+        // Define different use case
+        console.log("Scroll Position :  "  + scrollPos);
+
+        console.log("top position of :  "  + $("#projects-homepage-container").offset().top);
+
+        // Define use case and prevent bug
+        if(scrollPos > ($("#projects-homepage-container").offset().top) - 150) {
+            $("#projects-homepage-container .second-animation").addClass("animated fadeInLeft");
+
+        }
+        if(scrollPos > ($("#mission-homepage-container").offset().top) - 150) {
+
+            $("#mission-homepage-container .second-animation").addClass("animated fadeInLeft");
+
+        }
 
         for(var i = 0; i < allHomePageComponent.length; i++) {
 
@@ -56,7 +75,7 @@ $(document).ready(function() {
 
             if(scrollerCounter > 4) {
                 if(scrollPos > (elementPosition) - 350) {
-                    // See https://github.com/daneden/animate.css/issues/644
+
                     var animationEnd = (function(el) {
                       var animations = {
                         animation: 'animationend',
@@ -84,12 +103,16 @@ $(document).ready(function() {
                             console.log("Second animation done");
                             thirdAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {
                                 console.log("Third animation done");
-                                fourthAnimation.addClass('animated fadeInLeft');
+                                fourthAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {
+                                    console.log("salut");
+                                    fifthAnimation.addClass('animated fadeInLeft');
+                                });
                             });
                         });
                     });
 
                 }
+
 
                 //$("#news-homepage-container").addClass('animated fadeInLeft');
                 //$("#news-homepage-container").show();

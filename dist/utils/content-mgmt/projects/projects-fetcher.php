@@ -18,7 +18,7 @@ foreach($files as $key => $file) {
     // Loop through each files
     if(strlen($file) > 3) {
 
-        echo "penis";
+
 
 
         // Get file content

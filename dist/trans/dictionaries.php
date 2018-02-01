@@ -39,21 +39,28 @@ $dictionnaries['fr']["homePageTitle"]["formulas"] = "Comment créer une initiati
 $dictionnaries['fr']["homePageContent"]["model"]["bloc1"]["title"] = "La seule agence de marketting Social au Quebec";
 $dictionnaries['en']["homePageContent"]["model"]["bloc1"]["title"] = "The only social marketting agency in Quebec";
 
-$dictionnaries['fr']["homePageContent"]["model"]["bloc1"]["content"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod quam vel semper imperdiet. Donec sodales risus eget velit tincidunt, ac maximus lacus viverra. Duis tincidunt felis enim, eu cursus tortor tincidunt sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in elit magna. Suspendisse sagittis imperdiet mauris, vitae vehicula lorem eleifend a. Sed sed orci non lorem commodo in erat. Aenean dolor mi, lacinia at arcu non, consectetur dictum velit. Etiam justo dui, luctus sit amet pretium et, posuere a tellus. Mauris dui diam, mollis tincidunt maximus plac";
+$dictionnaries['fr']["homePageContent"]["model"]["bloc1"]["content"] = "Nous responsabilisons les pratiques marketing de votre entreprise, afin d’atteindre vos objectifs d’affaires par une implication sociale au sein de votre communauté.";
 $dictionnaries['en']["homePageContent"]["model"]["bloc1"]["content"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod quam vel semper imperdiet. Donec sodales risus eget velit tincidunt, ac maximus lacus viverra. Duis tincidunt felis enim, eu cursus tortor tincidunt sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in elit magna. Suspendisse sagittis imperdiet mauris, vitae vehicula lorem eleifend a. Sed sed orci non lorem commodo in erat. Aenean dolor mi, lacinia at arcu non, consectetur dictum velit. Etiam justo dui, luctus sit amet pretium et, posuere a tellus. Mauris dui diam, mollis tincidunt maximus plac";
 
 
-$dictionnaries['fr']["homePageContent"]["model"]["bloc2"]["title"] = "La seule agence de marketting Social au Quebec";
+$dictionnaries['fr']["homePageContent"]["model"]["bloc2"]["title"] = "Pourquoi choisir le marketing social?";
 $dictionnaries['en']["homePageContent"]["model"]["bloc2"]["title"] = "The only social marketting agency in Quebec";
 
-$dictionnaries['fr']["homePageContent"]["model"]["bloc2"]["content"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod quam vel semper imperdiet. Donec sodales risus eget velit tincidunt, ac maximus lacus viverra. Duis tincidunt felis enim, eu cursus tortor tincidunt sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in elit magna. Suspendisse sagittis imperdiet mauris, vitae vehicula lorem eleifend a. Sed sed orci non lorem commodo in erat. Aenean dolor mi, lacinia at arcu non, consectetur dictum velit. Etiam justo dui, luctus sit amet pretium et, posuere a tellus. Mauris dui diam, mollis tincidunt maximus plac";
+$dictionnaries['fr']["homePageContent"]["model"]["bloc2"]["content"] = "<ul class='model-bloc'>
+    <p class='model-bloc-item font-description'>Les consommateurs âgés entre 21 et 37 ans possèdent le plus grand pouvoir d’achat, mais ils ne répondent plus au <strong>marketing traditionnel</strong> *</p>
+    <p class='model-bloc-item font-description'>L’<strong>engagement social</strong> d’une marque est un facteur déterminant pour que l’on puisse s’y associer *</p>
+    <p class='model-bloc-item font-description'>Les <strong>recommandations d’influenceurs</strong> ainsi que le <strong>bouche-à­-oreille</strong> ont une plus grande influence sur leurs décisions d’achat *</p>
+</ul>";
 $dictionnaries['en']["homePageContent"]["model"]["bloc2"]["content"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod quam vel semper imperdiet. Donec sodales risus eget velit tincidunt, ac maximus lacus viverra. Duis tincidunt felis enim, eu cursus tortor tincidunt sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in elit magna. Suspendisse sagittis imperdiet mauris, vitae vehicula lorem eleifend a. Sed sed orci non lorem commodo in erat. Aenean dolor mi, lacinia at arcu non, consectetur dictum velit. Etiam justo dui, luctus sit amet pretium et, posuere a tellus. Mauris dui diam, mollis tincidunt maximus plac";
 
-
-$dictionnaries['fr']["homePageContent"]["model"]["bloc3"]["title"] = "La seule agence de marketting Social au Quebec";
+$dictionnaries['fr']["homePageContent"]["model"]["bloc3"]["title"] = "Résultats?";
+$dictionnaries['fr']["homePageContent"]["model"]["bloc3"]["content"] = "<ul class='model-bloc'>
+    <p class='model-bloc-item font-description'>*Une campagne de marketing social rejoint à la fois vos clients, vos employés et votre communauté</p>
+    <p class='model-bloc-item font-description'>*Un message à caractère social est beaucoup plus puissant et efficace auprès de votre cible</p>
+    <p class='model-bloc-item font-description'>*Un projet à impact social intéresse les médias et permet à votre marque de s’immiscer dans l’actualité</p>
+</ul>";
 $dictionnaries['en']["homePageContent"]["model"]["bloc3"]["title"] = "The only social marketting agency in Quebec";
 
-$dictionnaries['fr']["homePageContent"]["model"]["bloc3"]["content"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod quam vel semper imperdiet. Donec sodales risus eget velit tincidunt, ac maximus lacus viverra. Duis tincidunt felis enim, eu cursus tortor tincidunt sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in elit magna. Suspendisse sagittis imperdiet mauris, vitae vehicula lorem eleifend a. Sed sed orci non lorem commodo in erat. Aenean dolor mi, lacinia at arcu non, consectetur dictum velit. Etiam justo dui, luctus sit amet pretium et, posuere a tellus. Mauris dui diam, mollis tincidunt maximus plac";
 $dictionnaries['en']["homePageContent"]["model"]["bloc3"]["content"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod quam vel semper imperdiet. Donec sodales risus eget velit tincidunt, ac maximus lacus viverra. Duis tincidunt felis enim, eu cursus tortor tincidunt sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in elit magna. Suspendisse sagittis imperdiet mauris, vitae vehicula lorem eleifend a. Sed sed orci non lorem commodo in erat. Aenean
 dolor mi, lacinia at arcu non, consectetur dictum velit. Etiam justo dui, luctus sit amet pretium et, posuere a tellus. Mauris dui diam, mollis tincidunt maximus plac";
 
@@ -76,6 +83,12 @@ $dictionnaries["fr"]["homePageTitle"]["drivingForces"] = "Forces vives";
 $dictionnaries["en"]["homePageTitle"]["drivingForces"] = "Driving forces";
 
 
+$dictionnaries["fr"]["homePageTitle"]["clients"] = "Clients";
+$dictionnaries["en"]["homePageTitle"]["clients"] = "Clients";
+
+$dictionnaries["fr"]["homePageContent"]["clients"] = "Merci d’avoir choisi ARTBOX pour vos projets!";
+$dictionnaries["en"]["homePageContent"]["clients"] = "";
+
 $dictionnaries["fr"]["homePageTitle"]["mission"] = "Mission";
 $dictionnaries["en"]["homePageTitle"]["mission"] = "Mission";
 
@@ -91,3 +104,39 @@ $dictionnaries['en']["homePageTitle"]["team"] = "Team";
 
 $dictionnaries['en']["siteSections"]["news"]["title"] = "News";
 $dictionnaries['fr']["siteSections"]["news"]["title"] = "Nouvelles";
+
+$dictionnaries["en"]["siteTitle"]["contact"] = "Contact";
+$dictionnaries["fr"]["siteTitle"]["contact"] = "Contact";
+
+$dictionnaries["en"]["siteTitle"]["rdv"] = "Appointment";
+$dictionnaries["fr"]["siteTitle"]["rdv"] = "Rendez-Vous";
+
+$dictionnaries["fr"]["siteContent"]["rdv"]["bloc1"] = "ARTBOX a piqué votre curiosité? L’entreprise pour laquelle vous travailler ou votre propre entreprise aurait un fort intérêt à y lier ses projets futurs? Laissez ARTBOX vous montrer comment elle peut responsabiliser vos pratiques marketing en maximisant leurs impacts!";
+$dictionnaries["en"]["siteContent"]["rdv"]["bloc1"] = "ARTBOX a piqué votre curiosité? L’entreprise pour laquelle vous travailler ou votre propre entreprise aurait un fort intérêt à y lier ses projets futurs? Laissez ARTBOX vous montrer comment elle peut responsabiliser vos pratiques marketing en maximisant leurs impacts!";
+
+
+$dictionnaries["fr"]["siteContent"]["rdv"]["button"] = "<span class='main-button'>Je veux une estimation</span>";
+$dictionnaries["en"]["siteContent"]["rdv"]["button"] = "<span class='main-button'>I want an estimate</span>";
+
+$dictionnaries["fr"]["siteContent"]["rdv"]["bloc2"] = "Parlez-nous des projets que vous avez en tête - et nous en créerons un projet unique!";
+$dictionnaries["en"]["siteContent"]["rdv"]["bloc2"] = "Parlez-nous des projets que vous avez en tête - et nous en créerons un projet unique! ";
+
+
+
+$dictionnaries['fr']["siteSections"]["contact"]["adress"] = "
+<p>Agence ARTBOX Inc.</p>
+<p>221 rue Saint-Jean #201</p>
+<p>Longueuil, QC</p>
+<p>Canada J4H 2X4</p>
+<p>+1 (438) 399-9544</p>
+<p>info@artbox.agency</p>
+";
+
+$dictionnaries['en']["siteSections"]["contact"]["adress"] = "
+<p>ARTBOX Agency Inc.</p>
+<p>221 Saint-Jean Street #201</p>
+<p>Longueuil, QC</p>
+<p>Canada J4H 2X4</p>
+<p>+1 (438) 399-9544</p>
+<p>info@artbox.agency</p>
+";

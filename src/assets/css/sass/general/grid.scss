@@ -11,8 +11,10 @@ body {
             margin-right: 50px;
             margin-bottom:25px;
             position: relative;
-            
-                
+
+            @media (max-width:680px) {
+
+            }
             a:link, a:visited, a:hover, a:active  {
                 color:$mainBlack;
                 text-decoration:none;
@@ -70,10 +72,10 @@ body {
     .grid2 {
         display: flex;
         justify-content: space-between;
-        
-        .left-box, 
+
+        .left-box,
         .right-box {
             width: 48%;
         }
-    }  
+    }
 }

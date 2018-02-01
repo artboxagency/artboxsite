@@ -1,0 +1,18 @@
+#thumbnail Le marketing social : un nouveau modèle #/thumbnailTitle
+#title Tempête aux É.-U.: l'état d'urgence déclaré à New York #/title
+
+#locale fr #/locale
+#header
+Plus le temps avance, plus on se rend compte que le marketing traditionnel dans lequel sont plongées toutes les compagnies (ou presque) achève sa course face à la nouveauté. Plusieurs autres options - beaucoup plus novatrices - viennent réinventer le marketing au sens large. Comment peut-on venir créer un impact social par une campagne marketing différente? C’est sur quoi s’est penchée l’agence ARTBOX, qui tente de réinventer la roue en cherchant des solutions nouvelles à ce marketing trop traditionnel.
+
+En cherchant son modèle unique, ARTBOX a réalisé que ce qu’elle voulait avant toutes choses était de créer un impact fort sur la société actuelle en usant d’un élément clé : une force vive.
+#/header
+
+#paragraphe Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra metus id nibh feugiat, quis ultricies lorem porta. Morbi lacus nibh, commodo in magna vel, placerat ultrices lorem. Vestibulum mauris ante, accumsan ac suscipit ut, eleifend vel turpis. Cras in augue pulvinar, elementum lectus non, tempus elit.  #/paragraphe
+#paragraphe Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra metus id nibh feugiat, quis ultricies lorem porta. Morbi lacus nibh, commodo in magna vel, placerat ultrices lorem. Vestibulum mauris ante, accumsan ac suscipit ut, eleifend vel turpis. Cras in augue pulvinar, elementum lectus non, tempus elit.  #/paragraphe
+
+#imgsrc https://i.imgur.com/ld84Clj.jpg #/imgsrc
+
+#date 16 janvier 2018 #/date
+
+#author Julie Masse #/author
