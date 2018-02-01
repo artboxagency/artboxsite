@@ -15,6 +15,5 @@ $("#contact-homepage-container .form-submit").click(function() {
     $.post( "site-parts/controllers/formSubmitController.php", {contactForm: stringifyValue})
         .done(function(data) {
             $("#unique-form").fadeIn("500");
-            
     });
 });
