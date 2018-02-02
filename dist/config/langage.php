@@ -1,10 +1,8 @@
 <?php
 
-if(isset($_GET["lang"]) == "en") {
+
+if($_GET["lang"] == "en") {
     $_SESSION["locale"] = "en";
-}   else {
+} else if($_GET["lang"] == "fr") {
     $_SESSION["locale"] = "fr";
 }
-
-
-

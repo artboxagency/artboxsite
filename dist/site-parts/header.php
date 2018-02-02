@@ -24,9 +24,17 @@
                                 <?php else: ?>
                                     <li class="menu-item"><a href="#<?= strtolower(explode("." ,$menuItem["menuLink"])[0]) ?>"><?= $menuItem["menuLabel"]; ?> </a> </li>
                                 <?php endif; ?>
-                                
+
                                 <!---  <li class="menu-item"><a href="site-parts/pages/<?= strtolower($menuItem["menuLink"]); ?>"><?= $menuItem["menuLabel"]; ?> </a> </li>  -->
                         <?php } ?>
+                        <li class="menu-item" id="translator">
+                            <?php if($_SESSION["locale"] == "fr") { ?>
+                                <a href="?lang=en"><span>en</span></a>
+                            <?php } else { ?>
+                                <a href="?lang=fr"><span>fr</span></a>
+                            <?php }?>
+                        </li>
+
                         <div id="searchbar">
                             <i class="fa fa-search" id="search-item" aria-hidden="true"> </i><input type="text" id="search-bar-term" class="font-description" name="search-tearm"  value="">
                         </div>

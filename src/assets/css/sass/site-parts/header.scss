@@ -18,6 +18,7 @@ header {
         width: 100px;
         height: auto;
         position: absolute;
+        padding-left:10px;
     }
     .logo-container {
 
@@ -68,13 +69,35 @@ header {
             nav {
                 text-align: right;
                 padding-right:70px;
-
                 ul {
-                    .close-button {display:none;}
+                    .close-button {
+                        right: -50px;
+                    }
+
+                    @media screen and (max-width: 880px) {
+                        .close-button {
+                            transition:all 1s;
+                            &.active-button {
+                                right: 25px;
+                            }
+                        }
+                    }
+
                     li.menu-item {
+
+                        // meu
+
                         margin-right:20px;
                         display: inline-block;
                         text-transform:uppercase;
+                        @media screen and (max-width: 880px) {
+                            display: block;
+                            &:hover {
+                                font-size:38px;
+                            }
+
+                        }
+
                         a {
                             transition:all 0.5s;
 
@@ -83,7 +106,9 @@ header {
                             &:active {
                                 text-decoration:  none;
                                 font-size:17px;
-
+                                @media screen and (max-width: 880px) {
+                                    font-size:38px;
+                                }
                             }
                             .line-overlay {
                                 transition:width 0.85s;
@@ -128,6 +153,10 @@ header {
                 width: 0px;
                 right: 0px;
                 top: 0px;
+
+                .menu-item {
+                    display: block;
+                }
                 // Add class for k illing display
                 &.kill-menu-display {
                     transition: all 0.5s;
@@ -140,7 +169,7 @@ header {
                     top: 0px;
                     background-color:  $mainYellow;
                     height:100vh;
-                    width: 350px;
+                    width:100vw;
                     z-index: 55;
                     border-left: solid black 3px;
                 }

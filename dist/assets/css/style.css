@@ -2295,7 +2295,8 @@ header {
   header svg {
     width: 100px;
     height: auto;
-    position: absolute; }
+    position: absolute;
+    padding-left: 10px; }
   header .logo-container {
     text-align: left; }
   header #searchbar {
@@ -2331,16 +2332,29 @@ header {
       text-align: right;
       padding-right: 70px; }
       header #menu-container #menu nav ul .close-button {
-        display: none; }
+        right: -50px; }
+      @media screen and (max-width: 880px) {
+        header #menu-container #menu nav ul .close-button {
+          transition: all 1s; }
+          header #menu-container #menu nav ul .close-button.active-button {
+            right: 25px; } }
       header #menu-container #menu nav ul li.menu-item {
         margin-right: 20px;
         display: inline-block;
         text-transform: uppercase; }
+        @media screen and (max-width: 880px) {
+          header #menu-container #menu nav ul li.menu-item {
+            display: block; }
+            header #menu-container #menu nav ul li.menu-item:hover {
+              font-size: 38px; } }
         header #menu-container #menu nav ul li.menu-item a {
           transition: all 0.5s; }
           header #menu-container #menu nav ul li.menu-item a:hover, header #menu-container #menu nav ul li.menu-item a:active {
             text-decoration: none;
             font-size: 17px; }
+            @media screen and (max-width: 880px) {
+              header #menu-container #menu nav ul li.menu-item a:hover, header #menu-container #menu nav ul li.menu-item a:active {
+                font-size: 38px; } }
           header #menu-container #menu nav ul li.menu-item a .line-overlay {
             transition: width 0.85s;
             width: 0px; }
@@ -2371,6 +2385,8 @@ header {
           width: 0px;
           right: 0px;
           top: 0px; }
+          header #menu-container #menu .menu-item {
+            display: block; }
           header #menu-container #menu.kill-menu-display {
             transition: all 0.5s; }
           header #menu-container #menu.active-menu-display {
@@ -2380,7 +2396,7 @@ header {
             top: 0px;
             background-color: #ffff00;
             height: 100vh;
-            width: 350px;
+            width: 100vw;
             z-index: 55;
             border-left: solid black 3px; }
           header #menu-container #menu .close-button {
@@ -2636,6 +2652,7 @@ footer {
   height: 80px;
   background-color: #ffff00;
   bottom: 0px;
+  right: 0px;
   text-align: center; }
   footer p, footer ul {
     margin: 0; }

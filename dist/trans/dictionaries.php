@@ -65,7 +65,7 @@ $dictionnaries['en']["homePageContent"]["model"]["bloc3"]["content"] = "Lorem ip
 dolor mi, lacinia at arcu non, consectetur dictum velit. Etiam justo dui, luctus sit amet pretium et, posuere a tellus. Mauris dui diam, mollis tincidunt maximus plac";
 
 
-$dictionnaries['fr']["homePageContent"]["formulas"]["intro"]["content"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod quam vel semper imperdiet. Donec sodales risus eget velit tincidunt, ac maximus lacus viverra. Duis tincidunt felis enim, eu cursus tortor tincidunt sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in elit magna. Suspendisse sagittis imperdiet mauris." ;
+$dictionnaries['fr']["homePageContent"]["formulas"]["intro"]["content"] = "En utilisant vos ressources et votre expertise, nous intégrons votre marque dans l’actualité médiatique par un projet collaboratif avec une force vive. Notre modèle permet de créer de vrais impacts qui captent l'attention des médias et qui résonnent avec votre public cible.";
 $dictionnaries['en']["homePageContent"]["formulas"]["intro"]["content"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod quam vel semper imperdiet. Donec sodales risus eget velit tincidunt, ac maximus lacus viverra. Duis tincidunt felis enim, eu cursus tortor tincidunt sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in elit magna. Suspendisse sagittis imperdiet mauris." ;
 $dictionnaries['fr']["homePageContent"]["formulas"]["value1"] = "Marque";
 $dictionnaries['en']["homePageContent"]["formulas"]["value1"] = "Brand";
@@ -73,6 +73,24 @@ $dictionnaries['fr']["homePageContent"]["formulas"]["value2"] = "Force vive";
 $dictionnaries['en']["homePageContent"]["formulas"]["value2"] = "Driving Force";
 $dictionnaries['fr']["homePageContent"]["formulas"]["value3"] = "Collaboration";
 $dictionnaries['en']["homePageContent"]["formulas"]["value3"] = "Collaboration";
+
+$dictionnaries['fr']["homePageContent"]["formulas2"]["intro"]["content"] = "
+                                    <p>Pour assurer le succès de tous ses projets, ARTBOX prend le temps d’évaluer le Retour social sur investissement (SROI). Ce nouvel outil de mesure de performance, n’est pas le Retour sur investissement (ROI) que l’on connaît, mais bien un nouvel indice de performance beaucoup plus précis. Avec lui, on ajoute un autre index pour que le client puisse avoir une idée des toutes les nouvelles initiatives qu’il pourrait adopter.</p>
+                                    <p>On peut, avant sa réalisation, mesurer l’impact de la campagne d’un projet unique - un plus pour que le client puisse faire un choix éclairé et justifié.</p>";
+
+$dictionnaries['en']["homePageContent"]["formulas2"]["intro"]["content"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod quam vel semper imperdiet. Donec sodales risus eget velit tincidunt, ac maximus lacus viverra. Duis tincidunt felis enim, eu cursus tortor tincidunt sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in elit magna. Suspendisse sagittis imperdiet mauris." ;
+$dictionnaries['fr']["homePageContent"]["formulas2"]["value1"] = "COÛT DU PROJET";
+$dictionnaries['en']["homePageContent"]["formulas2"]["value1"] = "Brand";
+$dictionnaries['fr']["homePageContent"]["formulas2"]["value2"] = " MONTANT DÉBOURSÉ PAR LE CLIENT ";
+$dictionnaries['en']["homePageContent"]["formulas2"]["value2"] = "Driving Force";
+$dictionnaries['fr']["homePageContent"]["formulas2"]["value3"] = "MONTANT DÉBOURSÉ PAR LE CLIENT";
+$dictionnaries['en']["homePageContent"]["formulas2"]["value3"] = "";
+
+$dictionnaries['fr']["homePageContent"]["formulas2"]["value4"] = "MONTANT DÉBOURSÉ PAR LE CLIENT";
+$dictionnaries['en']["homePageContent"]["formulas2"]["value4"] = "";
+
+
+
 
 $dictionnaries["fr"]["homePageTitle"]["projects"] = "Projets";
 $dictionnaries["en"]["homePageTitle"]["projects"] = "Projects";

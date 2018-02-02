@@ -1,15 +1,30 @@
+var largeur = window.innerWidth;
+if(largeur > 880) {
+    $(".close-button").hide();
+}
+
 $(".menu-hamburger").click(function() {
 
     $("#menu").removeClass("kill-menu-display");
     $("#menu").addClass("active-menu-display");
 
+    // add closed button
+    $(".close-button").addClass("active-button");
 
+    $(".menu-item").click(function() {
+        killMenuDisplay();
+    })
     $("nav .close-button").click(function() {
-        $("#menu").addClass("kill-menu-display");
-        $("#menu").removeClass("active-menu-display");
+        killMenuDisplay();
     });
+
 })
 
+function killMenuDisplay() {
+    $(".close-button").removeClass("active-button");
+    $("#menu").addClass("kill-menu-display");
+    $("#menu").removeClass("active-menu-display");
+}
 
 $("#formulas-homepage-container").hide();
 
