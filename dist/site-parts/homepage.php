@@ -95,4 +95,5 @@ error_reporting(E_ALL);
 </div>
 
 <div id="contact-scroller" class="anchor-point"></div>
-<?php  require "views/contact-homepage.php"; ?>
+<?php  require "views/contact-infos-homepage.php"; ?>
+<?php //  require "views/contact-homepage.php"; ?>
