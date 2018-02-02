@@ -1,5 +1,5 @@
 <?php
-require "../utils/Class/Db.php";
+require_once "../utils/Class/Db.php";
 
 if(isset($_GET)) {
 

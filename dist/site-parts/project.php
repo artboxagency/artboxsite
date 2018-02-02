@@ -25,7 +25,17 @@ error_reporting(E_ALL);
 
 	<link rel="stylesheet" href="../assets/css/style.css">
 	<link rel="stylesheet" href="../assets/css/libs/fontawesome/font-awesome.css">
+	<style>
+		#particles-js {
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			z-index: -100;
+		}
 
+	</style>
 </head>
 <body>
 <h1 style="display:none">Artbox</h1>

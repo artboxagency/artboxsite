@@ -1,0 +1,44 @@
+Menu
+--> Reste sur toutes les pages
+
+
+--> sur les services
+	* mettre un grid system open sur desktop
+	* sur mobile mettre les slider bottom
+	*
+
+--> Mobile
+	**mettre de l'espacement sur le site-container
+
+--> Mettre la loupe a gauche du hamburger sur mobile
+-->Retirer l'animation d'ouverture
+
+--> Menu qui overlap a 930px
+
+--> Grid animate system
+    --> La le system de grille responsive
+
+--> La page de projet mettre un video background, full screen
+    ** Youtube Player
+
+--> Le titre du blogue en dessous de l'image.
+
+--> Revoir les animations sur la page afin qu'elle soit plus conséquente
+
+--> Mettre les equations a l'horizontale
+    --> En mobile les mettre en dessous
+
+--> Rapprocher les petits +
+
+--> Mettre les services en animations plus fluide
+
+--> Animation les grid
+
+--> Animation les textes de mission
+
+--> Mettre les images plus petites dans équipe 50%
+    200px;
+
+--> Contact form
+    -> Ajouter le contact address
+    --> Retirer le dropdown

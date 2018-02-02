@@ -62,6 +62,9 @@ $(document).ready(function() {
             $("#projects-homepage-container .second-animation").addClass("animated fadeInLeft");
 
         }
+        if(scrollPos > ($("#home-page-services-container").offset().top) - 150) {
+            
+        }
         if(scrollPos > ($("#mission-homepage-container").offset().top) - 150) {
 
             $("#mission-homepage-container .second-animation").addClass("animated fadeInLeft");
@@ -101,11 +104,11 @@ $(document).ready(function() {
                         console.log(currentElement);
                         secondAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {
                             console.log("Second animation done");
-                            thirdAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {
+                            thirdAnimation.addClass('animated fadeInUp').one(animationEnd, function() {
                                 console.log("Third animation done");
-                                fourthAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {
+                                fourthAnimation.addClass('animated fadeInUp').one(animationEnd, function() {
                                     console.log("salut");
-                                    fifthAnimation.addClass('animated fadeInLeft');
+                                    fifthAnimation.addClass('animated fadeInUp');
                                 });
                             });
                         });

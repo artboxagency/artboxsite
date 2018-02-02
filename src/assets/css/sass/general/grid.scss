@@ -23,7 +23,9 @@ body {
             .grid-thumbnail {
                 height:180px;
                 width:330px;
-
+                &:hover {
+                    opacity:0.75;
+                }
                 &.square {
                     height:330px;
                     width:330px;
@@ -31,6 +33,7 @@ body {
             }
 
             .black-box {
+                /*
                 position:absolute;
                 top: 0px;
                 height:180px;
@@ -48,6 +51,7 @@ body {
                     margin-top:90px;
 
                 }
+                */
             }
 
             h4 {

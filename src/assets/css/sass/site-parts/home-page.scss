@@ -1,13 +1,20 @@
 @import "../general/font.scss";
 @import "../general/colors.scss";
 @import "../core/layout-rules.scss";
+.video-container {
+    text-align:center;
+}
 .main-page-video {
         margin-top:50px;
         margin-bottom:50px;
         position: relative;
 
 }
-
+.home-page-infos {
+    p {
+        text-align:center;
+    }
+}
 // Tweaking around z index for canvas and site container click
 #particles-js {
 
@@ -39,7 +46,7 @@ body {
 
 #model-homepage-container {
 
-    max-width:80%;
+    max-width:100%;
     background-color: $transparentYellow;
     position: relative;
     z-index:1500;

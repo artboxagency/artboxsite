@@ -23,6 +23,7 @@ require_once "config/Autoloader.php";
     		position: fixed;
     		top: 0px;
     		left: 0px;
+			z-index: -100;
 		}
 
 	</style>
@@ -60,8 +61,6 @@ if(!isset($_SESSION["visitesStatus"])) {
 <script src="assets/js/css-components/grid-system.js"></script>
 <script src="assets/js/animation-component/landing-page.js"></script>
 <script src="assets/js/features/searchbar.js"></script>
-
-
 
 <?php
 	require "site-parts/component-blue-print/search-result.php";

@@ -1,8 +1,12 @@
 <?php
-$db = new Db("127.0.0.1", "root", "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905", "");
+if ($_GET["article"]) {
 
+    require_once "_DB.php";
+    $db = new DbController("127.0.0.1", "root", "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905", "");
+} else {
+    $db = new Db("127.0.0.1", "root", "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905", "");
+}
 
-$sql = "INSERT INTO services (name) values('shh') ";
 $db->queryDb($sql);
 
 function getMenuItem($db, $locale) {
