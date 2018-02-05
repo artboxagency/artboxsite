@@ -2,38 +2,38 @@
 #landing-page-animation {
     background-image:url(http://api.thumbr.it/whitenoise-361x370.png?background=ffff00ff&noise=626262&density=62&opacity=62);
     width: 100vw;
-    height:105vh; 
+    height:105vh;
     z-index:9999999;
     position: absolute;
     animation: infinite 0.5s noise;
     &.toFadeOut {
-        animation:fadeOutLanding 0.5s forwards;    
+        animation:fadeOutLanding 0.5s forwards;
     }
-    
-    @include center-content;    
-    
-    .landing-page-container {   
 
-        @include center-content;    
+    @include center-content;
+
+    .landing-page-container {
+
+        @include center-content;
         left:37%;
         top:38%;
-        
+
         img {
             width: 500px;
-            
+
         }
         h3 {
-            
+
         }
     }
-}  
+}
 
 @keyframes fadeOutLanding{
     25% {
 
     }
     50% {
-     
+
     }
     75% {
 
@@ -66,7 +66,7 @@
     50% {
         background-image:url( http://api.thumbr.it/whitenoise-361x370.png?background=ffff00ff&noise=626262&density=97&opacity=62);
 
-    }    
+    }
     75% {
         background-image:url(http://api.thumbr.it/whitenoise-361x370.png?background=ffff00ff&noise=828282&density=81&opacity=100);
     }

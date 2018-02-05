@@ -3,7 +3,7 @@
 
 
 
-<div id="team-homepage-container" class="">
+<div id="team-homepage-container" class="main-bloc">
 <h2 class="title-font first-animation"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["team"] ?></h2>
     <div class="grid second-animation">
         <?php foreach ($teamMembers as $key => $teamMember) { ?>

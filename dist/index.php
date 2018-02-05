@@ -15,6 +15,7 @@ require_once "config/Autoloader.php";
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/libs/fontawesome/font-awesome.css">
+	<!-- <link rel="stylesheet" href="assets/css/libs/skeleton.css"> -->
 
 	<style>
 		#particles-js {
@@ -33,7 +34,7 @@ require_once "config/Autoloader.php";
 
 <?php
 if(!isset($_SESSION["visitesStatus"])) {
-	require_once "site-parts/animation-component/landing-page.php";
+//	require_once "site-parts/animation-component/landing-page.php";
 }
 ?>
 <h1 style="display:none">Artbox</h1>

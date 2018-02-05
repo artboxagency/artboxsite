@@ -1,7 +1,7 @@
 <?php require_once "site-parts/controllers/projectsController.php"; ?>
 
 
-<div id="projects-homepage-container" class="">
+<div id="projects-homepage-container" class="main-bloc">
     <h2  class="title-font first-animation"><?=  $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["projects"] ?></h2>
     <div class="grid second-animation">
         <?php foreach ($projects as $key => $project) { ?>

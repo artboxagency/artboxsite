@@ -4,8 +4,7 @@ require "site-parts/controllers/newsController.php";
 
 ?>
 
-
-<div id="news-homepage-container" >
+<div style="display:none;"id="news-homepage-container" class="main-bloc">
     <h2 class="first-animation title-font"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["news"] ?></h2>
     <div class="grid second-animation">
         <?php foreach ($homepageNews as $key => $singleHomePage) { ?>

@@ -63,7 +63,7 @@ $(document).ready(function() {
 
         }
         if(scrollPos > ($("#home-page-services-container").offset().top) - 150) {
-            
+
         }
         if(scrollPos > ($("#mission-homepage-container").offset().top) - 150) {
 
@@ -102,12 +102,12 @@ $(document).ready(function() {
                     currentElement.find(".first-animation").addClass('animated fadeInLeft').one(animationEnd, function() {
 
                         console.log(currentElement);
-                        secondAnimation.addClass('animated fadeInLeft').one(animationEnd, function() {
+                        secondAnimation.addClass('animated fadeInUp').one(animationEnd, function() {
                             console.log("Second animation done");
                             thirdAnimation.addClass('animated fadeInUp').one(animationEnd, function() {
                                 console.log("Third animation done");
                                 fourthAnimation.addClass('animated fadeInUp').one(animationEnd, function() {
-                                    console.log("salut");
+                                    
                                     fifthAnimation.addClass('animated fadeInUp');
                                 });
                             });

@@ -1,5 +1,5 @@
 <?php require "site-parts/controllers/clientsController.php"; ?>
-<div id="clients-homepage-container" class="">
+<div id="clients-homepage-container" class="main-bloc">
     <div class="first-animation">
         <h2  class="title-font first-animation">Clients</h2>
         <p class="second-aimation"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["clients"] ?></p>

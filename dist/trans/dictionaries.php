@@ -35,11 +35,16 @@ $dictionnaries['en']["homePageTitle"]["formulas"] = "How to Create a social init
 $dictionnaries['fr']["homePageTitle"]["formulas"] = "Comment créer une initiative de marketting social ARTBOX";
 
 
+$dictionnaries['fr']["homePageContent"]["model"]["blocHead"]["title"] = "L'agence de Marketting Social";
+$dictionnaries['en']["homePageContent"]["model"]["blocHead"]["title"] = "The Social Agency";
 
 $dictionnaries['fr']["homePageContent"]["model"]["bloc1"]["title"] = "La seule agence de marketting Social au Quebec";
 $dictionnaries['en']["homePageContent"]["model"]["bloc1"]["title"] = "The only social marketting agency in Quebec";
 
-$dictionnaries['fr']["homePageContent"]["model"]["bloc1"]["content"] = "Nous responsabilisons les pratiques marketing de votre entreprise, afin d’atteindre vos objectifs d’affaires par une implication sociale au sein de votre communauté.";
+
+
+$dictionnaries['fr']["homePageContent"]["model"]["bloc1"]["content"] = "Nous responsabilisons les pratiques marketing de votre entreprise en atteignant vos objectifs par la création d’un impact social au sein de votre communauté.";
+
 $dictionnaries['en']["homePageContent"]["model"]["bloc1"]["content"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod quam vel semper imperdiet. Donec sodales risus eget velit tincidunt, ac maximus lacus viverra. Duis tincidunt felis enim, eu cursus tortor tincidunt sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in elit magna. Suspendisse sagittis imperdiet mauris, vitae vehicula lorem eleifend a. Sed sed orci non lorem commodo in erat. Aenean dolor mi, lacinia at arcu non, consectetur dictum velit. Etiam justo dui, luctus sit amet pretium et, posuere a tellus. Mauris dui diam, mollis tincidunt maximus plac";
 
 
@@ -47,9 +52,9 @@ $dictionnaries['fr']["homePageContent"]["model"]["bloc2"]["title"] = "Pourquoi c
 $dictionnaries['en']["homePageContent"]["model"]["bloc2"]["title"] = "The only social marketting agency in Quebec";
 
 $dictionnaries['fr']["homePageContent"]["model"]["bloc2"]["content"] = "<ul class='model-bloc'>
-    <p class='model-bloc-item font-description'>Les consommateurs âgés entre 21 et 37 ans possèdent le plus grand pouvoir d’achat, mais ils ne répondent plus au <strong>marketing traditionnel</strong> *</p>
-    <p class='model-bloc-item font-description'>L’<strong>engagement social</strong> d’une marque est un facteur déterminant pour que l’on puisse s’y associer *</p>
-    <p class='model-bloc-item font-description'>Les <strong>recommandations d’influenceurs</strong> ainsi que le <strong>bouche-à­-oreille</strong> ont une plus grande influence sur leurs décisions d’achat *</p>
+    <p class='model-bloc-item font-description'>*Les consommateurs âgés entre 21 et 37 ans possèdent le plus grand pouvoir d’achat, mais ils ne répondent plus au <strong>marketing traditionnel</strong></p>
+    <p class='model-bloc-item font-description'>*L’<strong>engagement social</strong> d’une marque est un facteur déterminant pour que l’on puisse s’y associer</p>
+    <p class='model-bloc-item font-description'>*Les <strong>recommandations d’influenceurs</strong> ainsi que le <strong>bouche-à­-oreille</strong> ont une plus grande influence sur leurs décisions d’achat</p>
 </ul>";
 $dictionnaries['en']["homePageContent"]["model"]["bloc2"]["content"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod quam vel semper imperdiet. Donec sodales risus eget velit tincidunt, ac maximus lacus viverra. Duis tincidunt felis enim, eu cursus tortor tincidunt sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in elit magna. Suspendisse sagittis imperdiet mauris, vitae vehicula lorem eleifend a. Sed sed orci non lorem commodo in erat. Aenean dolor mi, lacinia at arcu non, consectetur dictum velit. Etiam justo dui, luctus sit amet pretium et, posuere a tellus. Mauris dui diam, mollis tincidunt maximus plac";
 

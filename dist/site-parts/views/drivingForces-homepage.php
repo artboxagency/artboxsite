@@ -2,7 +2,7 @@
 
 
 <h2 class="title-font"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["drivingForces"] ?></h2>
-<div id="news-homepage-container" class="grid">
+<div id="news-homepage-container" class="grid main-bloc">
     <?php foreach ($drivingForces as $key => $singleDrivingForce) { ?>
         <div class="single-news-home-page grid-item">
             <img class="grid-thumbnail square" src="<?= $singleDrivingForce["imageUrl"] ?>" alt="artbox_image_news_<?= str_replace("%%", "'", $singleDrivingForce["firstname"]); ?>">

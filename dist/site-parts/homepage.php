@@ -5,13 +5,8 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 ?>
 
-
 <?php  require "views/header-infos-homepage.php" ?>
-<div class="home-page-content">
-    <div class="black-line">
 
-    </div>
-</div>
 <div id="news-scroller" class="anchor-point"></div>
 <?php  require "views/news-homepage.php"; ?>
 <div class="home-page-content">

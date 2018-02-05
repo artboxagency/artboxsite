@@ -1,10 +1,25 @@
 @import "../general/font.scss";
 @import "../general/colors.scss";
 @import "../core/layout-rules.scss";
+
+.main-bloc {
+    height:100vh;
+    position: relative;
+
+    .centered-container {
+        width:80%;
+        @include center-content;
+    }
+}
 .video-container {
     text-align:center;
+
+
 }
+
 .main-page-video {
+
+        width:100%;
         margin-top:50px;
         margin-bottom:50px;
         position: relative;
@@ -37,7 +52,7 @@ body {
         }
         video {
             &.main-page-video {
-                width:80%;
+
                 height:50%;
             }
         }
@@ -90,18 +105,37 @@ body {
 
 }
 
-#formulas-homepage-container {
+#formulas-homepage-container,
+#model-homepage-container {
     position: relative;
     background-color: $transparentYellow;
-    max-width:80%;
+
     margin-bottom:25px;
+    .dual-bloc-container {
+        .bloc-left,
+        .bloc-right {
+
+            display: inline-block;
+            width:48%;
+            text-align:left;
+            h4 {
+                text-align:left;
+            }
+        }
+    }
     .equation {
         margin-top:15px;
         text-align: center;
-        .symbol {
+        position:relative;
+        text-align:left;
+        .container-item {
+
             display: inline-block;
-            margin-bottom:15px;
-            margin-top:15px;
+        }
+
+        .symbol {
+
+
         }
 
         .square-border {
@@ -109,9 +143,17 @@ body {
             display: block;
             height:100px;
             width:300px;
+            display: inline-block;
+
             border: solid 6px $mainBlack;
             position: relative;
             margin-bottom:15px;
+
+            &.small {
+
+                width: 15px;
+                border:none;
+            }
             h4 {
                 margin-top:0px;
                 @include center-content;

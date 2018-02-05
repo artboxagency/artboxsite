@@ -1,7 +1,7 @@
 <?php require_once "site-parts/controllers/servicesHomepageController.php";?>
 
 
-<div id="home-page-services-container">
+<div id="home-page-services-container" class="main-bloc">
 <h3 class="title-font first-animation">Services</h3>
 
 <?php foreach($services as $key => $service) { ?>
