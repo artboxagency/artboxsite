@@ -19,9 +19,6 @@ gulp.task('sass', function () {
 });
 
 
-
-
-
 gulp.task('js', function() {
   gulp.src(['./lib/file3.js', './lib/file1.js', './lib/file2.js'])
     .pipe(concat('all.js'))

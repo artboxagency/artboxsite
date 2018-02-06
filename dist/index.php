@@ -1,5 +1,4 @@
 <?php session_start(); ?>
-<?php session_destroy()  ?>
 
 <?php
 require_once "config/langage.php";

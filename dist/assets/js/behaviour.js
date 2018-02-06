@@ -14,7 +14,7 @@ $(".menu-hamburger").click(function() {
     $(".menu-item").click(function() {
         killMenuDisplay();
     })
-    $("nav .close-button").click(function() {
+    $(".close-button").click(function() {
         killMenuDisplay();
     });
 
