@@ -8,9 +8,12 @@
             <a href="site-parts/project.php?pid=<?= $project["id"]?>">
 
             <div class="single-news-home-page grid-item">
-                <img class="grid-thumbnail" src="<?= $project["asset1Url"] ?>" alt="artbox_image_news_<?= str_replace("%%", "'", $project["title"]); ?>">
+                 background-image: url("img_tree.gif"),
+                <div class="grid-thumbnail" style="background-image: url('<?= $project["asset1Url"] ?>')"> </div>
+
+
                 <div class="black-box"></div>
-                <h4><?= str_replace("%%", "'", $project["title"]) ?></h4>
+                <h4 class="shrinking-text"><?= str_replace("%%", "'", $project["title"]) ?></h4>
                 <div class="news-stats">
 
                 </div>

@@ -3,11 +3,18 @@ if(largeur > 880) {
     $(".close-button").hide();
 }
 
+window.onresize = function(event) {
+    if(window.innerWidth > 880) {
+        $(".close-button").hide();
+    }
+};
+
+
 $(".menu-hamburger").click(function() {
 
     $("#menu").removeClass("kill-menu-display");
     $("#menu").addClass("active-menu-display");
-
+    $(".close-button").show();
     // add closed button
     $(".close-button").addClass("active-button");
 
@@ -76,3 +83,10 @@ $(".service-title").click(function() {
     $(this).find(".plus-to-know-more").toggleClass("active-button");
     $(this).parent().find(".subgenres-list").slideToggle();
 })
+
+
+window.onresize = function(event) {
+    if(window.innerWidth > 1000) {
+        $("");
+    }
+};

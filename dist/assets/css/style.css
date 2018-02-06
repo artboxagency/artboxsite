@@ -2131,6 +2131,15 @@ body .grid .grid-item .grid-brief {
   margin-top: 10px;
   margin-bottom: 0px; }
 
+body .grid .grid-item h4 {
+  font-size: 17px; }
+  @media screen and (max-width: 1550px) {
+    body .grid .grid-item h4 {
+      font-size: 16px; } }
+  @media screen and (max-width: 1350px) {
+    body .grid .grid-item h4 {
+      font-size: 15px; } }
+
 body {
   background-color: #ffff00;
   margin: 0px; }
@@ -2211,22 +2220,46 @@ body .grid .grid-item .grid-brief {
   margin-top: 10px;
   margin-bottom: 0px; }
 
+body .grid .grid-item h4 {
+  font-size: 17px; }
+  @media screen and (max-width: 1550px) {
+    body .grid .grid-item h4 {
+      font-size: 16px; } }
+  @media screen and (max-width: 1350px) {
+    body .grid .grid-item h4 {
+      font-size: 15px; } }
+
 body .grid {
   display: flex;
-  flex-wrap: wrap;
-  max-width: 85%; }
+  flex-wrap: wrap; }
+  body .grid .cell {
+    width: 22%;
+    margin-right: 55px;
+    max-width: 350px;
+    min-width: 220px; }
+    @media screen and (max-width: 1190px) {
+      body .grid .cell {
+        width: 33%; } }
+    @media screen and (max-width: 620px) {
+      body .grid .cell {
+        width: 66%;
+        margin: 0 auto; } }
   body .grid .grid-item {
+    width: 100%;
     text-align: left;
-    width: 330px;
     margin-right: 50px;
     margin-bottom: 25px;
     position: relative; }
     body .grid .grid-item a:link, body .grid .grid-item a:visited, body .grid .grid-item a:hover, body .grid .grid-item a:active {
       color: #000000;
       text-decoration: none; }
+    body .grid .grid-item .thumbnail-grid-div {
+      background-color: #eee;
+      background-position: center;
+      background-size: cover;
+      padding-bottom: 56.25%; }
     body .grid .grid-item .grid-thumbnail {
-      height: 180px;
-      width: 330px; }
+      width: 100%; }
       body .grid .grid-item .grid-thumbnail:hover {
         opacity: 0.75; }
       body .grid .grid-item .grid-thumbnail.square {
@@ -2494,6 +2527,15 @@ body .grid .grid-item .grid-brief {
   font-size: 12px;
   margin-top: 10px;
   margin-bottom: 0px; }
+
+body .grid .grid-item h4 {
+  font-size: 17px; }
+  @media screen and (max-width: 1550px) {
+    body .grid .grid-item h4 {
+      font-size: 16px; } }
+  @media screen and (max-width: 1350px) {
+    body .grid .grid-item h4 {
+      font-size: 15px; } }
 
 /*This file mixins for helping centering, disposing and placing elements*/
 .center-content {

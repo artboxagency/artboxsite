@@ -7,12 +7,13 @@
     </div>
         <div class="grid second-animation">
             <?php foreach ($clients as $key => $client) { ?>
-                <a href="<?= $client["externalUrl"] ?>">
+                <a class="cell" href="<?= $client["externalUrl"] ?>">
 
                 <div class="single-news-home-page grid-item">
-                    <img class="grid-thumbnail" src="<?= $client["imgSource"] ?>" alt="artbox_client<?= str_replace("%%", "'", $client["name"]); ?>">
+
+                    <div class="thumbnail-grid-div" style="background-image: url('<?= $client["imgSource"] ?>')"> </div>
                     <div class="black-box"></div>
-                    <h4><?= str_replace("%%", "'", $client["name"]) ?></h4>
+                    <h4 class="shrinking-text"><?= str_replace("%%", "'", $client["name"]) ?></h4>
                     <div class="news-stats">
 
                     </div>
