@@ -7,11 +7,11 @@ require "site-parts/controllers/modelController.php";
 
 <div id="model-homepage-container" class="main-bloc">
     <h2 class="title-font first-animation"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["model"] ?></h2>
-    <div class="centered-container ">
+    <div class="main-bloc">
         <div class="header-bloc">
             <h4 class="large-block-font"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["model"]["blocHead"]["title"]; ?></h4>
-
-            <div class="equation container">
+            <p class="font-description "><?=  $dictionnaries[$_SESSION["locale"]]["homePageContent"]["model"]["bloc1"]["content"]; ?></p>
+            <div class="equation">
                 <div class="all-page-wrapper row">
                     <div class="animation square-border col">
                         <h4 class="font-medium-title"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["formulas"]["value1"] ?></h4>

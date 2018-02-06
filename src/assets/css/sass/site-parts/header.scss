@@ -3,8 +3,8 @@ header {
     .header-container {
         position: relative;
     }
-    padding-left:15px;
-    padding-right:15px;
+    padding-left:0px;
+    padding-right:0px;
     position: fixed;
     top:0px;
     left:0px;
@@ -18,7 +18,7 @@ header {
         width: 100px;
         height: auto;
         position: absolute;
-        padding-left:10px;
+        padding-left:30px;
     }
     .logo-container {
 
@@ -26,24 +26,29 @@ header {
     }
 
     #searchbar {
-        display: inline-block;
-        text-align: left;
-        transition: all 0.2s;
+        // display: none;
+        // text-align: left;
+        right: 30px;
+        top: 15px;
+        position: fixed;
+        z-index: 10;
+        // transition: all 0.2s;
+        @media screen and (max-width: 1040px) {
+        right: 80px;
+        }
         #search-item {
             cursor:pointer;
             font-size:16px;
-            transition:0.5s all;
+            // transition:0.5s all;
             margin-right:5px;
-            &:hover {
-                font-size:20px;
-            }
+            padding-bottom: 5px;
             &.active-search-logo {
 
             }
         }
         #search-bar-term {
             width:0px;
-            height: 0px;
+            height: 10px;
             background-color: $mainYellow;
             border:0px;
             transition:all 0.5s;
@@ -53,28 +58,29 @@ header {
             }
             &.active-search {
                 width: 200px;
-                height: 18px;
-                background-color: #ffff07;
+                height: 10px;
+                background-color: #ffff00;
                 border-bottom: solid 1px black;
                 transition: all 0.5s;
             }
+
         }
     }
 
     #menu-container {
-        right: 5px;
+        right: 30px;
         position: absolute;
 
         #menu {
             nav {
                 text-align: right;
-                padding-right:70px;
+                padding-right:30px;
                 ul {
                     .close-button {
                         right: -50px;
                     }
 
-                    @media screen and (max-width: 880px) {
+                    @media screen and (max-width: 1040px) {
                         .close-button {
                             transition:all 1s;
                             &.active-button {
@@ -90,7 +96,8 @@ header {
                         margin-right:20px;
                         display: inline-block;
                         text-transform:uppercase;
-                        @media screen and (max-width: 880px) {
+
+                        @media screen and (max-width: 1040px) {
                             display: block;
                             &:hover {
                                 font-size:38px;
@@ -100,16 +107,13 @@ header {
 
                         a {
                             //transition:all 0.5s;
-
                             // Kill hover and active underline
+                            padding-bottom: 5px;
                             &:hover,
                             &:active {
                                 text-decoration:  none;
                                 // percer
-                                border-bottom:solid 6px black;
-                                @media screen and (max-width: 880px) {
-                                    font-size:38px;
-                                }
+                                border-bottom:solid 4px black;
                             }
                             .line-overlay {
                                 transition:width 0.85s;
@@ -128,7 +132,7 @@ header {
         }
 
         // Mobile
-        @media screen and (max-width: 880px) {
+        @media screen and (max-width: 1040px) {
             position: relative;
             z-index: 50;
             top: 0px;
@@ -136,16 +140,21 @@ header {
             .menu-hamburger {
 
                 cursor: pointer;
-                right: 25px;
+                right: 30px;
                 position: absolute;
+
 
                 .line-1,
                 .line-2,
                 .line-3 {
                     display:block;
-                    padding-bottom: 8px;
-                    width: 35px;
+                    padding-bottom: 3px;
+                    padding-top: 3px;
+                    width: 30px;
                     border-bottom: solid 4px black;
+                }
+                .line-1 {
+                    padding-top: 10px;
                 }
             }
             #menu {
@@ -173,19 +182,17 @@ header {
                     width:100vw;
                     z-index: 55;
                     border-left: solid black 3px;
+
                 }
                 .close-button {
                     cursor: pointer;
                     position: absolute;
                     right:  15px;
                     font-size:35px;
+                    top:10px;
                 }
                 nav{
-
-                    .close-button {
-                        top:10px;
-                    }
-                    padding-top: 80px;
+                    padding-top: 50px;
                     .translation-box {
                         font-size:35px;
                         position: absolute;
@@ -202,16 +209,18 @@ header {
                         }
                     }
                     ul {
-                        text-align: left;
+                        text-align: right;
                         list-style: none;
                         li {
-                            width: 200px;
+                            width: 100%;
+                            padding: 5px;
                             font-size:38px;
-                            text-align: left;
+                            text-align: right;
                             a {
                                 color: black;
                                 text-decoration: none;
                                 animation:0.5s all;
+
 
 
                                 // Kill hover and active underline
@@ -225,7 +234,7 @@ header {
                                     width: 0px;
 
                                     &.active {
-                                        width: 150px;
+                                        // width: 150px;
                                         border: solid black 1px;
                                         margin:0 auto;
                                     }
@@ -236,7 +245,6 @@ header {
                 }
             }
         }
-
     }
 }
 

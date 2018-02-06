@@ -15,7 +15,7 @@
             </div>
                 <nav>
                     <ul>
-                        <span class="close-button">x</span>
+
 
                         <?php foreach($menuItems as $key => $menuItem) { ?>
 
@@ -35,12 +35,13 @@
                             <?php }?>
                         </li>
 
-                        <div id="searchbar">
-                            <i class="fa fa-search" id="search-item" aria-hidden="true"> </i><input type="text" id="search-bar-term" class="font-description" name="search-tearm"  value="">
-                        </div>
-                    </ul>
 
+                    </ul>
                 </nav>
+                <div id="searchbar">
+                    <i class="fa fa-search" id="search-item" aria-hidden="true"> </i><input type="text" id="search-bar-term" class="font-description" name="search-tearm"  value="">
+                </div>
+                <span class="close-button">x</span>
             </div>
         </div>
     </div>
