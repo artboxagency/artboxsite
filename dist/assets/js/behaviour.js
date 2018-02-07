@@ -1,3 +1,24 @@
+// Canvas=
+
+$('.particles-js-canvas-el').on("mousedown mouseup", function(e) {
+console.log(e.type + " event fired at coords: " + e.pageX + ", " + e.pageY);
+});
+
+x_coord = 1;
+y_coord = 1;
+
+var e = jQuery.Event( "mousedown", { pageX: x_coord, pageY: y_coord } );
+$('.particles-js-canvas-el').trigger(e);
+
+// execute more code
+x_coord = 255;
+y_coord = 255;
+
+var e = jQuery.Event( "mouseup", { pageX: x_coord, pageY: y_coord } );
+$('#canvas_element').trigger(e);
+
+
+
 var largeur = window.innerWidth;
 if(largeur > 880) {
     $(".close-button").hide();
@@ -77,7 +98,14 @@ setTimeout(function() {
 
  }, 50000000);
 
-$(".subgenres-list").hide();
+if(window.innerWidth < 700) {
+    $(".subgenres-list").hide();
+    $(".plus-to-know-more").hide();
+}
+if(window.innerWidth > 700) {
+
+    $(".plus-to-know-more").hide();
+}
 
 $(".service-title").click(function() {
     $(this).find(".plus-to-know-more").toggleClass("active-button");

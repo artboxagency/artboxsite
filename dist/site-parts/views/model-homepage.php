@@ -17,18 +17,27 @@ require "site-parts/controllers/modelController.php";
                         <h4 class="font-medium-title"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["formulas"]["value1"] ?></h4>
                     </div>
 
+                    <div class="animation col custom-grid-item-small">
+                        <h4 class="font-medium-title"> + </h4>
+                    </div>
+
+                    <!--
                     <div class="animation square-border small col custom-grid-item">
                         <h4 class="symbol font-medium-title">+</h4>
                     </div>
-
+                    -->
                     <div class="animation square-border col custom-grid-item">
                         <h4 class="font-medium-title"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["formulas"]["value2"] ?></h4>
                     </div>
 
+                    <div class="animation col custom-grid-item-small">
+                        <h4 class="font-medium-title">=</h4>
+                    </div>
+                    <!--
                     <div class="animation square-border small col custom-grid-item">
                         <h4 class="symbol font-medium-title">=</h4>
                     </div>
-
+                    -->
                     <div class="animation square-border col custom-grid-item">
                         <h4 class="font-medium-title"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["formulas"]["value3"] ?></h4>
                     </div>
@@ -43,16 +52,15 @@ require "site-parts/controllers/modelController.php";
         <div class="dual-bloc-container">
 
             <!-- Bloc Left -->
-            <div class="bloc-solo bloc-left second-animation">
+
                 <h4 class="large-block-font"><?=  $dictionnaries[$_SESSION["locale"]]["homePageContent"]["model"]["bloc2"]["title"]; ?></h4>
                 <p class="font-description"><?=  $dictionnaries[$_SESSION["locale"]]["homePageContent"]["model"]["bloc2"]["content"]; ?></p>
-            </div>
+
 
             <!-- Bloc Right -->
-            <div class="bloc-solo bloc-right second-animation">
-                <h4 class="large-block-font"><?=  $dictionnaries[$_SESSION["locale"]]["homePageContent"]["model"]["bloc3"]["title"]; ?></h4>
-                <p class="font-description"><?=  $dictionnaries[$_SESSION["locale"]]["homePageContent"]["model"]["bloc3"]["content"]; ?></p>
-            </div>
+
+
+
 
         </div>
 

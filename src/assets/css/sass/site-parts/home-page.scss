@@ -2,8 +2,14 @@
 @import "../general/colors.scss";
 @import "../core/layout-rules.scss";
 
+
 .main-bloc {
-    min-height:100vh;
+    z-index:500;
+    &.home-page {
+        height: 100vh;
+        min-height:600px;
+    }
+
     width: 100%;
     position: relative;
     display: block;
@@ -37,6 +43,8 @@
 
 }
 #site-container {
+
+
     // By pass element to bind grip click hover particle
     .grid-item {
         background-color: $transparentYellow;
@@ -47,6 +55,15 @@
 // Bypass default video css
 body {
     #site-container {
+
+
+        margin-left: 8.3333vw;
+        margin-right: 8.3333vw;
+        max-width:1600px;
+        @media screen and (max-width: 1200px) {
+
+        
+        }
         video {
             &.main-page-video {
 
@@ -78,26 +95,46 @@ body {
 
     }
 }
-
+.grid .unique-service ul {
+    padding-left:0px;
+}
 #home-page-services-container {
 
     position: relative;
     background-color:$transparentYellow;
-
     .unique-service {
 
-
-        position: relative;
-        width: 312px;
-        .plus-to-know-more {
-            position: absolute;
-            right: 2px;
-            transition: all 0.5s;
-            &.active-button {
-                font-size:24px;
-                transform: rotate(135deg);
+        width: 50px;
+    }
+    .services-container  {
+        background-color:blue;
+        display: flex;
+        .font-medium-title {
+            display:none;
+        }
+        .unique-service {
+            display: inline-block;
+            ul {
+                display: none;
+                padding-left:0px;
             }
         }
+    }
+    @media screen and (max-width: 700px) {
+        .unique-service {
+            position: relative;
+            width: 312px;
+            .plus-to-know-more {
+                position: absolute;
+                right: 2px;
+                transition: all 0.5s;
+                &.active-button {
+                    font-size:24px;
+                    transform: rotate(135deg);
+                }
+            }
+        }
+
     }
 
 }
@@ -126,6 +163,14 @@ body {
         position:relative;
         text-align:center;
         width:100%;
+        .all-page-wrapper {
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            .animation {
+                margin-left: 0px;
+            }
+        }
 
         .container-item {
             width:100%;
@@ -138,20 +183,21 @@ body {
             display: block;
             height:100px;
             width: 25%;
+            background-color:$mainYellow;
             display: inline-block;
             min-width: 190px;
             border: solid 6px $mainBlack;
             position: relative;
             margin-bottom:15px;
-            @media screen and (max-width: 770px) {
-                
+            @media screen and (max-width: 800px) {
+
                 width: 90%;
             }
             &.small {
                 min-width:0px;
                 width: 15px;
                 border:none;
-                @media screen and (max-width: 770px) {
+                @media screen and (max-width: 800px) {
                     height: 15px;
                     display: block;
                     width: 90%;

@@ -18,7 +18,7 @@ header {
         width: 100px;
         height: auto;
         position: absolute;
-        padding-left:30px;
+        padding-left:8.333vw;
     }
     .logo-container {
 
@@ -68,8 +68,8 @@ header {
     }
 
     #menu-container {
-        right: 30px;
-        position: absolute;
+        padding-right:8.3333vw;
+        //position: absolute;
 
         #menu {
             nav {

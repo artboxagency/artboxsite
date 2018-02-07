@@ -23,7 +23,7 @@ require_once "config/Autoloader.php";
     		position: fixed;
     		top: 0px;
     		left: 0px;
-			z-index: -100;
+			z-index: 1;
 		}
 
 	</style>
@@ -37,9 +37,9 @@ if(!isset($_SESSION["visitesStatus"])) {
 }
 ?>
 <h1 style="display:none">Artbox</h1>
-
-<div id="site-container">
 	<div style="" id="particles-js"></div>
+<div id="site-container">
+
 	<div class="search-result"></div>
 
 	<!-- Top header infos -->

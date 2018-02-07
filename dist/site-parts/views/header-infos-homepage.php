@@ -1,4 +1,4 @@
-<div id="home-page-infos-container" class="main-bloc">
+<div id="home-page-infos-container" class="main-bloc home-page">
 
     <div class="centered-container">
         <div class="home-page-infos first-animation">
