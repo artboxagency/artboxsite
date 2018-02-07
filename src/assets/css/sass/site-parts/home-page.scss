@@ -3,6 +3,17 @@
 @import "../core/layout-rules.scss";
 
 
+.landing-page-bloc {
+    z-index:15;
+    padding-top:50px;
+    height:100vh;
+
+    .video {
+        width:60%;
+    }
+
+}
+
 .main-bloc {
     z-index:500;
     &.home-page {
@@ -14,9 +25,15 @@
     position: relative;
     display: block;
 
-    .centered-container {
-        width:50%;
-        @include center-content;
+    .home-page {
+        width:70%;
+        padding-top: 30vh;
+
+        @media screen and (max-width: 1200px) {
+            width:100%;
+        }
+
+        //@include center-content;
     }
 }
 .video-container {
@@ -55,14 +72,14 @@
 // Bypass default video css
 body {
     #site-container {
-
+        z-index:6000;
 
         margin-left: 8.3333vw;
         margin-right: 8.3333vw;
         max-width:1600px;
         @media screen and (max-width: 1200px) {
 
-        
+
         }
         video {
             &.main-page-video {
@@ -79,6 +96,7 @@ body {
     background-color: $transparentYellow;
     position: relative;
     z-index:1500;
+
     .model-bloc {
         padding-left:0px;
         p {
@@ -104,7 +122,7 @@ body {
     background-color:$transparentYellow;
     .unique-service {
 
-        width: 50px;
+        //width: 50px;
     }
     .services-container  {
         background-color:blue;
@@ -123,7 +141,7 @@ body {
     @media screen and (max-width: 700px) {
         .unique-service {
             position: relative;
-            width: 312px;
+
             .plus-to-know-more {
                 position: absolute;
                 right: 2px;
@@ -167,6 +185,9 @@ body {
             text-align: left;
             display: flex;
             justify-content: space-between;
+            @media screen and (max-width: 800px) {
+                display: block;
+            }
             .animation {
                 margin-left: 0px;
             }
@@ -190,8 +211,8 @@ body {
             position: relative;
             margin-bottom:15px;
             @media screen and (max-width: 800px) {
-
-                width: 90%;
+                width: 100%;
+                display: block;
             }
             &.small {
                 min-width:0px;

@@ -6,16 +6,18 @@
 
 <div class="grid">
     <?php foreach($services as $key => $service) { ?>
-        <div class="unique-service cell">
-            <h3 class="service-title font-medium-title second-animation"><?= $service["name"] ?><span class="plus-to-know-more">+</span></h3>
-            <?php $subgenres = explode( "%",$service["subgenres"]); ?>
-            <ul class="subgenres-list second-animation">
+        <div class="cell">
+            <div class="unique-service grid-item">
+                <h3 class="service-title font-medium-title second-animation"><?= $service["name"] ?><span class="plus-to-know-more">+</span></h3>
+                <?php $subgenres = explode( "%",$service["subgenres"]); ?>
+                <ul class="subgenres-list second-animation">
 
-            <?php foreach($subgenres as $key=>$subgenre) { ?>
-                <li class="subgenre-item">-<?= $subgenre ?></li>
-            <?php } ?>
+                <?php foreach($subgenres as $key=>$subgenre) { ?>
+                    <li class="subgenre-item">-<?= $subgenre ?></li>
+                <?php } ?>
 
-            </ul>
+                </ul>
+            </div>
         </div>
     <?php } ?>
 

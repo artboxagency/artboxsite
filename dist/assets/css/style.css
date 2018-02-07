@@ -2132,7 +2132,7 @@ body .grid .grid-item .grid-brief {
   margin-bottom: 0px; }
 
 body .grid .grid-item h4 {
-  font-size: 17px; }
+  font-size: 20px; }
   @media screen and (max-width: 1550px) {
     body .grid .grid-item h4 {
       font-size: 16px; } }
@@ -2221,7 +2221,7 @@ body .grid .grid-item .grid-brief {
   margin-bottom: 0px; }
 
 body .grid .grid-item h4 {
-  font-size: 17px; }
+  font-size: 20px; }
   @media screen and (max-width: 1550px) {
     body .grid .grid-item h4 {
       font-size: 16px; } }
@@ -2261,8 +2261,11 @@ body .grid {
     width: 100%;
     text-align: left;
     margin-right: 50px;
-    margin-bottom: 25px;
-    position: relative; }
+    position: relative;
+    margin-bottom: 20%; }
+    @media screen and (max-width: 700px) {
+      body .grid .grid-item {
+        margin-bottom: 25px; } }
     body .grid .grid-item a:link, body .grid .grid-item a:visited, body .grid .grid-item a:hover, body .grid .grid-item a:active {
       color: #000000;
       text-decoration: none; }
@@ -2314,6 +2317,10 @@ body .grid2 {
 /* Custom Gris  */
 body .custom-grid .custom-grid-item {
   width: 25%; }
+  @media screen and (max-width: 780px) {
+    body .custom-grid .custom-grid-item {
+      background-color: red;
+      width: 100%; } }
 
 body .custom-grid .custom-grid-item-small {
   margin: 0 auto;
@@ -2323,6 +2330,11 @@ body .custom-grid .custom-grid-item-small {
   display: inline-block;
   position: relative;
   width: 10%; }
+  @media screen and (max-width: 800px) {
+    body .custom-grid .custom-grid-item-small {
+      height: 30px;
+      display: inline-block;
+      width: 100%; } }
   body .custom-grid .custom-grid-item-small h4 {
     text-align: center;
     margin-top: 0px;
@@ -2567,7 +2579,7 @@ body .grid .grid-item .grid-brief {
   margin-bottom: 0px; }
 
 body .grid .grid-item h4 {
-  font-size: 17px; }
+  font-size: 20px; }
   @media screen and (max-width: 1550px) {
     body .grid .grid-item h4 {
       font-size: 16px; } }
@@ -2583,6 +2595,13 @@ body .grid .grid-item h4 {
   /* bring your own prefixes */
   transform: translate(-50%, -50%); }
 
+.landing-page-bloc {
+  z-index: 15;
+  padding-top: 50px;
+  height: 100vh; }
+  .landing-page-bloc .video {
+    width: 60%; }
+
 .main-bloc {
   z-index: 500;
   width: 100%;
@@ -2591,13 +2610,12 @@ body .grid .grid-item h4 {
   .main-bloc.home-page {
     height: 100vh;
     min-height: 600px; }
-  .main-bloc .centered-container {
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%); }
+  .main-bloc .home-page {
+    width: 70%;
+    padding-top: 30vh; }
+    @media screen and (max-width: 1200px) {
+      .main-bloc .home-page {
+        width: 100%; } }
 
 .video-container {
   text-align: center; }
@@ -2615,6 +2633,7 @@ body .grid .grid-item h4 {
   background-color: rgba(255, 255, 0, 0); }
 
 body #site-container {
+  z-index: 6000;
   margin-left: 8.3333vw;
   margin-right: 8.3333vw;
   max-width: 1600px; }
@@ -2642,8 +2661,6 @@ body #site-container {
 #home-page-services-container {
   position: relative;
   background-color: rgba(255, 255, 0, 0); }
-  #home-page-services-container .unique-service {
-    width: 50px; }
   #home-page-services-container .services-container {
     background-color: blue;
     display: flex; }
@@ -2656,8 +2673,7 @@ body #site-container {
         padding-left: 0px; }
   @media screen and (max-width: 700px) {
     #home-page-services-container .unique-service {
-      position: relative;
-      width: 312px; }
+      position: relative; }
       #home-page-services-container .unique-service .plus-to-know-more {
         position: absolute;
         right: 2px;
@@ -2695,6 +2711,10 @@ body #site-container {
       text-align: left;
       display: flex;
       justify-content: space-between; }
+      @media screen and (max-width: 800px) {
+        #formulas-homepage-container .equation .all-page-wrapper,
+        #model-homepage-container .equation .all-page-wrapper {
+          display: block; } }
       #formulas-homepage-container .equation .all-page-wrapper .animation,
       #model-homepage-container .equation .all-page-wrapper .animation {
         margin-left: 0px; }
@@ -2717,7 +2737,8 @@ body #site-container {
       @media screen and (max-width: 800px) {
         #formulas-homepage-container .equation .square-border,
         #model-homepage-container .equation .square-border {
-          width: 90%; } }
+          width: 100%;
+          display: block; } }
       #formulas-homepage-container .equation .square-border.small,
       #model-homepage-container .equation .square-border.small {
         min-width: 0px;

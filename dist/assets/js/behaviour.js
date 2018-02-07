@@ -22,11 +22,14 @@ $('#canvas_element').trigger(e);
 var largeur = window.innerWidth;
 if(largeur > 880) {
     $(".close-button").hide();
+
 }
 
 window.onresize = function(event) {
+
     if(window.innerWidth > 880) {
         $(".close-button").hide();
+
     }
 };
 
@@ -100,7 +103,7 @@ setTimeout(function() {
 
 if(window.innerWidth < 700) {
     $(".subgenres-list").hide();
-    $(".plus-to-know-more").hide();
+    $(".plus-to-know-more").show();
 }
 if(window.innerWidth > 700) {
 
