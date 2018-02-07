@@ -5,12 +5,10 @@
     <h2  class="title-font first-animation"><?=  $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["projects"] ?></h2>
     <div class="grid second-animation">
         <?php foreach ($projects as $key => $project) { ?>
-            <a href="site-parts/project.php?pid=<?= $project["id"]?>">
+            <a class="cell" href="site-parts/project.php?pid=<?= $project["id"]?>">
 
             <div class="single-news-home-page grid-item">
-                 background-image: url("img_tree.gif"),
-                <div class="grid-thumbnail" style="background-image: url('<?= $project["asset1Url"] ?>')"> </div>
-
+                <div class="thumbnail-grid-div" style="background-image: url('<?= $project["asset1Url"] ?>')"> </div>
 
                 <div class="black-box"></div>
                 <h4 class="shrinking-text"><?= str_replace("%%", "'", $project["title"]) ?></h4>
@@ -25,6 +23,5 @@
             </a>
 
         <?php } ?>
-
     </div>
 </div>
