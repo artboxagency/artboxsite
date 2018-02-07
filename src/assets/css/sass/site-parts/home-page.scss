@@ -126,15 +126,12 @@ body {
         position:relative;
         text-align:center;
         width:100%;
+
         .container-item {
             width:100%;
             display: inline-block;
         }
 
-        .symbol {
-
-
-        }
 
         .square-border {
             margin:0 auto;
@@ -142,15 +139,24 @@ body {
             height:100px;
             width: 25%;
             display: inline-block;
-
+            min-width: 190px;
             border: solid 6px $mainBlack;
             position: relative;
             margin-bottom:15px;
-
+            @media screen and (max-width: 770px) {
+                
+                width: 90%;
+            }
             &.small {
-
+                min-width:0px;
                 width: 15px;
                 border:none;
+                @media screen and (max-width: 770px) {
+                    height: 15px;
+                    display: block;
+                    width: 90%;
+                }
+
             }
             h4 {
                 margin-top:0px;

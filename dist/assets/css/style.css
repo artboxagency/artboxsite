@@ -2298,6 +2298,7 @@ body .grid2 {
   body .grid2 .right-box {
     width: 48%; }
 
+/* Custom Gris  */
 .main-button {
   display: inline-block;
   background-color: #000000;
@@ -2643,13 +2644,25 @@ body #site-container video.main-page-video {
       height: 100px;
       width: 25%;
       display: inline-block;
+      min-width: 190px;
       border: solid 6px #000000;
       position: relative;
       margin-bottom: 15px; }
+      @media screen and (max-width: 770px) {
+        #formulas-homepage-container .equation .square-border,
+        #model-homepage-container .equation .square-border {
+          width: 90%; } }
       #formulas-homepage-container .equation .square-border.small,
       #model-homepage-container .equation .square-border.small {
+        min-width: 0px;
         width: 15px;
         border: none; }
+        @media screen and (max-width: 770px) {
+          #formulas-homepage-container .equation .square-border.small,
+          #model-homepage-container .equation .square-border.small {
+            height: 15px;
+            display: block;
+            width: 90%; } }
       #formulas-homepage-container .equation .square-border h4,
       #model-homepage-container .equation .square-border h4 {
         margin-top: 0px;

@@ -11,25 +11,25 @@ require "site-parts/controllers/modelController.php";
         <div class="header-bloc">
             <h4 class="large-block-font"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["model"]["blocHead"]["title"]; ?></h4>
             <p class="font-description "><?=  $dictionnaries[$_SESSION["locale"]]["homePageContent"]["model"]["bloc1"]["content"]; ?></p>
-            <div class="equation">
+            <div class="equation custom-grid">
                 <div class="all-page-wrapper row">
-                    <div class="animation square-border col">
+                    <div class="animation square-border col custom-grid-item">
                         <h4 class="font-medium-title"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["formulas"]["value1"] ?></h4>
                     </div>
 
-                    <div class="animation square-border small col">
+                    <div class="animation square-border small col custom-grid-item">
                         <h4 class="symbol font-medium-title">+</h4>
                     </div>
 
-                    <div class="animation square-border col">
+                    <div class="animation square-border col custom-grid-item">
                         <h4 class="font-medium-title"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["formulas"]["value2"] ?></h4>
                     </div>
 
-                    <div class="animation square-border small col">
+                    <div class="animation square-border small col custom-grid-item">
                         <h4 class="symbol font-medium-title">=</h4>
                     </div>
 
-                    <div class="animation square-border col">
+                    <div class="animation square-border col custom-grid-item">
                         <h4 class="font-medium-title"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["formulas"]["value3"] ?></h4>
                     </div>
                 </div>

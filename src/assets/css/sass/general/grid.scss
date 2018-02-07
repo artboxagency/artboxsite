@@ -111,3 +111,21 @@ body {
         }
     }
 }
+
+/* Custom Gris  */
+
+body {
+
+    .custom-grid {
+        
+        .all-page-wrapper {.custom-grid-item.square-border {
+            @media screen and (max-width: 700px) {
+
+
+            }
+        }}
+        .custom-grid-item {
+
+        }
+    }
+}

@@ -4,16 +4,16 @@
     <h2 class="title-font"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["formulas"] ?></h2>
     <p class="font-description"><?=  $dictionnaries[$_SESSION["locale"]]["homePageContent"]["formulas"]["intro"]["content"]; ?></p>
 
-    <div class="equation">
-        <div class="square-border">
+    <div class="equation custom-grid">
+        <div class="square-border custom-item">
             <h4 class="font-medium-title"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["formulas"]["value1"] ?></h4>
         </div>
-        <span class="symbol font-medium-title">+</span>
-        <div class="square-border ">
+        <span class="symbol font-medium-title custom-grid-item-small">+</span>
+        <div class="square-border custom-grid-item">
             <h4 class="font-medium-title"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["formulas"]["value2"] ?></h4>
         </div>
-        <span class="symbol font-medium-title">=</span>
-        <div class="square-border">
+        <span class="symbol font-medium-title custom-grid-item-small">=</span>
+        <div class="square-border custom-grid-item">
             <h4 class="font-medium-title"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["formulas"]["value3"] ?></h4>
         </div>
 
