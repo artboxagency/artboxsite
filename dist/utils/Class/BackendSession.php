@@ -25,9 +25,9 @@ Class BackendSession {
 
         values ('$this->userId', '$this->token', '$now', '$this->sessionType', '$this->sessionId')";
         if($this->db->queryDb($sql)) {
-            
+
             $this->setClientSession($this->userId, $this->sessionId, $this->token);
-            return true;
+            header("Location: http://localhost:8888/artbox/art2k18/dist/utils/chameleon-pannel/admin.php");
         }
     }
 
@@ -36,6 +36,7 @@ Class BackendSession {
         $_SESSION["uid"] =
         $_SESSION["sid"] = $sid;
         $_SESSION["sessionToken"] = $token;
+        $_SESSION["is_log"] = true;
 
     }
 }

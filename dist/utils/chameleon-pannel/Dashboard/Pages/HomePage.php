@@ -1,4 +1,8 @@
+<?php
+session_start();
+require "../../hmmm.php";
 
+ ?>
 <!DOCTYPE html>
 <html>
     <head>

@@ -1,3 +1,7 @@
+<?php
+session_start();
+var_dump($_SESSION);
+ ?>
 <?php require_once "../Autoloader.php"; ?>
 <?php require_once "controllers/loginController.php"; ?>
 
