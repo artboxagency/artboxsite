@@ -21,10 +21,13 @@ function getSinglePost($postId, $tableParams = false) {
     $blogPost = $db->getData($sql);
 
     $toView = array();
+
     // Change the character that where changed to fit in the db
     foreach($blogPost as $key => $fields)  {
         foreach($fields as $x => $field) {
+
             $toView[$x] = str_replace("%%","'", $field);
+
         }
     }
 

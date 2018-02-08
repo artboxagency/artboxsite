@@ -3,7 +3,7 @@
 Class Auth {
 
     private $authId;
-    private $authUserName; 
+    private $authUserName;
     private $authPassword;
     private $authToken;
     private $userId;
@@ -13,47 +13,47 @@ Class Auth {
     public  $session;
     public  $db;
 
-    // Methods 
+    // Methods
     public function initSession() {
-        
+
         // Init a new Session
-        $this->session = new BackendSession($this->authToken, $this->userId, time(), $this->db, "backend");
-        
+        $this->session = new BackendSession($this->authToken, $this->userId, time(), $this->db, "backend", rand(0,55555555));
+
     }
     public function encryptPassword($password) {
         return password_hash($password, PASSWORD_DEFAULT);
     }
 
     public function setSession() {
-        
+
     }
 
     public function logUser($db, $username, $password, $redirect = FALSE) {
-        
+
         if ($db) {
             if ($username) {
-                
+
                 // Build Query
                 $sql = "SELECT * FROM users WHERE username='$username'";
 
                 // Fetch Result
                 $user = $db->getData($sql);
-                
+
                 // If a user with this username exist
                 if (count($user) > 0) {
-                    
+
                     // Compare password
                     if ($this->verifyPassword($password, $user[0]["password"])) {
-            
+
                         // Get user Id
                         $userId = $user[0]["id"];
-                        
+
                         // Build a query
                         $sql = "UPDATE users SET isLog=1 WHERE id=$userId";
 
                         // Process the user login
                         if ($db->queryDb($sql)) {
-                      
+
                             // Then generate a session token
                             $this->setAuthToken();
                             $this->setUserId($userId);
@@ -72,7 +72,7 @@ Class Auth {
         if (password_verify($passwordEntry, $hash)) {
             return true;
         } else {
-            
+
             return false;
         }
     }
@@ -81,10 +81,10 @@ Class Auth {
         $query = "SELECT * FROM users where username = '$username'";
 
         $usernameState = $this->db->lookForRecords($query);
-        
+
         // If a username is matching
         if($usernameState) {
-            
+
             var_dump($this->getPassword());
         } else {
             $this->setErrors("No Username matching");
@@ -104,11 +104,10 @@ Class Auth {
             }
             return $token;
         } else {
-    
+
             // If nothing is set simply return an alpha numeric token
             return md5(uniqid(rand(0,10000) + rand(0,333) * rand(0,pow(2,32)), true));
         }
-    
     }
 
     /* Getters and setters */
@@ -127,13 +126,12 @@ Class Auth {
         $this->userId = $userId;
     }
     private function setAuthToken() {
-        
-        echo "Setting token";
+
         $this->authToken = $this->populateToken();
 
-    }    
+    }
     public function setauthUserName($username) {
-        
+
         $this->username = $username;
     }
 
@@ -147,7 +145,7 @@ Class Auth {
 
     public function setPassword($password) {
         $this->authPassword = $this->encryptPassword($password);
-     
+
     }
 
     public function setErrors($errorMessage, $status = false) {
@@ -166,11 +164,11 @@ Class Auth {
         $this->succes[] = $successMessage;
 
     }
-    
+
     public function getSucces() {
 
         return $this->succes;
     }
 
-    
+
 }

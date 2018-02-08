@@ -52,7 +52,10 @@
     margin-top: 10px;
     margin-bottom:0px;
 }
+.super-large-single {
 
+    font-size: 62px;
+}
 %shrinking-text {
     font-size:20px;
     @media screen and (max-width: 1550px) {

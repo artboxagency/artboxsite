@@ -10,17 +10,17 @@ $(document).ready(function() {
             credentials[inputs[i].name] = $(inputs[i]).val();
         }
         //
-        var toPost = JSON.stringify(credentials);        
+        var toPost = JSON.stringify(credentials);
         $.ajax({
             method: "POST",
             url: "services/loginService.php",
             data:  {'creds': toPost}
           })
             .done(function(response) {
-            console.log("done");
-            
+
+
         });
-    
+
     })
 });
 

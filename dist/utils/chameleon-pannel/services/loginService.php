@@ -22,18 +22,26 @@ if($_POST["creds"]) {
     if($auth->logUser($db ,$decodeCreds->email, $decodeCreds->password)){
 
         $auth->initSession();
-        $auth->session->stampNewSessionInDb();
-        $auth->setSession();
-            
+        if ($auth->session->stampNewSessionInDb()) {
+            echo "<script> var a = true; </script>";
+        }
+
+
+
     } else {
 
         // Print logging error
-        echo json_encode($auth->getErrors());
+
+        //print_r(json_encode($auth->getErrors()));
     }
 
 
 //    var_dump($auth);
 
+}
+
+function setClientSession($token) {
+    $_SESSION["token"] = $token;
 }
 
 function loginService($username, $password) {

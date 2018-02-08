@@ -2131,6 +2131,9 @@ body .grid .grid-item .grid-brief {
   margin-top: 10px;
   margin-bottom: 0px; }
 
+.super-large-single {
+  font-size: 62px; }
+
 body .grid .grid-item h4 {
   font-size: 20px; }
   @media screen and (max-width: 1550px) {
@@ -2219,6 +2222,9 @@ body .grid .grid-item .grid-brief {
   font-size: 12px;
   margin-top: 10px;
   margin-bottom: 0px; }
+
+.super-large-single {
+  font-size: 62px; }
 
 body .grid .grid-item h4 {
   font-size: 20px; }
@@ -2585,6 +2591,9 @@ body .grid .grid-item .grid-brief {
   margin-top: 10px;
   margin-bottom: 0px; }
 
+.super-large-single {
+  font-size: 62px; }
+
 body .grid .grid-item h4 {
   font-size: 20px; }
   @media screen and (max-width: 1550px) {
@@ -2806,11 +2815,13 @@ body #site-container {
 #single-blog {
   width: 80%; }
   #single-blog .post-header .blog-title {
-    margin-top: 0px; }
-  #single-blog .post-header img {
-    height: auto;
-    width: 350px;
-    display: inline-block; }
+    margin-top: 25px; }
+  #single-blog .post-header .header-image-container {
+    text-align: center; }
+    #single-blog .post-header .header-image-container img {
+      height: auto;
+      width: 350px;
+      display: inline-block; }
   #single-blog .post-body p {
     font-size: 12px; }
 

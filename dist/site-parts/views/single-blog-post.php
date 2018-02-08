@@ -21,8 +21,12 @@ if (isset($_GET["bc-article"])) {
 <div id="single-blog">
 
     <div class="post-header">
-        <h4 class="blog-title title-font"><?= $uniquePost["title"] ?></h4>
-        <img src="<?= $uniquePost["imgsrc"] ?>" alt="">
+        <h4 class="blog-title title-font super-large-single"><?= $uniquePost["title"] ?></h4>
+
+        <div class="header-image-container">
+            <img src="<?= $uniquePost["imgsrc"] ?>" alt="">
+        </div>
+
         <div class="post-infos">
             <span class="single-blog-date"><?= $uniquePost["date"] ?></span>-<span><?= $uniquePost["author"]; ?></span>
         </div>
@@ -32,8 +36,7 @@ if (isset($_GET["bc-article"])) {
         </p>
     </div>
     <div class="post-body font-small">
-        <?php
-            echo $uniquePost["paragraphes"];
-        ?>
+        <?= $uniquePost["paragraphes"]; ?>
+
     </div>
 </div>
