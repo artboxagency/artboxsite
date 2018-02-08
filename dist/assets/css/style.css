@@ -2613,8 +2613,9 @@ body .grid .grid-item h4 {
 
 .landing-page-bloc {
   z-index: 15;
-  padding-top: 50px;
-  height: 100vh; }
+  padding-top: 90px;
+  height: 100vh;
+  min-height: 790px; }
   .landing-page-bloc .video {
     width: 60%; }
 
@@ -2642,8 +2643,10 @@ body .grid .grid-item h4 {
   margin-bottom: 50px;
   position: relative; }
 
-.home-page-infos p {
-  text-align: center; }
+.home-page-infos {
+  margin-bottom: 25px; }
+  .home-page-infos p {
+    text-align: center; }
 
 #site-container .grid-item {
   background-color: rgba(255, 255, 0, 0); }

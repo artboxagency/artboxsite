@@ -5,9 +5,9 @@
 
 .landing-page-bloc {
     z-index:15;
-    padding-top:50px;
+    padding-top:90px;
     height:100vh;
-
+    min-height: 790px;
     .video {
         width:60%;
     }
@@ -47,10 +47,12 @@
         width:100%;
         margin-top:50px;
         margin-bottom:50px;
+
         position: relative;
 
 }
 .home-page-infos {
+    margin-bottom:25px;
     p {
         text-align:center;
     }
