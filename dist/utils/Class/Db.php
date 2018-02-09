@@ -11,7 +11,7 @@ Class Db {
 
         $this->setServerName($_server);
         $this->setUsername($_username);
-        $this->setPassword("ipod");
+        $this->setPassword("artbox1245");
         $this->setDatabaseName($_database);
 
           $this->db = new mysqli($this->servername, $this->username, $this->password, "artb2018");

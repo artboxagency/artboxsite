@@ -13,7 +13,7 @@ body {
             // max-width: 85%;
 
         }
-        @media screen and (max-width: 1190px) {
+        @media screen and (max-width: 700px) {
             margin-left:0px;
             margin-right:0px;
 
@@ -22,6 +22,23 @@ body {
         &.four-grid {
             margin-left: -1%;
             margin-right: -1%;
+
+            @media screen and (max-width: 1000px) {
+              margin-left: -1.5%;
+              margin-right: -1.5%;
+                // max-width: 85%;
+
+            }
+            @media screen and (max-width: 700px) {
+              margin-left: -2.5%;
+              margin-right: -2.5%;
+
+            }
+            @media screen and (max-width: 500px) {
+                margin-left:0px;
+                margin-right:0px;
+
+            }
         }
         .cell  {
 
@@ -30,9 +47,6 @@ body {
             width: 30%;
             margin-right:1.5%;
             margin-left:1.5%;
-
-            //max-width: 350px;
-            min-width: 220px;
 
             @media screen and (max-width: 1190px) {
                 margin-right:2.5%;
@@ -53,6 +67,24 @@ body {
                 margin-right:1%;
                 margin-left:1%;
 
+                @media screen and (max-width: 1000px) {
+                  width: 30%;
+                  margin-right:1.5%;
+                  margin-left:1.5%;
+                }
+
+                @media screen and (max-width: 700px) {
+                  margin-right:2.5%;
+                  margin-left:2.5%;
+                  width: 45%;
+
+                }
+                @media screen and (max-width: 500px) {
+                    width: 100%;
+                    margin-right:0%;
+                    margin-left:0%;
+
+                }
             }
         }
         .grid-item {
@@ -165,7 +197,6 @@ body {
 
             margin:0 auto;
             display: block;
-            height:100px;
             background-color:$mainYellow;
 
             display: inline-block;
