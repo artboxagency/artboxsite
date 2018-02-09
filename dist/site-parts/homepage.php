@@ -10,9 +10,6 @@ error_reporting(E_ALL);
 <div id="news-scroller" class="anchor-point"></div>
 <?php  require "views/news-homepage.php"; ?>
 <div class="home-page-content">
-    <div class="black-line">
-
-    </div>
 </div>
 
 
@@ -22,27 +19,18 @@ error_reporting(E_ALL);
 <?php  require "views/formulas-homepage.php"; ?>
 
 <div class="home-page-content">
-    <div class="black-line">
-
-    </div>
 </div>
 
 <div id="services-scroller" class="anchor-point"></div>
 <?php  require "views/services-homepage.php" ?>
 
 <div class="home-page-content">
-    <div class="black-line">
-
-    </div>
 </div>
 
 <div id="clients-scroller" class="anchor-point"></div>
 <?php  require "views/clients-homepage.php" ?>
 
 <div class="home-page-content">
-    <div class="black-line">
-
-    </div>
 </div>
 <div id="projects-scroller" class="anchor-point"></div>
 <?php  require "views/projects-homepage.php"; ?>
@@ -50,24 +38,8 @@ error_reporting(E_ALL);
 
 
 
-<!--
-<div class="home-page-content">
-    <div class="black-line">
-
-    </div>
-</div>
-
-<div id="drivingforce-scroller" class="anchor-point"></div>
-<?php // require "views/drivingForces-homepage.php"; ?>
--->
-
-
-
 
 <div class="home-page-content">
-    <div class="black-line">
-
-    </div>
 </div>
 
 <div id="mission-scroller" class="anchor-point"></div>
@@ -75,18 +47,12 @@ error_reporting(E_ALL);
 
 
 <div class="home-page-content">
-    <div class="black-line">
-
-    </div>
 </div>
 <div id="team-scroller" class="anchor-point"></div>
 <?php  require "views/team-homepage.php"; ?>
 
 
 <div class="home-page-content">
-    <div class="black-line">
-
-    </div>
 </div>
 
 <div id="contact-scroller" class="anchor-point"></div>

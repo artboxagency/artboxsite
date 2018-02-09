@@ -32,12 +32,7 @@ body {
 #site-container  {
     margin-left:30px;
     margin-right:30px;
-
     position: relative;
-    @media only screen and (max-width: 500px) {
-
-        padding-top: 60px;
-    }
     .know-more {
         cursor:pointer;
         margin-top: 50px;
