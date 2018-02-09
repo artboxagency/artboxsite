@@ -20,7 +20,7 @@ require "../../hmmm.php";
         <link rel="stylesheet" href="../../assets/style/main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
-    <body>
+    <body style="background-image='https://hdwallsource.com/img/2014/8/lime-green-wallpaper-21075-21611-hd-wallpapers.jpg'">
         <h1>Chameleon Pannel :)</h1>
         <div class="container">
             <?php require "../Views/EditViews.php"; ?>

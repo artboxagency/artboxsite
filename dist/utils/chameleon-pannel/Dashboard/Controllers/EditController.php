@@ -21,22 +21,22 @@ function getItemContent($itemType, $itemId) {
 }
 
 
-function builItemForm($item)  {
-    $html = "";
+function builItemForm($item, $path)  {
+
+    $html = "<form action='$path' name='something'  method='post'>";
     foreach ($item[0] as $key => $data) {
         $html .= "<div class='form-group'>";
-
         if(strlen($data) > 150) {
 
             $html.= "<h1>$key</h1>";
-            $html.= "<textarea rows='15' cols='90'>$data</textarea>";
+            $html.= "<textarea id='$key' rows='15' cols='90'>$data</textarea>";
 
-
-
-        } else if(strpos($data, 'jpg')) {
+        } else if(strpos($data, 'jpg') || strpos($data, 'jpeg') || strpos($data, 'png')) {
             $html.="<h4>$key</h4>";
+            $html.="<h6>Current Image</h6>";
             $html.="<img src='$data'>";
-            
+            $html.="<h6>Change Image<h6>";
+            $html .= "<input style=''class='btn btn-default' type='file' name='' id='$key'>";
         }
         else {
             $html.="<label>$key</label>";
@@ -46,7 +46,15 @@ function builItemForm($item)  {
         $html .= "</div>";
 
     }
+    $html .= "<input type='submit' value='Submit'>";
+    $hmtl .= "</form>";
     print_r($html);
 }
+
+function persistUpdateItem() {
+
+
+}
+
 $news = getItemContent("news", 100);
-builItemForm($news);
+builItemForm($news, "../Controllers/SubmitController.php");

@@ -137,7 +137,7 @@ $(document).ready(function() {
             },
 
             scrollToTop: function() {
-                $(document).animate({scrollTop: 0 + "px"});
+                
             }
         }
     }

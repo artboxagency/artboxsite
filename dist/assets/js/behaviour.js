@@ -1,21 +1,6 @@
 // Canvas=
 
-$('.particles-js-canvas-el').on("mousedown mouseup", function(e) {
-console.log(e.type + " event fired at coords: " + e.pageX + ", " + e.pageY);
-});
 
-x_coord = 1;
-y_coord = 1;
-
-var e = jQuery.Event( "mousedown", { pageX: x_coord, pageY: y_coord } );
-$('.particles-js-canvas-el').trigger(e);
-
-// execute more code
-x_coord = 255;
-y_coord = 255;
-
-var e = jQuery.Event( "mouseup", { pageX: x_coord, pageY: y_coord } );
-$('#canvas_element').trigger(e);
 
 
 
@@ -24,14 +9,24 @@ if(largeur > 880) {
     $(".close-button").hide();
 
 }
-
-window.onresize = function(event) {
+$(window).on('load resize', function(){
 
     if(window.innerWidth > 880) {
         $(".close-button").hide();
-
     }
-};
+
+    if(window.innerWidth < 700) {
+
+        $(".subgenres-list").hide();
+        $(".plus-to-know-more").show();
+    }
+
+    if(window.innerWidth > 700) {
+
+        $(".subgenres-list").show();
+        $(".plus-to-know-more").hide();
+    }
+});
 
 
 $(".menu-hamburger").click(function() {

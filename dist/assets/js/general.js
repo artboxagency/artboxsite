@@ -16,7 +16,7 @@ var GeneralBehaviour = {
             });
         },
         scrollToTop: function() {
-            $('html,body').animate({ scrollTop: 0 }, 'fast');
+            console.log("penis");
         },
         enableScroll: function(domNode) {
             domNode.css({
