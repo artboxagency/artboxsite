@@ -19,24 +19,25 @@ if (isset($_GET["bc-article"])) {
     </div>
 </div>
 <div id="single-blog">
+    <h4 class="blog-title title-font super-large-single"><?= $uniquePost["title"] ?></h4>
+    <div class="blog-container">
+        <div class="post-header">
 
-    <div class="post-header">
-        <h4 class="blog-title title-font super-large-single"><?= $uniquePost["title"] ?></h4>
 
-        <div class="header-image-container">
-            <img src="<?= $uniquePost["imgsrc"] ?>" alt="">
+            <div class="header-image-container">
+                <img src="<?= $uniquePost["imgsrc"] ?>" alt="">
+            </div>
+
+            <div class="post-infos">
+                <span class="single-blog-date"><?= $uniquePost["date"] ?></span>-<span><?= $uniquePost["author"]; ?></span>
+            </div>
+
+            <p class="post-header">
+                <?= $uniquePost["header"];  ?>
+            </p>
         </div>
-
-        <div class="post-infos">
-            <span class="single-blog-date"><?= $uniquePost["date"] ?></span>-<span><?= $uniquePost["author"]; ?></span>
+        <div class="post-body font-description">
+            <?= $uniquePost["paragraphes"]; ?>
         </div>
-
-        <p class="post-header">
-            <?= $uniquePost["header"];  ?>
-        </p>
-    </div>
-    <div class="post-body font-small">
-        <?= $uniquePost["paragraphes"]; ?>
-
     </div>
 </div>

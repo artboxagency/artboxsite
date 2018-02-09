@@ -1,14 +1,9 @@
 <?php session_start(); ?>
-<?php session_destroy()  ?>
-
 <?php
-
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 
 ?>
 <?php
+
 require_once "config/langage.php";
 require_once "trans/dictionaries.php";
 require_once "config/Autoloader.php";
@@ -39,10 +34,10 @@ require_once "config/Autoloader.php";
 
 <h1 style="display:none">Artbox</h1>
 
-<div id="site-container">
+<div id="site-container" class="template-news">
 	<div style="" id="particles-js"></div>
 	<!-- Top header infos -->
-	<?php // require "site-parts/header.php"; ?>	
+	<?php  require "site-parts/header.php"; ?>
 
 
 	<?php require "site-parts/all-blog.php";?>
@@ -62,8 +57,6 @@ require_once "config/Autoloader.php";
 <script src="assets/js/css-components/grid-system.js"></script>
 <script src="assets/js/animation-component/landing-page.js"></script>
 <script src="assets/js/features/searchbar.js"></script>
-
-
 
 
 

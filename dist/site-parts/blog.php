@@ -1,19 +1,24 @@
-<?php
+
+<?php session_start();
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-?>
-<?php session_start(); ?>
-<?php
-require_once "../config/langage.php";
-require_once "../trans/dictionaries.php";
-require_once "../config/Autoloader.php";
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
+if (isset($_GET["lang"])) {
+	if($_GET["lang"] == "en") {
+	    $_SESSION["locale"] = "en";
+	} else if($_GET["lang"] == "fr") {
+	    $_SESSION["locale"] = "fr";
+	}
+} else {
+	$_SESSION["locale"] = "fr";
+}
+
+
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,7 +45,7 @@ error_reporting(E_ALL);
 <div id="site-container">
 
 	<div style="" id="particles-js"></div>
-	<?php require "header.php"; ?>
+	<?php require "headerSinglePage.php"; ?>
     <?php require "views/single-blog-post.php"; ?>
 	<?php require "footer.php"; ?>
 </div>

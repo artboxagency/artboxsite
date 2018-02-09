@@ -1,240 +1,130 @@
 
-header {
-    .header-container {
-        position: relative;
-    }
-    padding-left:0px;
-    padding-right:0px;
-    position: fixed;
-    top:0px;
-    left:0px;
-    width:100%;
-    height:50px;
-    background-color:$mainYellow;
-    z-index:9999;
-   // box-shadow: 0 4px 2px -2px rgba(0,0,0,0.55);
-    // Logo
-    svg  {
-        width: 100px;
-        height: auto;
-        position: absolute;
-        padding-left:8.333vw;
-    }
-    .logo-container {
-
-        text-align:left;
-    }
-
-    #searchbar {
-        // display: none;
-        // text-align: left;
-        right: 30px;
-        top: 15px;
+    header {
+        .header-container {
+            position: relative;
+        }
+        padding-left:0px;
+        padding-right:0px;
         position: fixed;
-        z-index: 10;
-        // transition: all 0.2s;
-        @media screen and (max-width: 1040px) {
-        right: 80px;
+        top:0px;
+        left:0px;
+        width:100%;
+        height:50px;
+        background-color:$mainYellow;
+        z-index:9999;
+       // box-shadow: 0 4px 2px -2px rgba(0,0,0,0.55);
+        // Logo
+        svg  {
+            width: 100px;
+            height: auto;
+            position: absolute;
+            padding-left:8.333vw;
         }
-        #search-item {
-            cursor:pointer;
-            font-size:16px;
-            // transition:0.5s all;
-            margin-right:5px;
-            padding-bottom: 5px;
-            &.active-search-logo {
+        .logo-container {
 
-            }
+            text-align:left;
         }
-        #search-bar-term {
-            width:0px;
-            height: 10px;
-            background-color: $mainYellow;
-            border:0px;
-            transition:all 0.5s;
-            margin-top:0px;
-            &:focus {
-                outline: 0;
+
+        #searchbar {
+            // display: none;
+            // text-align: left;
+            right: 30px;
+            top: 15px;
+            position: fixed;
+            z-index: 10;
+            &.active-searchbar {
+                top:45px;
             }
-            &.active-search {
-                width: 200px;
+            // transition: all 0.2s;
+            @media screen and (max-width: 1040px) {
+            right: 80px;
+            }
+            #search-item {
+                cursor:pointer;
+                font-size:16px;
+                // transition:0.5s all;
+                margin-right:5px;
+                padding-bottom: 5px;
+                &.active-search-logo {
+
+                }
+            }
+            #search-bar-term {
+                width:0px;
                 height: 10px;
-                background-color: #ffff00;
-                border-bottom: solid 1px black;
-                transition: all 0.5s;
+                background-color: $mainYellow;
+                border:0px;
+                transition:all 0.5s;
+                margin-top:0px;
+                &:focus {
+                    outline: 0;
+                }
+                &.active-search {
+                    width: 200px;
+                    height: 10px;
+                    top:200px;
+                    background-color: #ffff00;
+                    border-bottom: solid 1px black;
+                    transition: all 0.5s;
+                }
+
             }
-
         }
-    }
 
-    #menu-container {
-        padding-right:8.3333vw;
-        //position: absolute;
+        #menu-container {
+            padding-right:8.3333vw;
+            //position: absolute;
 
-        #menu {
-            nav {
-                text-align: right;
-                padding-right:30px;
-                ul {
-                    .close-button {
-                        right: -50px;
-                    }
-
-                    @media screen and (max-width: 1040px) {
+            #menu {
+                nav {
+                    text-align: right;
+                    padding-right:30px;
+                    ul {
                         .close-button {
-                            transition:all 1s;
-                            &.active-button {
-                                right: 25px;
-                            }
+                            right: -50px;
                         }
-                    }
-
-                    li.menu-item {
-
-                        // meu
-
-                        margin-right:20px;
-                        display: inline-block;
-                        text-transform:uppercase;
 
                         @media screen and (max-width: 1040px) {
-                            display: block;
-                            &:hover {
-                                font-size:38px;
-                            }
-
-                        }
-
-                        a {
-                            //transition:all 0.5s;
-                            // Kill hover and active underline
-                            padding-bottom: 5px;
-                            &:hover,
-                            &:active {
-                                text-decoration:  none;
-                                // percer
-                                border-bottom:solid 4px black;
-                            }
-                            .line-overlay {
-                                transition:width 0.85s;
-                                width: 0px;
-
-                                &.active {
-                                    width: 150px;
-                                    border: solid black 1px;
-                                    margin:0 auto;
+                            .close-button {
+                                transition:all 1s;
+                                &.active-button {
+                                    right: 25px;
                                 }
                             }
                         }
-                    }
-                }
-            }
-        }
 
-        // Mobile
-        @media screen and (max-width: 1040px) {
-            position: relative;
-            z-index: 50;
-            top: 0px;
-            right:  0px;
-            .menu-hamburger {
+                        li.menu-item {
 
-                cursor: pointer;
-                right: 30px;
-                position: absolute;
+                            // meu
 
+                            margin-right:20px;
+                            display: inline-block;
+                            text-transform:uppercase;
 
-                .line-1,
-                .line-2,
-                .line-3 {
-                    display:block;
-                    padding-bottom: 3px;
-                    padding-top: 3px;
-                    width: 30px;
-                    border-bottom: solid 4px black;
-                }
-                .line-1 {
-                    padding-top: 10px;
-                }
-            }
-            #menu {
-                overflow: hidden;
-                position: absolute;
-                width: 0px;
-                right: 0px;
-                top: 0px;
+                            @media screen and (max-width: 1040px) {
+                                display: block;
+                                &:hover {
+                                    font-size:38px;
+                                }
 
-                .menu-item {
-                    display: block;
-                }
-                // Add class for k illing display
-                &.kill-menu-display {
-                    transition: all 0.5s;
+                            }
 
-                }
-                &.active-menu-display {
-                    transition: all 0.5s;
-                    position: absolute;
-                    right: 0px;
-                    top: 0px;
-                    background-color:  $mainYellow;
-                    height:100vh;
-                    width:100vw;
-                    z-index: 55;
-                    border-left: solid black 3px;
-
-                }
-                .close-button {
-                    cursor: pointer;
-                    position: absolute;
-                    right:  15px;
-                    font-size:35px;
-                    top:10px;
-                }
-                nav{
-                    padding-top: 50px;
-                    .translation-box {
-                        font-size:35px;
-                        position: absolute;
-                        top: 10px;
-                        left: 10px;
-                        display: inline-block;
-                        color: black;
-
-                        // Kill hover and active underline
-                        &:hover,
-                        &:active {
-                            text-decoration: none;
-
-                        }
-                    }
-                    ul {
-                        text-align: right;
-                        list-style: none;
-                        li {
-                            width: 100%;
-                            padding: 5px;
-                            font-size:38px;
-                            text-align: right;
                             a {
-                                color: black;
-                                text-decoration: none;
-                                animation:0.5s all;
-
-
-
+                                //transition:all 0.5s;
                                 // Kill hover and active underline
+                                padding-bottom: 5px;
                                 &:hover,
                                 &:active {
-                                    text-decoration:    none;
-
+                                    text-decoration:  none;
+                                    // percer
+                                    border-bottom:solid 4px black;
                                 }
                                 .line-overlay {
                                     transition:width 0.85s;
                                     width: 0px;
 
                                     &.active {
-                                        // width: 150px;
+                                        width: 150px;
                                         border: solid black 1px;
                                         margin:0 auto;
                                     }
@@ -244,20 +134,134 @@ header {
                     }
                 }
             }
+
+            // Mobile
+            @media screen and (max-width: 1040px) {
+                position: relative;
+                z-index: 50;
+                top: 0px;
+                right:  0px;
+                .menu-hamburger {
+
+                    cursor: pointer;
+                    right: 30px;
+                    position: absolute;
+
+
+                    .line-1,
+                    .line-2,
+                    .line-3 {
+                        display:block;
+                        padding-bottom: 3px;
+                        padding-top: 3px;
+                        width: 30px;
+                        border-bottom: solid 4px black;
+                    }
+                    .line-1 {
+                        padding-top: 10px;
+                    }
+                }
+                #menu {
+                    overflow: hidden;
+                    position: absolute;
+                    width: 0px;
+                    right: 0px;
+                    top: 0px;
+
+                    .menu-item {
+                        display: block;
+                    }
+                    // Add class for k illing display
+                    &.kill-menu-display {
+                        transition: all 0.5s;
+
+                    }
+                    &.active-menu-display {
+                        transition: all 0.5s;
+                        position: absolute;
+                        right: 0px;
+                        top: 0px;
+                        background-color:  $mainYellow;
+                        height:100vh;
+                        width:100vw;
+                        z-index: 55;
+                        border-left: solid black 3px;
+
+                    }
+                    .close-button {
+                        cursor: pointer;
+                        position: absolute;
+                        right:  15px;
+                        font-size:35px;
+                        top:10px;
+                    }
+                    nav{
+                        padding-top: 50px;
+                        .translation-box {
+                            font-size:35px;
+                            position: absolute;
+                            top: 10px;
+                            left: 10px;
+                            display: inline-block;
+                            color: black;
+
+                            // Kill hover and active underline
+                            &:hover,
+                            &:active {
+                                text-decoration: none;
+
+                            }
+                        }
+                        ul {
+                            text-align: right;
+                            list-style: none;
+                            li {
+                                width: 100%;
+                                padding: 5px;
+                                font-size:38px;
+                                text-align: right;
+                                a {
+                                    color: black;
+                                    text-decoration: none;
+                                    animation:0.5s all;
+
+
+
+                                    // Kill hover and active underline
+                                    &:hover,
+                                    &:active {
+                                        text-decoration:    none;
+
+                                    }
+                                    .line-overlay {
+                                        transition:width 0.85s;
+                                        width: 0px;
+
+                                        &.active {
+                                            // width: 150px;
+                                            border: solid black 1px;
+                                            margin:0 auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
-}
 
 
-// Single page header
-#single-page-header {
-    position:absolute;
-    top: 0px;
-    left: 0px;
-    background-color: $transparentYellow;
-    padding-top:15px;
-    .fa-home {
-        cursor :pointer;
-        font-size:32px;
+    // Single page header
+    #single-page-header {
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        background-color: $transparentYellow;
+        padding-top:15px;
+        .fa-home {
+            cursor :pointer;
+            font-size:32px;
+        }
     }
-}

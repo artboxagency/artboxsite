@@ -5,9 +5,9 @@
         <p class="second-aimation"><?= $dictionnaries[$_SESSION["locale"]]["homePageContent"]["clients"] ?></p>
 
     </div>
-        <div class="grid second-animation">
+        <div class="grid four-grid second-animation">
             <?php foreach ($clients as $key => $client) { ?>
-                <a class="cell" href="<?= $client["externalUrl"] ?>">
+                <a class="cell four-cell" href="<?= $client["externalUrl"] ?>">
 
                 <div class="single-news-home-page grid-item">
 

@@ -1,4 +1,5 @@
 <?php require_once "controllers/headerController.php"?>
+
 <header>
     <div class="header-container">
     <!-- -->
@@ -15,8 +16,6 @@
             </div>
                 <nav>
                     <ul>
-
-
                         <?php foreach($menuItems as $key => $menuItem) { ?>
 
                                 <?php if ($menuItem["redirect"] == 1): ?>

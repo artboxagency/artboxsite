@@ -8,8 +8,13 @@
     padding-top:90px;
     height:100vh;
     min-height: 790px;
+    @media screen and (max-width: 500px) {
+        min-height:450;
+    }
     .video {
-        width:60%;
+        @media screen and (max-width: 500px) {
+            width:100%;
+        }
     }
 
 }

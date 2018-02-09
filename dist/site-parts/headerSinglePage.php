@@ -1,5 +1,6 @@
 <?php require_once "controllers/headerController.php"; ?>
 <header>
+
     <div class="header-container">
     <!-- -->
         <svg id="#logoDes" data-name="Votre design" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 72"><title>artbox_logo</title><g class="lines" id="g7565">
@@ -20,9 +21,9 @@
                         <?php foreach($menuItems as $key => $menuItem) { ?>
 
                                 <?php if ($menuItem["redirect"] == 1): ?>
-                                    <li class="menu-item"><a href="<?= strtolower($menuItem["menuLink"]) ?>"><?= $menuItem["menuLabel"]; ?> </a> </li>
+                                    <li class="menu-item"><a href="../<?= strtolower($menuItem["menuLink"]) ?>"><?= $menuItem["menuLabel"]; ?> </a> </li>
                                 <?php else: ?>
-                                    <li class="menu-item"><a href="#<?= strtolower(explode("." ,$menuItem["menuLink"])[0]) ?>"><?= $menuItem["menuLabel"]; ?> </a> </li>
+                                    <li class="menu-item"><a href="../#<?= strtolower(explode("." ,$menuItem["menuLink"])[0]) ?>"><?= $menuItem["menuLabel"]; ?> </a> </li>
                                 <?php endif; ?>
 
                                 <!---  <li class="menu-item"><a href="site-parts/pages/<?= strtolower($menuItem["menuLink"]); ?>"><?= $menuItem["menuLabel"]; ?> </a> </li>  -->

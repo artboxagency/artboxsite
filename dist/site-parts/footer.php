@@ -12,7 +12,7 @@
                 <a href="https://www.linkedin.com/company/artbox-agency/?originalSubdomain=<?= $_SESSION["locale"] ?>"> <i class="fa fa-linkedin" aria-hidden="true"> </i> </a>
                 <a href="https://www.instagram.com/artbox.agency/"> <i class="fa fa-instagram" aria-hidden="true"> </i> </a>
                 <a href="https://www.youtube.com/channel/UCSi3xMYsSHLd2KS6wUWql_g"> <i class="fa fa-youtube" aria-hidden="true"> </i> </a>
-                
+
 
             </ul>
         </div>
