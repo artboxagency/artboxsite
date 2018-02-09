@@ -29,7 +29,7 @@ error_reporting(E_ALL);
                           <td class="author"><?= $singleNews["author"]?></td>
                           <td class="actions">
                               <div class="actions-edit">
-                                  <button type="button" class="btn btn-default">Edit</button>
+                                  <a href="EditItem.php"><button type="button" class="btn btn-default">Edit</button></a>
                                   <button type="button" class="btn btn-danger">Delete</button>
                               </div>
                           </td>

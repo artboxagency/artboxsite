@@ -1,8 +1,14 @@
 <?php
-if ($_GET["bc-article"]) {
+if (isset($_GET["bc-article"])) {
     require_once "_DB.php";
     $db = new DbController("127.0.0.1", "root", "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905", "");
-} else {
+} else if(isset($_GET["bc-project"])) {
+    require_once "_DB.php";
+    $db = new DbController("127.0.0.1", "root", "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905", "");
+
+}
+
+else {
     $db = new Db("127.0.0.1", "root", "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905", "");
 }
 

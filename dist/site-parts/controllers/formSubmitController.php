@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -12,19 +12,16 @@ require "../../utils/emails/email_methods.php";
 $db = new Db("127.0.0.1", "root", "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905", "");
 // Check for form submitting use case
 if(isset($_POST["contactForm"])) {
-    
+
     $datas = json_decode($_POST["contactForm"]);
-    
-    // Process to DB 
+
+    // Process to DB
     $sql = "Insert into contact(firstname, lastname, email, phoneNumber, age)
     VALUES('$datas->firstname', '$datas->lastname', '$datas->email', '$datas->tel', '$datas->age')";
     $db->queryDb($sql);
-    
-    
+
+
         sendNewContactEmail($datas);
-    
-    
+
+
 }
-
-
-
