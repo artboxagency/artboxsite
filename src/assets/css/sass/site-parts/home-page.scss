@@ -172,7 +172,14 @@ body {
     }
 
 }
-
+.dual-bloc-container {
+    h4,p{
+      text-align:right;
+    @media screen and (max-width: 800px) {
+      text-align:left;
+      }
+    }
+}
 #formulas-homepage-container,
 #model-homepage-container {
     position: relative;

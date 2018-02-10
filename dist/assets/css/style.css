@@ -2804,6 +2804,12 @@ body #site-container {
           font-size: 24px;
           transform: rotate(135deg); } }
 
+.dual-bloc-container h4, .dual-bloc-container p {
+  text-align: right; }
+  @media screen and (max-width: 800px) {
+    .dual-bloc-container h4, .dual-bloc-container p {
+      text-align: left; } }
+
 #formulas-homepage-container,
 #model-homepage-container {
   position: relative;
