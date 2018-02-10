@@ -1,5 +1,4 @@
 <?php session_start(); ?>
-
 <?php
 require_once "config/langage.php";
 require_once "trans/dictionaries.php";
@@ -10,7 +9,7 @@ require_once "config/Autoloader.php";
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Artbox Translation</title>
+	<title>ARTBOX - Marketing Social</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/libs/fontawesome/font-awesome.css">
@@ -82,8 +81,6 @@ if(!isset($_SESSION["visitesStatus"])) {
 
 <!-- Particles -->
 <script>
-
-
 			particlesJS.load('particles-js', 'assets/particles.json', function() {
 				console.log('callback - particles.js config loaded');
 			});

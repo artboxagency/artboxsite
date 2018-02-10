@@ -1,4 +1,7 @@
-<?php require "site-parts/controllers/newsController.php"; ?>
+<?php
+require "site-parts/controllers/newsController.php";
+
+?>
 
 
 <h2 class="title-font"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["news"] ?></h2>

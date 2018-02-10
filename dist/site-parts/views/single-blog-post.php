@@ -13,11 +13,6 @@ if (isset($_GET["bc-article"])) {
 }
 ?>
 
-<div id="single-page-header">
-    <div class="">
-        <i class="fa fa-home return-homepage" aria-hidden="true"></i>
-    </div>
-</div>
 <div id="single-blog">
     <h4 class="blog-title title-font super-large-single"><?= $uniquePost["title"] ?></h4>
     <div class="blog-container">

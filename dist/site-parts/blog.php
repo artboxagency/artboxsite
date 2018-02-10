@@ -4,19 +4,6 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-
-
-if (isset($_GET["lang"])) {
-	if($_GET["lang"] == "en") {
-	    $_SESSION["locale"] = "en";
-	} else if($_GET["lang"] == "fr") {
-	    $_SESSION["locale"] = "fr";
-	}
-} else {
-	$_SESSION["locale"] = "fr";
-}
-
-
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +33,7 @@ if (isset($_GET["lang"])) {
 
 	<div style="" id="particles-js"></div>
 	<?php require "headerSinglePage.php"; ?>
-    <?php require "views/single-blog-post.php"; ?>
+  <?php require "views/single-blog-post.php"; ?>
 	<?php require "footer.php"; ?>
 </div>
 

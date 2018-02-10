@@ -45,7 +45,7 @@ if (isset($_GET["lang"])) {
 
 	<div style="" id="particles-js"></div>
 	<?php require "headerSinglePage.php"; ?>
-    <?php require "views/single-projects.php"; ?>
+  <?php require "views/single-projects.php"; ?>
 	<?php require "footer.php"; ?>
 </div>
 
