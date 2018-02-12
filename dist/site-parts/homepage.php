@@ -15,12 +15,9 @@ error_reporting(E_ALL);
 
 <div id="model-scroller" class="anchor-point"></div>
 <?php  require "views/model-homepage.php"; ?>
-
 <?php  require "views/formulas-homepage.php"; ?>
 
-<div class="home-page-content">
-</div>
-
+<div class="home-page-content"></div>
 <div id="services-scroller" class="anchor-point"></div>
 <?php  require "views/services-homepage.php" ?>
 
@@ -34,10 +31,6 @@ error_reporting(E_ALL);
 </div>
 <div id="projects-scroller" class="anchor-point"></div>
 <?php  require "views/projects-homepage.php"; ?>
-
-
-
-
 
 <div class="home-page-content">
 </div>
@@ -57,4 +50,4 @@ error_reporting(E_ALL);
 
 <div id="contact-scroller" class="anchor-point"></div>
 <?php  require "views/contact-infos-homepage.php"; ?>
-<?php //  require "views/contact-homepage.php"; ?>
+<!-- <?php  require "views/contact-homepage.php"; ?> -->

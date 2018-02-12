@@ -3,11 +3,7 @@
     $projectId = $_GET["pid"];
     $project = getSingleProject($projectId)[0];
 ?>
-<div id="single-page-header">
-    <div class="">
-        <i class="fa fa-home return-homepage" aria-hidden="true"></i>
-    </div>
-</div>
+
 
 <div id="single-projects-container">
     <h3 class="title-font"><?= $project['title'] ?></h3>

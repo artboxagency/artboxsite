@@ -36,7 +36,7 @@
                 top:45px;
             }
             // transition: all 0.2s;
-            @media screen and (max-width: 1040px) {
+            @media screen and (max-width: 1150px) {
             right: 80px;
             }
             #search-item {
@@ -78,17 +78,22 @@
             #menu {
                 nav {
                     text-align: right;
-                    padding-right:30px;
+                    // padding-right:30px;
+                    @media screen and (max-width: 1150px) {
+                    padding-right: 8.3333vw;
+                    }
                     ul {
                         .close-button {
                             right: -50px;
                         }
 
-                        @media screen and (max-width: 1040px) {
+                        @media screen and (max-width: 1150px) {
                             .close-button {
                                 transition:all 1s;
+                                padding-right: 8.3333vw;
                                 &.active-button {
-                                    right: 25px;
+                                    padding-right: 8.3333vw;
+                                    right:0px;
                                 }
                             }
                         }
@@ -97,12 +102,13 @@
 
                             // meu
 
-                            margin-right:20px;
+                            margin-left:20px;
                             display: inline-block;
                             text-transform:uppercase;
 
-                            @media screen and (max-width: 1040px) {
+                            @media screen and (max-width: 1150px) {
                                 display: block;
+                                margin-left:0px;
                                 &:hover {
                                     font-size:38px;
                                 }
@@ -136,7 +142,7 @@
             }
 
             // Mobile
-            @media screen and (max-width: 1040px) {
+            @media screen and (max-width: 1150px) {
                 position: relative;
                 z-index: 50;
                 top: 0px;
@@ -144,7 +150,8 @@
                 .menu-hamburger {
 
                     cursor: pointer;
-                    right: 30px;
+                    right: 0px;
+                    padding-right: 8.3333vw;
                     position: absolute;
 
 
@@ -161,15 +168,22 @@
                         padding-top: 10px;
                     }
                 }
+                .active-menu-display{
+                  @media screen and (min-width: 1150px) {
+                    display:none;
+                  }
+                }
                 #menu {
                     overflow: hidden;
                     position: absolute;
                     width: 0px;
                     right: 0px;
                     top: 0px;
+                    margin-left: 0px;
 
                     .menu-item {
                         display: block;
+                        margin-left: 0px;
                     }
                     // Add class for k illing display
                     &.kill-menu-display {
@@ -185,18 +199,18 @@
                         height:100vh;
                         width:100vw;
                         z-index: 55;
-                        border-left: solid black 3px;
 
                     }
                     .close-button {
                         cursor: pointer;
                         position: absolute;
-                        right:  15px;
+                        right: 8.3333vw;
                         font-size:35px;
                         top:10px;
                     }
                     nav{
                         padding-top: 50px;
+                        margin-left: 0px;
                         .translation-box {
                             font-size:35px;
                             position: absolute;
@@ -215,15 +229,19 @@
                         ul {
                             text-align: right;
                             list-style: none;
+                            margin-left: 0px;
                             li {
                                 width: 100%;
-                                padding: 5px;
+                                padding-top: 5px;
+                                padding-bottom: 5px;
                                 font-size:38px;
                                 text-align: right;
+                                margin-left: 0px;
                                 a {
                                     color: black;
                                     text-decoration: none;
                                     animation:0.5s all;
+                                    margin-left: 0px;
 
 
 
@@ -249,19 +267,5 @@
                     }
                 }
             }
-        }
-    }
-
-
-    // Single page header
-    #single-page-header {
-        position:absolute;
-        top: 0px;
-        left: 0px;
-        background-color: $transparentYellow;
-        padding-top:15px;
-        .fa-home {
-            cursor :pointer;
-            font-size:32px;
         }
     }

@@ -40,6 +40,23 @@ body {
 
             }
         }
+        &.four-grid-services {
+            margin-left: -1%;
+            margin-right: -1%;
+
+            @media screen and (max-width: 1000px) {
+              margin-left: -1.5%;
+              margin-right: -1.5%;
+                // max-width: 85%;
+
+            }
+            @media screen and (max-width: 700px) {
+                margin-left:0px;
+                margin-right:0px;
+
+            }
+        }
+
         .cell  {
 
 
@@ -86,6 +103,24 @@ body {
 
                 }
             }
+            &.four-cell-services {
+                width:23%;
+                margin-right:1%;
+                margin-left:1%;
+
+                @media screen and (max-width: 1000px) {
+                  width: 30%;
+                  margin-right:1.5%;
+                  margin-left:1.5%;
+                }
+
+                @media screen and (max-width: 700px) {
+                    width: 100%;
+                    margin-right:0%;
+                    margin-left:0%;
+
+                }
+            }
         }
         .grid-item {
 
@@ -94,7 +129,7 @@ body {
             margin-right: 50px;
 
             position: relative;
-            margin-bottom: 20%;
+            margin-bottom: 15%;
 
             @media  screen and(max-width:700px) {
                 margin-bottom: 25px;
@@ -113,15 +148,8 @@ body {
             }
             // For Image
             .grid-thumbnail {
-                width: 100%;
-
-                &:hover {
-                    opacity:0.75;
-                }
-                &.square {
-                    height:330px;
-                    width:330px;
-                }
+                max-width: 100%;
+                height: auto;
             }
 
             .black-box {

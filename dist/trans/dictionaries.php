@@ -22,8 +22,8 @@ $dictionnaries["en"]["generalContent"]["knowMore"] = "Know more";
 $dictionnaries["en"]["header"] = "Social marketting agencies for responsable practices";
 $dictionnaries["fr"]["header"] = "ARTBOX est une agence de marketing social pour des pratiques marketing responsables.";
 
-$dictionnaries["en"]["footer"]["copyright"] = "Artbox Agency Inc. ©" .  date("Y");
-$dictionnaries["fr"]["footer"]["copyright"] = "Agence Artbox Inc. ©" .  date("Y");
+$dictionnaries["en"]["footer"]["copyright"] = "ARTBOX Agency Inc. © " .  date("Y");
+$dictionnaries["fr"]["footer"]["copyright"] = "Agence ARTBOX Inc. © " .  date("Y");
 
 // Home page title
 $dictionnaries['en']["homePageTitle"]["news"] = "News";
