@@ -174,7 +174,7 @@ body {
 }
 .dual-bloc-container {
     h4,p{
-      text-align:right;
+      text-align:left;
     @media screen and (max-width: 800px) {
       text-align:left;
       }
@@ -231,6 +231,13 @@ body {
             box-sizing: border-box;
             position: relative;
             // margin-bottom:15px;
+            &:hover{
+            background-color: #000000;
+                h4 {
+                  background-color: #000000;
+                  color: #ffff00;
+                }
+            }
             @media screen and (max-width: 800px) {
                 width: 100%;
                 display: block;

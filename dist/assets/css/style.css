@@ -2805,7 +2805,7 @@ body #site-container {
           transform: rotate(135deg); } }
 
 .dual-bloc-container h4, .dual-bloc-container p {
-  text-align: right; }
+  text-align: left; }
   @media screen and (max-width: 800px) {
     .dual-bloc-container h4, .dual-bloc-container p {
       text-align: left; } }
@@ -2859,6 +2859,13 @@ body #site-container {
       border: solid 6px #000000;
       box-sizing: border-box;
       position: relative; }
+      #formulas-homepage-container .equation .square-border:hover,
+      #model-homepage-container .equation .square-border:hover {
+        background-color: #000000; }
+        #formulas-homepage-container .equation .square-border:hover h4,
+        #model-homepage-container .equation .square-border:hover h4 {
+          background-color: #000000;
+          color: #ffff00; }
       @media screen and (max-width: 800px) {
         #formulas-homepage-container .equation .square-border,
         #model-homepage-container .equation .square-border {

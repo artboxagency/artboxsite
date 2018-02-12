@@ -36,7 +36,7 @@ require_once "config/Autoloader.php";
 <h1 style="display:none">Artbox</h1>
 
 <div id="site-container" class="template-news">
-	<div style="" id="particles-js"></div>
+	<!-- <div style="" id="particles-js"></div> -->
 	<!-- Top header infos -->
 	<?php require "site-parts/header.php"; ?>
 	<?php require "site-parts/all-blog.php";?>

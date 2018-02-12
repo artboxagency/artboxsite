@@ -56,6 +56,7 @@
                     <i class="fa fa-search" id="search-item" aria-hidden="true"> </i><input type="text" id="search-bar-term" class="font-description" name="search-tearm"  value="">
                 </div> -->
                 <span class="close-button">x</span>
+                
             </div>
         </div>
     </div>
