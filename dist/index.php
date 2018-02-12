@@ -13,9 +13,10 @@ error_reporting(E_ALL);
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+
 	<title>ARTBOX - Marketing Social</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/libs/fontawesome/font-awesome.css">
 	<!-- Start of artbox Zendesk Widget script -->
