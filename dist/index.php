@@ -41,17 +41,9 @@ error_reporting(E_ALL);
 <body>
 	<!--Start of Tawk.to Script-->
 	<script type="text/javascript">
-	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-	(function(){
-	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-	s1.async=true;
-	s1.src='https://embed.tawk.to/5a80542c4b401e45400cda6a/default';
-	s1.charset='UTF-8';
-	s1.setAttribute('crossorigin','*');
-	s0.parentNode.insertBefore(s1,s0);
-	})();
+
 	</script>
-	<!--End of Tawk.to Script-->
+	<!-- End of Tawk.to Script -->
 <?php
 if(!isset($_SESSION["visitesStatus"])) {
 //	require_once "site-parts/animation-component/landing-page.php";
@@ -73,8 +65,9 @@ if(!isset($_SESSION["visitesStatus"])) {
 	<?php require "site-parts/homepage.php"; ?>
 </div>
 <?php require "site-parts/footer.php"; ?>
-<script src="assets/js/libs/anime.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/js/libs/anime.js"></script>
+<script src="assets/js/libs/tawk.js"></script>
 <script src="assets/js/general.js"></script>
 <script src="assets/js/scroller.js"></script>
 <script src="assets/js/behaviour.js"></script>
