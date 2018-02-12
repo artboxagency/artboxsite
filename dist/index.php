@@ -1,9 +1,14 @@
+
 <?php session_start(); ?>
 <?php
 require_once "config/langage.php";
 require_once "trans/dictionaries.php";
 require_once "config/Autoloader.php";
 
+
+ini_set('display_errors', 'On');
+ini_set('display_startup_errors', 'On');
+error_reporting(E_ALL);
 ?>
 <!DOCTYPE html>
 <html>

@@ -10,11 +10,14 @@ if(isset($_GET)) {
 }
 
 
-function getSingleProject($pid) {
+function getSingleProject($pid, $locale) {
 
     $db = new Db("127.0.0.1", "root", "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905", "");
     $locale = $_SESSION["locale"];
-    $sql = "SELECT * from projects where id = $pid";
+    $sql = "SELECT * from projects where pid = $pid AND locale='$locale'";
+    for ($i=0; $i < 500; $i++) {
+        //var_dump($sql);
+    }
     $singleProject = $db->getData($sql);
 
     return $singleProject;

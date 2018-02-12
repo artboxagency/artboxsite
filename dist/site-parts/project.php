@@ -44,8 +44,11 @@ if (isset($_GET["lang"])) {
 <div id="site-container">
 
 	<div style="" id="particles-js"></div>
+	<?php $type = "project";
+			$pid = $_GET["pid"];
+	?>
 	<?php require "headerSinglePage.php"; ?>
-  <?php require "views/single-projects.php"; ?>
+  	<?php require "views/single-projects.php"; ?>
 	<?php require "footer.php"; ?>
 </div>
 

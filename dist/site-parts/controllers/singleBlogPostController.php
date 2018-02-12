@@ -9,13 +9,13 @@ if(isset($_GET)) {
         // Call the function to get the datas
     }
 }
-function getSinglePost($postId, $tableParams = false) {
+function getSinglePost($postId, $locale,$tableParams = false) {
 
     $db = new Db("127.0.0.1", "root", "152d0ef1676507ee1fdc0172fa306102e8416de085f2f905", "");
     if ($tableParams) {
-        $sql = "SELECT * from $tableParams where id = $postId";
+        $sql = "SELECT * from $tableParams where nid = $postId and locale='$locale'";
     } else {
-        $sql = "SELECT * from newsposts_homepage where id = $postId";
+        $sql = "SELECT * from newsposts_homepage where nid = $postId";
     }
 
     $blogPost = $db->getData($sql);

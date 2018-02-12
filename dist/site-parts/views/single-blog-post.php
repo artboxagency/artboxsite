@@ -9,7 +9,7 @@ if(isset($_GET["article"])) {
 
 if (isset($_GET["bc-article"])) {
 
-    $uniquePost = getSinglePost($_GET["bc-article"], "newsposts");
+    $uniquePost = getSinglePost($_GET["bc-article"], $_SESSION["locale"],"newsposts");
 }
 ?>
 

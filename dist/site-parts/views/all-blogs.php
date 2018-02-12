@@ -4,11 +4,12 @@ require "site-parts/controllers/newsController.php";
 ?>
 
 
+<br><br><br>
 <h2 class="title-font"><?= $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["news"] ?></h2>
 <div id="news-container" class="grid">
     <?php foreach ($allNews as $key => $singleNews) { ?>
 
-    <a href="site-parts/blog.php?bc-article=<?= $singleNews["id"]?>">
+    <a href="site-parts/blog.php?bc-article=<?= $singleNews["nid"]?>">
         <div class="cell">
             <div class="single-news-home-page grid-item">
                 <img class="grid-thumbnail" src="<?= $singleNews["imgsrc"] ?>" alt="artbox_image_news_<?= str_replace("%%", "'", $singleNews["title"]); ?>">

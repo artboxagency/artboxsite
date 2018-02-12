@@ -28,10 +28,27 @@
                                 <!---  <li class="menu-item"><a href="site-parts/pages/<?= strtolower($menuItem["menuLink"]); ?>"><?= $menuItem["menuLabel"]; ?> </a> </li>  -->
                         <?php } ?>
                         <li class="menu-item" id="translator">
+
                             <?php if($_SESSION["locale"] == "fr") { ?>
-                                <a href="?lang=en"><span>en</span></a>
+
+                                <?php if ($type == "project"): ?>
+                                    <a href="?lang=en&pid=<?=$pid?>"><span>en</span></a>
+                                <?php endif; ?>
+
+                                <?php if ($type == "news"): ?>
+
+                                    <a href="?lang=en&bc-article=<?=$nid?>"><span>en</span></a>
+                                <?php endif; ?>
                             <?php } else { ?>
-                                <a href="?lang=fr"><span>fr</span></a>
+
+                                <?php if ($type == "project"): ?>
+                                    <a href="?lang=fr&pid=<?=$pid?>"><span>fr</span></a>
+                                <?php endif; ?>
+
+                                <?php if ($type == "news"): ?>
+
+                                    <a href="?lang=fr&bc-article=<?=$nid?>"><span>fr</span></a>
+                                <?php endif; ?>
                             <?php }?>
                         </li>
 
