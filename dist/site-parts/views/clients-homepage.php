@@ -7,7 +7,7 @@
     </div>
         <div class="grid four-grid second-animation">
             <?php foreach ($clients as $key => $client) { ?>
-                <a class="cell four-cell" href="<?= $client["externalUrl"] ?>">
+                <a class="cell four-cell" href="<?= $client["externalUrl"] ?>" target="_blank">
 
                 <div class="single-news-home-page grid-item">
 
