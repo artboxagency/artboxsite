@@ -1,7 +1,7 @@
 <?php require_once "controllers/singleProjectController.php";?>
 <?php
     $projectId = $_GET["pid"];
-    $project = getSingleProject($projectId)[0];
+    $project = getSingleProject($projectId, $_SESSION["locale"])[0];
 ?>
 
 

@@ -5,7 +5,7 @@
     <h2  class="title-font first-animation"><?=  $dictionnaries[$_SESSION["locale"]]["homePageTitle"]["projects"] ?></h2>
     <div class="grid second-animation">
         <?php foreach ($projects as $key => $project) { ?>
-            <a class="cell" href="site-parts/project.php?pid=<?= $project["id"]?>&bc-project=j">
+            <a class="cell" href="site-parts/project.php?pid=<?= $project["pid"]?>&bc-project=j">
 
             <div class="single-news-home-page grid-item">
                 <div class="thumbnail-grid-div" style="background-image: url('<?= $project["asset1Url"] ?>')"> </div>

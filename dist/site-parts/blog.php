@@ -1,6 +1,6 @@
 
 <?php session_start();
-
+require "../config/langage.php";
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -32,8 +32,10 @@ error_reporting(E_ALL);
 <div id="site-container">
 
 	<div style="" id="particles-js"></div>
+	<?php $type = "news"; ?>
+	<?php $nid = $_GET["bc-article"]; ?>
 	<?php require "headerSinglePage.php"; ?>
-  <?php require "views/single-blog-post.php"; ?>
+  	<?php require "views/single-blog-post.php"; ?>
 	<?php require "footer.php"; ?>
 </div>
 

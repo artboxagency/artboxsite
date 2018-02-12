@@ -1,8 +1,6 @@
 <?php
 
 require_once "../../Class/Db.php";
-
-
 $db = new Db("127.0.0.1","root","","artb2018");
 
 function getAllNewsPost($db) {

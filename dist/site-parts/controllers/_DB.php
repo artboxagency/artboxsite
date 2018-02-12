@@ -11,10 +11,21 @@ Class DbController {
 
         $this->setServerName($_server);
         $this->setUsername($_username);
-        $this->setPassword("artbox1245");
+        $this->setPassword("ipod");
         $this->setDatabaseName($_database);
 
         $this->db = new mysqli($this->servername, $this->username, $this->password, "artb2018");
+
+        $this->db = new mysqli($this->servername, $this->username, $this->password, "artb2018");
+
+        // N'affectera pas $mysqli->real_escape_string();
+        $this->db->query("SET NAMES utf8");
+
+        // N'affectera pas $mysqli->real_escape_string();
+        $this->db->query("SET CHARACTER SET utf8");
+
+        // Mais, ceci va affecter $mysqli->real_escape_string();
+        $this->db->set_charset('utf8');
         // Check connection
         if ($this->db->connect_error) {
             die("Connection failed: " . $this->db->connect_error);
