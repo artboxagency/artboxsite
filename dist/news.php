@@ -8,7 +8,15 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 ?>
 <?php
-require_once "config/langage.php";
+for ($i=0; $i < 500; $i++) {
+    var_dump($_SESSION);
+}
+if (!isset($_SESSION["locale"])) {
+
+    require_once "config/langage.php";
+
+}
+
 require_once "trans/dictionaries.php";
 require_once "config/Autoloader.php";
 

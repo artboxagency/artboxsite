@@ -47,6 +47,13 @@ Class Db {
         return $this->db;
     }
 
+
+    // Takes an input and then parse it then put it inside of db
+    public function parseAndQuery($sql) {
+        $sql = $this->db->real_escape_string($sql);
+        return $sql;
+    }
+
     // Data Processing
     public function queryDb($sql) {
 

@@ -12,26 +12,6 @@
         <img class="image-large" src="<?= $project["headerImage"] ?>" alt="<?= $project["title"]?> artbox-project-image-">
     </div>
     <div class="single-project-content">
-        <h4 class="font-medium-title"><?= $project["bloc1Title"] ?></h4>
-        <p><?= $project["bloc1Content"] ?></p>
-
-        <div class="double-image">
-            <img src="<?= $project["asset1Url"] ?>">
-            <img src="<?= $project["asset2Url"] ?>">
-        </div>
-
-        <img class="image-large" src="<?= $project["asset3Url"] ?>">
-
-        <div class="grid2">
-            <div class="left-box">
-                <img class="image-large" src="<?= $project["asset4Url"] ?>">
-            </div>
-            <div class="right-box">
-                <h4 class="font-medium-title"><?= $project["bloc2Title"] ?></h4>
-                <p><?= $project["bloc2Content"] ?></p>
-            </div>
-
-
-        </div>
+        
     </div>
 </div>
