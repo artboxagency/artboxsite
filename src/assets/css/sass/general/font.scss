@@ -30,7 +30,7 @@
 .font-medium-title {
     text-align: left;
     text-transform: uppercase;
-    font-size: 21px;
+    font-size: 28px;
     margin-top: 10px;
     background-color: #ffff00;
  }
@@ -38,7 +38,7 @@
  .font-equation {
      text-align: center;
      text-transform: uppercase;
-     font-size: 21px;
+     font-size: 24px;
      background-color: #ffff00;
   }
 
@@ -51,7 +51,7 @@
 }
 
 .font-description {
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
     background-color: #ffff00;
 }
@@ -69,14 +69,14 @@
     background-color: #ffff00;
 }
 %shrinking-text {
-    font-size:20px;
+    font-size:16px;
     background-color: #ffff00;
     @media screen and (max-width: 1550px) {
         font-size:16px;
     }
 
     @media screen and (max-width: 1350px) {
-        font-size:15px;
+        font-size:16px;
     }
 
     @media screen and (max-width: 1190px) {

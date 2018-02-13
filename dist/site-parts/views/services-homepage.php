@@ -13,7 +13,7 @@
                 <ul class="subgenres-list second-animation">
 
                 <?php foreach($subgenres as $key=>$subgenre) { ?>
-                    <li class="subgenre-item font-description">-<?= $subgenre ?></li>
+                    <li class="subgenre-item font-description"><?= $subgenre ?></li>
                 <?php } ?>
 
                 </ul>

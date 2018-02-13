@@ -2114,14 +2114,14 @@ body .grid .grid-item .grid-brief {
 .font-medium-title {
   text-align: left;
   text-transform: uppercase;
-  font-size: 21px;
+  font-size: 28px;
   margin-top: 10px;
   background-color: #ffff00; }
 
 .font-equation {
   text-align: center;
   text-transform: uppercase;
-  font-size: 21px;
+  font-size: 24px;
   background-color: #ffff00; }
 
 .title-font {
@@ -2131,7 +2131,7 @@ body .grid .grid-item .grid-brief {
   background-color: #ffff00; }
 
 .font-description {
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
   background-color: #ffff00; }
 
@@ -2146,14 +2146,14 @@ body .grid .grid-item .grid-brief {
   background-color: #ffff00; }
 
 body .grid .grid-item h4 {
-  font-size: 20px;
+  font-size: 16px;
   background-color: #ffff00; }
   @media screen and (max-width: 1550px) {
     body .grid .grid-item h4 {
       font-size: 16px; } }
   @media screen and (max-width: 1350px) {
     body .grid .grid-item h4 {
-      font-size: 15px; } }
+      font-size: 16px; } }
 
 body {
   background-color: #ffff00;
@@ -2210,14 +2210,14 @@ body .grid .grid-item .grid-brief {
 .font-medium-title {
   text-align: left;
   text-transform: uppercase;
-  font-size: 21px;
+  font-size: 28px;
   margin-top: 10px;
   background-color: #ffff00; }
 
 .font-equation {
   text-align: center;
   text-transform: uppercase;
-  font-size: 21px;
+  font-size: 24px;
   background-color: #ffff00; }
 
 .title-font {
@@ -2227,7 +2227,7 @@ body .grid .grid-item .grid-brief {
   background-color: #ffff00; }
 
 .font-description {
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
   background-color: #ffff00; }
 
@@ -2242,14 +2242,14 @@ body .grid .grid-item .grid-brief {
   background-color: #ffff00; }
 
 body .grid .grid-item h4 {
-  font-size: 20px;
+  font-size: 16px;
   background-color: #ffff00; }
   @media screen and (max-width: 1550px) {
     body .grid .grid-item h4 {
       font-size: 16px; } }
   @media screen and (max-width: 1350px) {
     body .grid .grid-item h4 {
-      font-size: 15px; } }
+      font-size: 16px; } }
 
 body .grid {
   display: flex;
@@ -2645,14 +2645,14 @@ body .grid .grid-item .grid-brief {
 .font-medium-title {
   text-align: left;
   text-transform: uppercase;
-  font-size: 21px;
+  font-size: 28px;
   margin-top: 10px;
   background-color: #ffff00; }
 
 .font-equation {
   text-align: center;
   text-transform: uppercase;
-  font-size: 21px;
+  font-size: 24px;
   background-color: #ffff00; }
 
 .title-font {
@@ -2662,7 +2662,7 @@ body .grid .grid-item .grid-brief {
   background-color: #ffff00; }
 
 .font-description {
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
   background-color: #ffff00; }
 
@@ -2677,14 +2677,14 @@ body .grid .grid-item .grid-brief {
   background-color: #ffff00; }
 
 body .grid .grid-item h4 {
-  font-size: 20px;
+  font-size: 16px;
   background-color: #ffff00; }
   @media screen and (max-width: 1550px) {
     body .grid .grid-item h4 {
       font-size: 16px; } }
   @media screen and (max-width: 1350px) {
     body .grid .grid-item h4 {
-      font-size: 15px; } }
+      font-size: 16px; } }
 
 /*This file mixins for helping centering, disposing and placing elements*/
 .center-content {

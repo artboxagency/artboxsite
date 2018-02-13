@@ -43,7 +43,7 @@ if (isset($_GET["lang"])) {
 <h1 style="display:none">Artbox</h1>
 <div id="site-container">
 
-	<div style="" id="particles-js"></div>
+	<!-- <div style="" id="particles-js"></div> -->
 	<?php $type = "project";
 			$pid = $_GET["pid"];
 	?>

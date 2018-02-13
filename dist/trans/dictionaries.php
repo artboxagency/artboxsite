@@ -43,7 +43,7 @@ $dictionnaries['en']["homePageContent"]["model"]["bloc1"]["title"] = "The only s
 
 
 
-$dictionnaries['fr']["homePageContent"]["model"]["bloc1"]["content"] = "Nous responsabilisons les pratiques marketing de votre entreprise en atteignant vos objectifs par la création d’un impact social au sein de votre communauté.";
+$dictionnaries['fr']["homePageContent"]["model"]["bloc1"]["content"] = "Nous responsabilisons les pratiques <u>marketing</u> de votre entreprise en atteignant vos objectifs par la création d’un impact social au sein de votre communauté.";
 
 $dictionnaries['en']["homePageContent"]["model"]["bloc1"]["content"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod quam vel semper imperdiet. Donec sodales risus eget velit tincidunt, ac maximus lacus viverra. Duis tincidunt felis enim, eu cursus tortor tincidunt sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in elit magna. Suspendisse sagittis imperdiet mauris, vitae vehicula lorem eleifend a. Sed sed orci non lorem commodo in erat. Aenean dolor mi, lacinia at arcu non, consectetur dictum velit. Etiam justo dui, luctus sit amet pretium et, posuere a tellus. Mauris dui diam, mollis tincidunt maximus plac";
 

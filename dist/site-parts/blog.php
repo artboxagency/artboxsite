@@ -31,7 +31,7 @@ error_reporting(E_ALL);
 <h1 style="display:none">Artbox</h1>
 <div id="site-container">
 
-	<div style="" id="particles-js"></div>
+	<!-- <div style="" id="particles-js"></div> -->
 	<?php $type = "news"; ?>
 	<?php $nid = $_GET["bc-article"]; ?>
 	<?php require "headerSinglePage.php"; ?>
