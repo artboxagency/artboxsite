@@ -2,7 +2,17 @@
 
 require_once "../../Class/Db.php";
 
+switch ($_GET["item-type"]) {
+    case 'news':
 
+        $news = getItemContent("news", $_GET["item-id"]);
+        builItemForm($news, "../Controllers/SubmitController.php", "news");
+        break;
+
+    default:
+        # code...
+        break;
+}
 
 function getItemContent($itemType, $itemId) {
     $db = new Db("127.0.0.1","root","","artb2018");
@@ -48,7 +58,7 @@ function builItemForm($item, $path, $type)  {
         $html .= "</div>";
 
     }
-    $html.="<input style='display:none' name='form-type' value='$type' type='text' class='form-control'id=''>";
+    $html .= "<input style='display:none' name='form-type' value='$type' type='text' class='form-control'id=''>";
     $html .= "<input type='submit' value='Submit'>";
     $hmtl .= "</form>";
     print_r($html);
@@ -58,6 +68,3 @@ function persistUpdateItem() {
 
 
 }
-
-$news = getItemContent("news", 100);
-builItemForm($news, "../Controllers/SubmitController.php", "news");

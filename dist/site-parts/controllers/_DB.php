@@ -26,6 +26,7 @@ Class DbController {
 
         // Mais, ceci va affecter $mysqli->real_escape_string();
         $this->db->set_charset('utf8');
+
         // Check connection
         if ($this->db->connect_error) {
             die("Connection failed: " . $this->db->connect_error);
